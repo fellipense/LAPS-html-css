@@ -53,8 +53,13 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 30pt;
+}
+
 p {
     font-family: Inter;
+    font-size: 15pt;
 }
 
 nav {
