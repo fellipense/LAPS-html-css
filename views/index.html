@@ -10,10 +10,10 @@
 
     <link rel="icon" type="image/png" rel="noopener" target="_blank" href="images/pipa.png"> 
 </head>
-<body>
+<body class="bg-light">
 
     <!-- CABEÇALHO -->
-    <nav class="navbar">
+    <header class="navbar">
         <div class="container">
 
             <!-- TÍTULO -->
@@ -24,23 +24,33 @@
             <!-- ELEMENTOS DO MENU -->
             <span class="d-flex gap-3">
                 <a class="nav-link active" href="./index.html">
-                        Parceiros</a>
+                    Parceiros</a>
                 <a class="nav-link active" href="./index.html">
                     Serviços</a>
                 <a class="nav-link active" href="./index.html">
                     Contato</a>
             </span> 
         </div>
-    </nav>
+    </header>
 
     <!-- MAIN -->
     <main class="container">
+        <hr>
 
-        <section class="row justify-content-evenly">
+        <section class="row justify-content-center"
+        style="height: 320px;">
+
+            <!-- FOTO DA ALINE -->
+            <div class="col-4 position-relative">
+                <img src="images/foto-aline.png" alt="Aline Oliveira" 
+                class="rounded-5 position-absolute end-0">
+            </div>
+
             <!-- PSCICOPEDAGOGA -->
             <div class="col-6">
 
-                <h1>Psicopedagoga</h1>
+                <h1>Aline Oliveira</h1>
+                <h2>Psicopedagoga</h2>
 
                 <p>
                     Aqui será onde colocaremos uma <strong>Catch Phrase</strong> 
@@ -50,15 +60,17 @@
                 <!-- BOTÕES -->
                 <div class="row justify-content-evenly">
                     <button type="button" class="btn btn-primary col-5 rounded-5">
-                        SAIBA MAIS
+                        <a>SOBRE MIM</a>
                     </button>
-
+                    
                     <button type="button" class="btn btn-outline-primary col-5 rounded-5">
-                        ATENDIMENTOS
+                        <a>ATENDIMENTOS</a>
                     </button>
                 </div>
             </div>
+        </section> 
 
+        <section class="row bg-primary d-none">
             <!-- CARROSSEL -->
             <div class="col-5">
                 <div id="carouselExampleAutoplaying" class="carousel slide h-100 bg-primary rounded-5" style="overflow: hidden;" data-bs-ride="carousel">
@@ -73,13 +85,13 @@
                     <!-- ELEMENTOS DO CARROSSEL -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="https://picsum.photos/900" class="d-block w-100" alt="...">
+                            <img src="ahttps://picsum.photos/900" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://picsum.photos/300" class="d-block w-100" alt="...">
+                            <img src="ahttps://picsum.photos/300" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://picsum.photos/300" class="d-block w-100" alt="...">
+                            <img src="ahttps://picsum.photos/300" class="d-block w-100" alt="...">
                         </div>
                     </div>
 
@@ -96,8 +108,7 @@
                     -->
                 </div>
             </div>
-        </section> 
-
+        </section>
     </main>
     
     <footer class="container-fluid bg-black d-none">

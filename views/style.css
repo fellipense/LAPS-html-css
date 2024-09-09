@@ -1,0 +1,81 @@
+/* OUTFIT FONT */
+@font-face {
+    font-family: "Outfit";
+    src: url("fonts/Outfit/Outfit-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("fonts/Outfit/Outfit-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("fonts/Outfit/Outfit-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* INTER FONT */
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter/Inter_18pt-Regular.ttf") format("truetype");
+    font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter/Inter_18pt-Bold.ttf") format("truetype");
+    font-weight: bold; 
+    font-style: normal;
+}
+
+main {
+    padding: 20px 0;
+}
+
+main > hr {
+    margin-bottom: 50px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 48pt;
+    font-family: Outfit;
+    font-weight: bold;
+}
+
+p {
+    font-family: Inter;
+}
+
+nav {
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+.navbar-brand {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 18pt;
+}
+
+hr {
+    border-top: 3px solid #d8953f;
+    opacity: 1;
+}
+
+button a{
+    font-family: Outfit;
+}
