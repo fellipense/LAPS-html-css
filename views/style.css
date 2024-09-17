@@ -89,3 +89,17 @@ button a{
 .bg-mustard {
     background-color: #fff5e9;
 }
+
+#sobre-mim {
+    background-image: url("images/crianca-brincando.png");
+    padding: 10%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#sobre-mim h3{
+    font-family: Outfit;
+    font-size: 48pt;
+    font-weight: normal;
+}
