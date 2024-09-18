@@ -91,11 +91,23 @@ button a{
 }
 
 #sobre-mim {
-    background-image: url("images/crianca-brincando.png");
     padding: 10%;
-    background-position: center;
-    background-size: cover;
     color: white;
+}
+
+#sobre-mim .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/crianca-brincando.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -2;
+    clip-path: rect(0 0px 100% 100%);
 }
 
 #sobre-mim h3{
