@@ -58,6 +58,11 @@ h2 {
     font-weight: 400;
 }
 
+h3 {
+    font-family: Outfit;
+    font-weight: normal;
+}
+
 p {
     font-family: Inter;
     font-size: 15pt;
@@ -109,8 +114,25 @@ button a{
     clip-path: rect(0 0px 100% 100%);
 }
 
-#sobre-mim h3{
-    font-family: Outfit;
+#sobre-mim h3 {
     font-size: 48pt;
-    font-weight: normal;
+}
+
+#veja-tambem {
+    padding-top: 5%;
+}
+
+#veja-tambem span {
+    font-size: 15pt;
+}
+
+#veja-tambem h3 {
+    font-size: 30pt;
+}
+
+.faixada {
+    position: absolute;
+    top: 0;
+    transform: translate(0, -110%);
+    width: 100%;
 }
