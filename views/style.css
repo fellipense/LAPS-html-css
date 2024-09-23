@@ -105,7 +105,6 @@ button a{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(5px);
     z-index: -2;
     clip-path: rect(0 0px 100% 100%);
 }
