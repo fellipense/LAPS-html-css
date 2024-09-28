@@ -15,6 +15,13 @@
 
 @font-face {
     font-family: "Outfit";
+    src: url("fonts/Outfit/Outfit-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Outfit";
     src: url("fonts/Outfit/Outfit-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
@@ -135,4 +142,26 @@ button a{
     top: 0;
     transform: translate(0, -110%);
     width: 100%;
+}
+
+#especialidades {
+    background-color: #ffeddd;
+}
+
+#especialidades h3 {
+    font-family: Inter;
+    font-weight:  normal;
+    font-size: 15pt;
+}
+
+#especialidades #titulo-especialidades {
+    font-family: Outfit;
+    font-weight: normal;
+    font-size: 30pt;
+}
+
+.title-especialidade {
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 18pt;
 }
