@@ -55,7 +55,7 @@ header ul li {
 }
 
 main {
-    padding: 20px 0;
+    padding: 100px 0;
 }
 
 main > hr {
@@ -102,7 +102,7 @@ nav {
 }
 
 hr {
-    border-top: 3px solid #d8953f;
+    border-top: 3px solid #008dda;
     opacity: 1;
 }
 
