@@ -13,32 +13,43 @@
 <body class="bg-mustard">
 
     <!-- CABEÇALHO -->
-    <header class="navbar mt-5">
-        <nav class="navbar navbar-expand-lg container">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">LAPS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
+    <header>
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid p-0">
+                <a class="navbar-brand" href="index.html">LAPS</a>
+                <div>
+                    <!-- esses estilos "inline" são para fazer o botão do menu ser 1:1 -->
+                    <!-- isso acontece dando uma porcentagem para o padding-bottom, fazendo uma altura empurrada pelo padding que é baseado na largura atual -->
+                    <div style="position: relative; height: 0; width: 100px; padding-bottom: 100%;">
+                        <button class="navbar-toggler p-0 bg-primary rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                        style="position: absolute; height: 100%; width: 100%; top: 0; left: 0; border: none;">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Parceiros</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Treinamento</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav position-absolute end-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Parceiros</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Treinamento</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav> 
-        <hr class="col-9 m-auto">
+        </nav>
+
+        <hr class="col-12 col-lg-9 m-auto">
     </header>  
 
     <!-- MAIN -->

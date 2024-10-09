@@ -50,6 +50,10 @@
     font-style: normal;
 }
 
+header ul li {
+    margin: 0 20px;
+}
+
 main {
     padding: 20px 0;
 }
