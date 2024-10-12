@@ -50,6 +50,13 @@
     font-style: normal;
 }
 
+@media (max-width: 575px) {
+    #navbarNav {
+        width: 100%;
+        margin: auto;
+    }
+}
+
 @media (max-width: 991px){
     .navbar-nav {
         background-color: #008dda;
@@ -57,15 +64,33 @@
     .active {
         background-color: white;
     }
+    #navbarNav{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .nav-link {
+        padding: 20px;
+        font-weight: normal;
+        color: black;
+        text-decoration: none;
+        font-size: 9.8pt;
+    }
+}
+
+@media (min-width: 992px) {
+    #navbarNav {
+        position: relative;
+    }
+    header .nav-item{
+        margin: 0 20px;
+    }
 }
 
 header {
     min-height: 100px;
 }
 
-header ul li {
-    margin: 0 20px;
-}
 
 main {
     padding: 100px 0;
