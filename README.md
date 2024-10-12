@@ -1,3 +1,9 @@
-# Aline Oliveira (Web)
+# LAPS - Aline Oliveira
 
-Site feito para a grandissíssima psicopedagoga Aline Oliveira!
+Site feito para o LAPS (Lugar de Acolhimento, Preparação e Superação), empresa da grandissíssima psicopedagoga Aline Oliveira!
+
+- HTML5
+- CSS3
+- Bootstrap
+- Node.js
+- Express.js
