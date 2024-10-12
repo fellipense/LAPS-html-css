@@ -50,6 +50,10 @@
     font-style: normal;
 }
 
+header {
+    min-height: 100px;
+}
+
 header ul li {
     margin: 0 20px;
 }
