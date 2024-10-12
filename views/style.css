@@ -50,6 +50,15 @@
     font-style: normal;
 }
 
+@media (max-width: 991px){
+    .navbar-nav {
+        background-color: #008dda;
+    }
+    .active {
+        background-color: white;
+    }
+}
+
 header {
     min-height: 100px;
 }
