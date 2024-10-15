@@ -57,6 +57,7 @@
     }
     #navbarNav ul {
         width: 100%;
+        height: 100vh;
     }
 }
 
@@ -90,6 +91,12 @@
 
 header {
     min-height: 100px;
+    background-color: #008dda;
+}
+
+header hr {
+    border-top: 3px solid white;
+    opacity: 1;
 }
 
 .nav-link {
@@ -142,11 +149,6 @@ nav {
 
 .nav-link {
     font-size: 18pt;
-}
-
-hr {
-    border-top: 3px solid #008dda;
-    opacity: 1;
 }
 
 button a{
