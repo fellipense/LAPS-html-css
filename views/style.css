@@ -1,3 +1,9 @@
+:root {
+    --cor-primaria: #102a83;
+    --cor-secundaria: #019fde;
+    --cor-fundo: #f5fbfe;
+}
+
 /* OUTFIT FONT */
 @font-face {
     font-family: "Outfit";
@@ -50,118 +56,40 @@
     font-style: normal;
 }
 
-@media (max-width: 575px) {
-    #navbarNav {
-        width: 100%;
-        margin: auto;
-    }
-    #navbarNav ul {
-        width: 100%;
-        height: 100vh;
-    }
-}
-
-@media (max-width: 991px){
-    .navbar-nav {
-        background-color: #008dda;
-    }
-    .active {
-        background-color: white;
-    }
-    #navbarNav{
-        position: absolute;
-        right: 0;
-        bottom: -3px;
-    }
-    .nav-link {
-        padding: 20px;
-        font-weight: normal;
-        font-size: 9.8pt;
-    }
-}
-
-@media (min-width: 992px) {
-    #navbarNav {
-        position: relative;
-    }
-    header .nav-item{
-        margin: 0 20px;
-    }
+body {
+    background-color: var(--cor-primaria);
+    background-image: url("images/fundo-criancas.png");
+    background-position: start top;
+    background-size: 120% 100vh;
 }
 
 header {
-    min-height: 100px;
-    background-color: #008dda;
+    text-shadow: 0px 1px 10px black;
 }
 
-header hr {
-    border-top: 3px solid white;
-    opacity: 1;
-}
-
-.nav-link {
+nav a.nav-link {
+    color: #90bbd1;
     text-decoration: none;
-    color: black;
-}
-
-main {
-    padding: 100px 0;
-}
-
-main > hr {
-    margin-bottom: 50px;
-}
-
-section {
-    margin: 20px 0;
-}
-
-h1 {
-    font-size: 30pt;
     font-family: Outfit;
+    font-size: 15pt;
     font-weight: bold;
 }
 
-h2 {
-    font-size: 30pt;
-    font-weight: 400;
+nav a.nav-link.active {
+    color: white;
 }
 
-h3 {
-    font-family: Outfit;
-    font-weight: normal;
+hr {
+    color: transparent;
+    background-color: var(--cor-fundo);
+    padding-bottom: 1px;
+    opacity: 1;
+    margin: auto;
 }
 
 p {
     font-family: Inter;
     font-size: 15pt;
-}
-
-nav {
-    font-family: Outfit;
-    font-weight: 400;
-}
-
-.navbar-brand {
-    font-size: 24pt;
-    font-weight: bold;
-}
-
-.nav-link {
-    font-size: 18pt;
-}
-
-button a{
-    font-family: Outfit;
-}
-
-.bg-mustard {
-    background-color: #fff5e9;
-}
-
-#sobre-mim {
-    padding: 10%;
-    color: white;
 }
 
 #sobre-mim .background {
@@ -176,66 +104,4 @@ button a{
     background-size: cover;
     z-index: -2;
     clip-path: rect(0 0px 100% 100%);
-}
-
-#sobre-mim h3 {
-    font-size: 48pt;
-}
-
-#veja-tambem {
-    padding-top: 5%;
-}
-
-#veja-tambem span {
-    font-size: 15pt;
-}
-
-#veja-tambem h3 {
-    font-size: 30pt;
-}
-
-.faixada {
-    position: absolute;
-    top: 0;
-    transform: translate(0, -110%);
-    width: 100%;
-}
-
-#especialidades {
-    background-color: #ffeddd;
-}
-
-#especialidades h3 {
-    font-family: Inter;
-    font-weight:  normal;
-    font-size: 15pt;
-}
-
-#especialidades #titulo-especialidades {
-    font-family: Outfit;
-    font-weight: normal;
-    font-size: 30pt;
-}
-
-.title-especialidade {
-    font-family: Outfit;
-    font-weight: 600;
-    font-size: 18pt;
-}
-
-footer span#footer-span {
-    font-family: Outfit;
-    font-weight: bold;
-    font-size: 24pt;
-}
-
-footer p {
-    font-family: Inter;
-    font-weight: 300;
-    font-size: 12pt;
-}
-
-footer p#copyright-footer {
-    font-size: 10.5pt;
-    color: #cfcfcf;
 }
