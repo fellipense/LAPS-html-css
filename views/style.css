@@ -57,14 +57,27 @@
 }
 
 body {
+    color: var(--cor-fundo);
+}
+
+div#fundo-criancas {
+    z-index: -1;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
     background-color: var(--cor-primaria);
     background-image: url("images/fundo-criancas.png");
-    background-position: start top;
-    background-size: 120% 100vh;
+    background-position: center top;
+    background-size: cover;
 }
 
 header {
-    text-shadow: 0px 1px 10px black;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.22);
+    padding-top: 40px;
+}
+
+.navbar-brand img{
+    padding-left: 10px;
 }
 
 nav a.nav-link {
@@ -76,7 +89,7 @@ nav a.nav-link {
 }
 
 nav a.nav-link.active {
-    color: white;
+    color: var(--cor-fundo);
 }
 
 hr {
@@ -85,11 +98,22 @@ hr {
     padding-bottom: 1px;
     opacity: 1;
     margin: auto;
+    margin-top: 10px;
 }
 
 p {
     font-family: Inter;
     font-size: 15pt;
+}
+
+h1 {
+    font-family: Outfit;
+    font-weight: regular;
+    font-size: 36pt;
+}
+
+h1 span {
+    font-weight: bold;
 }
 
 #sobre-mim .background {
