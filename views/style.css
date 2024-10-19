@@ -1,6 +1,7 @@
 :root {
     --cor-primaria: #102a83;
-    --cor-secundaria: #019fde;
+    --cor-secundaria: #0d2165;
+    --cor-terciaria: #019fde;
     --cor-fundo: #f5fbfe;
 }
 
@@ -71,44 +72,63 @@ div#fundo-criancas {
     background-size: cover;
 }
 
+@media (max-width: 991px) {
+    body {
+        padding-top: 126px;
+    }
+
+    header {
+        padding-top: 0px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--cor-primaria);
+        border-radius: 0 0 10px 10px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    header .navbar-toggler {
+        border: none;
+        background-color: var(--cor-secundaria);
+        width: 100%;
+    }
+
+}
+
 @media (min-width: 992px) {
     header {
         padding-top: 40px;
+        position: relative;
     }
-}
 
-@media (max-width: 991px) {
-    header {
-        padding-top: 0px;
-        /* background-color: #019fde; */
+    hr {
+        color: transparent;
+        background-color: var(--cor-fundo);
+        padding-bottom: 1px;
+        opacity: 1;
+        margin: auto;
+        margin-top: 10px;
     }
 }
 
 header {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.22);
-    position: relative;
 }
 
-#devline {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 2px;
-    /* background-color: red; */
-}
-
-
-.navbar-brand {
+header .navbar-brand {
     padding-top: 20px;
     width: 25%;
     min-width: 0;
 }
 
-.navbar-brand img {
+header .navbar-brand img {
     padding-left: 10px;
 }
 
-nav a.nav-link {
+header nav a.nav-link {
     color: #90bbd1;
     text-decoration: none;
     font-family: Outfit;
@@ -116,17 +136,12 @@ nav a.nav-link {
     font-weight: bold;
 }
 
-nav a.nav-link.active {
+header nav a.nav-link.active {
     color: var(--cor-fundo);
 }
 
-hr {
-    color: transparent;
-    background-color: var(--cor-fundo);
-    padding-bottom: 1px;
-    opacity: 1;
-    margin: auto;
-    margin-top: 10px;
+main {
+    display: none;
 }
 
 p {
