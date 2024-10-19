@@ -34,6 +34,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Outfit";
+    src: url("fonts/Outfit/Outfit-ExtraBold.ttf") format("truetype");
+    font-weight: bolder;
+    font-style: normal;
+}
+
 /* INTER FONT */
 
 @font-face {
@@ -117,11 +124,28 @@ div#fundo-criancas {
     header #navbarNav * {
         padding: 4px 0;
     }
+
+    main section#landing {
+        text-align: center;
+    }
+
+    main section#landing h1, section#landing h1 * {
+        font-size: 27pt;
+        font-weight: bold;
+    }
+
+    main section#landing h1 strong {
+        font-weight: bolder;
+    }
+
+    main section#landing p {
+        font-size: 7.5pt;
+        margin-top: 10%;
+    }
     
     hr {
         display: none;
     }
-
 }
 
 @media (min-width: 992px) {
@@ -131,7 +155,7 @@ div#fundo-criancas {
     }
 
     header .navbar-brand img {
-        height: 88px;
+        height: 88px
     }
 
     hr {
@@ -142,6 +166,11 @@ div#fundo-criancas {
         margin: auto;
         margin-top: 10px;
     }
+
+    main section#landing {
+        height: 85vh;
+    }
+
 }
 
 header {
@@ -174,6 +203,10 @@ header nav a.nav-link.active {
     color: var(--cor-fundo);
 }
 
+main section#landing {
+    height: 85vh;
+}
+
 p {
     font-family: Inter;
     font-size: 15pt;
@@ -181,7 +214,6 @@ p {
 
 h1 {
     font-family: Outfit;
-    font-weight: regular;
     font-size: 36pt;
 }
 
