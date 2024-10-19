@@ -108,6 +108,16 @@ div#fundo-criancas {
         height: 100%; width: 100%; top:0; left: 0;
     }
 
+    header #navbarNav {
+        background-color: var(--cor-secundaria);
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    header #navbarNav * {
+        padding: 4px 0;
+    }
+    
     hr {
         display: none;
     }
@@ -156,12 +166,12 @@ header nav a.nav-link {
     font-weight: bold;
 }
 
-header nav a.nav-link.active {
-    color: var(--cor-fundo);
+header nav a.nav-link:hover {
+    filter: brightness(0.6)
 }
 
-main {
-    display: none;
+header nav a.nav-link.active {
+    color: var(--cor-fundo);
 }
 
 p {
