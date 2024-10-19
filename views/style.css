@@ -86,14 +86,30 @@ div#fundo-criancas {
         border-radius: 0 0 10px 10px;
     }
 
-    hr {
-        display: none;
+    header .navbar-brand img {
+        height: 46px;
+        margin-left: 10%;
+    }
+
+    header #togglerWrapper {
+        /* Dimensionamento em 1:1 */
+        position: relative;
+        height: 0;
+        width: 110px;
+        padding-bottom: 100%;
     }
 
     header .navbar-toggler {
-        border: none;
+        position: absolute;
         background-color: var(--cor-secundaria);
-        width: 100%;
+        border: none;
+
+        /* Dimensionamento em 1:1 */
+        height: 100%; width: 100%; top:0; left: 0;
+    }
+
+    hr {
+        display: none;
     }
 
 }
@@ -102,6 +118,10 @@ div#fundo-criancas {
     header {
         padding-top: 40px;
         position: relative;
+    }
+
+    header .navbar-brand img {
+        height: 88px;
     }
 
     hr {
@@ -119,9 +139,9 @@ header {
 }
 
 header .navbar-brand {
-    padding-top: 20px;
-    width: 25%;
-    min-width: 0;
+    padding-top: 10px;
+    /* width: 25%; */
+    /* min-width: 0;   */
 }
 
 header .navbar-brand img {
