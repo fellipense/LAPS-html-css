@@ -76,7 +76,12 @@ header {
     padding-top: 40px;
 }
 
-.navbar-brand img{
+.navbar-brand {
+    width: 25%;
+    min-width: 0;
+}
+
+.navbar-brand img {
     padding-left: 10px;
 }
 
@@ -112,8 +117,8 @@ h1 {
     font-size: 36pt;
 }
 
-h1 span {
-    font-weight: bold;
+h1 strong {
+    font-size: 37.5pt;
 }
 
 #sobre-mim .background {
