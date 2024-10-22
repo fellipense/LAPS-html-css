@@ -179,8 +179,8 @@ header {
 
 header .navbar-brand {
     padding-top: 10px;
-    /* width: 25%; */
-    /* min-width: 0;   */
+    width: 25%;
+    min-width: 0;
 }
 
 header .navbar-brand img {
@@ -205,11 +205,12 @@ header nav a.nav-link.active {
 
 main section#landing {
     height: 85vh;
+    padding: 5%;
 }
 
 p {
     font-family: Inter;
-    font-size: 15pt;
+    font-size: 16.5pt;
 }
 
 h1 {
