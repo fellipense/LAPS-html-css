@@ -3,41 +3,36 @@
     --cor-secundaria: #0d2165;
     --cor-terciaria: #019fde;
     --cor-fundo: #f5fbfe;
+
+    --font-family-p: Inter;
+    --font-family-h1: Lusitana;
+    --font-family-navlink: Inter;
+    
+    --font-size-p: 16.5pt;
+    --font-size-h1: 36pt;
+    --font-size-navlink: 15pt;
+
+    --font-weight-p: normal;
+    --font-weight-h1: normal;
+    --font-weight-navlink: bold;
+
+    --line-height-h1: 1em;
+
+    --text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
 }
 
-/* OUTFIT FONT */
+/* LUSITANA FONT */
 @font-face {
-    font-family: "Outfit";
-    src: url("fonts/Outfit/Outfit-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Outfit";
-    src: url("fonts/Outfit/Outfit-Medium.ttf") format("truetype");
+    font-family: "Lusitana";
+    src: url("fonts/Lusitana/Lusitana-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Outfit";
-    src: url("fonts/Outfit/Outfit-SemiBold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Outfit";
-    src: url("fonts/Outfit/Outfit-Bold.ttf") format("truetype");
+    src: url("fonts/Lusitana/Lusitana-Bold.ttf") format("truetype");
     font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Outfit";
-    src: url("fonts/Outfit/Outfit-ExtraBold.ttf") format("truetype");
-    font-weight: bolder;
     font-style: normal;
 }
 
@@ -125,24 +120,6 @@ div#fundo-criancas {
         padding: 4px 0;
     }
 
-    main section#landing {
-        text-align: center;
-    }
-
-    main section#landing h1, section#landing h1 * {
-        font-size: 27pt;
-        font-weight: bold;
-    }
-
-    main section#landing h1 strong {
-        font-weight: bolder;
-    }
-
-    main section#landing p {
-        font-size: 7.5pt;
-        margin-top: 10%;
-    }
-    
     hr {
         display: none;
     }
@@ -174,7 +151,7 @@ div#fundo-criancas {
 }
 
 header {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.22);
+    text-shadow: var(--text-shadow);
 }
 
 header .navbar-brand {
@@ -190,9 +167,9 @@ header .navbar-brand img {
 header nav a.nav-link {
     color: #90bbd1;
     text-decoration: none;
-    font-family: Outfit;
-    font-size: 15pt;
-    font-weight: bold;
+    font-family: var(--font-family-navlink);
+    font-size: var(--font-size-navlink);
+    font-weight: var(--font-weight-navlink);
 }
 
 header nav a.nav-link:hover {
@@ -205,33 +182,29 @@ header nav a.nav-link.active {
 
 main section#landing {
     height: 85vh;
-    padding: 5%;
+    padding-top: 10%;
+    text-shadow: var(--text-shadow);
+}
+
+main section#landing h1 strong {
+    font-size: 1.1em;
 }
 
 p {
-    font-family: Inter;
-    font-size: 16.5pt;
+    font-family: var(--font-p);
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-p);
 }
 
 h1 {
-    font-family: Outfit;
-    font-size: 36pt;
+    font-family: var(--font-family-h1);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    line-height: var(--line-height-h1);
 }
 
-h1 strong {
-    font-size: 37.5pt;
-}
-
-#sobre-mim .background {
-    position: absolute;
-    top: 0;
-    left: 0;
+.buttons button {
     width: 100%;
-    height: 100%;
-    background-image: url("images/crianca-brincando.png");
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    z-index: -2;
-    clip-path: rect(0 0px 100% 100%);
+    height: 50pt;
+    border-radius: 10px;
 }
