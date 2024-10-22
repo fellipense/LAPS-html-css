@@ -4,6 +4,9 @@
     --cor-terciaria: #019fde;
     --cor-fundo: #f5fbfe;
 
+    --cor-button-1: #c4d4ff57;
+    --cor-button-2: transparent;
+
     --font-family-p: Inter;
     --font-family-h1: Lusitana;
     --font-family-navlink: Inter;
@@ -19,6 +22,7 @@
     --line-height-h1: 1em;
 
     --text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
+    --box-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
 }
 
 /* LUSITANA FONT */
@@ -206,5 +210,19 @@ h1 {
 .buttons button {
     width: 100%;
     height: 50pt;
+    font-size: 1.5em;
     border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.buttons .button-1 button {
+    color: black;
+    border: none;
+    background-color: var(--cor-button-1);
+}
+
+.buttons .button-2 button {
+    color: white;
+    border: 2px solid var(--cor-fundo);
+    background-color: var(--cor-button-2);
 }
