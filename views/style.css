@@ -11,9 +11,12 @@
     --font-family-h1: Lusitana;
     --font-family-navlink: Inter;
     
-    --font-size-p: 16.5pt;
-    --font-size-h1: 36pt;
+    --font-size-lg-p: 16.5pt;
+    --font-size-lg-h1: 36pt;
     --font-size-navlink: 15pt;
+
+    --font-size-sm-p: 7.5pt;
+    --font-size-sm-h1: 27pt;
 
     --font-weight-p: normal;
     --font-weight-h1: normal;
@@ -79,6 +82,26 @@ div#fundo-criancas {
     background-size: cover;
 }
 
+@media (max-width: 575px) {
+    p {
+        font-size: var(--font-size-sm-p);
+    }
+
+    h1 {
+        font-size: var(--font-size-sm-h1);
+    }
+}
+
+@media (min-width: 576px) {
+    p {
+        font-size: var(--font-size-lg-p);
+    }
+
+    h1 {
+        font-size: var(--font-size-lg-h1)
+    }
+}
+
 @media (max-width: 991px) {
     body {
         padding-top: 126px;
@@ -130,7 +153,7 @@ div#fundo-criancas {
         padding: 4px 0;
     }
 
-    hr {
+    header hr {
         display: none;
     }
 }
@@ -145,7 +168,7 @@ div#fundo-criancas {
         height: 88px
     }
 
-    hr {
+    header hr {
         color: transparent;
         background-color: var(--cor-fundo);
         padding-bottom: 1px;
@@ -157,11 +180,11 @@ div#fundo-criancas {
     main section#landing {
         height: 85vh;
     }
-
 }
 
 header {
     text-shadow: var(--text-shadow);
+    z-index: 5;
 }
 
 header .navbar-brand {
@@ -180,10 +203,12 @@ header nav a.nav-link {
     font-family: var(--font-family-navlink);
     font-size: var(--font-size-navlink);
     font-weight: var(--font-weight-navlink);
+    transition: 0.15s ease-out;
 }
 
 header nav a.nav-link:hover {
-    filter: brightness(0.6)
+    filter: brightness(0.8);
+    transition: 0.15s ease-out;
 }
 
 header nav a.nav-link.active {
@@ -192,7 +217,7 @@ header nav a.nav-link.active {
 
 main section#landing {
     height: 85vh;
-    padding-top: 10%;
+    padding-top: 15vh;
     text-shadow: var(--text-shadow);
 }
 
@@ -200,16 +225,22 @@ main section#landing h1 strong {
     font-size: 1.1em;
 }
 
+hr {
+    color: transparent;
+    padding-bottom: 1px;
+    opacity: 1;
+    margin: auto;
+    margin-top: 10px;
+}
+
 p {
     font-family: var(--font-p);
-    font-size: var(--font-size-p);
     font-weight: var(--font-weight-p);
     line-height: var(--line-height-p);
 }
 
 h1 {
     font-family: var(--font-family-h1);
-    font-size: var(--font-size-h1);
     font-weight: var(--font-weight-h1);
     line-height: var(--line-height-h1);
 }
@@ -224,7 +255,13 @@ h1 {
     font-size: 1.5em;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
+    transition: 0.15s ease-out;
 }
+
+.buttons button:hover {
+    filter: brightness(0.6);
+    transition: 0.15s ease-out;
+ }
 
 .buttons .button-1 button {
     color: black;
