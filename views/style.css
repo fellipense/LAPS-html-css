@@ -4,7 +4,7 @@
     --cor-terciaria: #019fde;
     --cor-fundo: #f5fbfe;
 
-    --cor-button-1: #c4d4ff57;
+    --cor-button-1: #c4d4ff81;
     --cor-button-2: transparent;
 
     --font-family-p: Inter;
@@ -19,6 +19,7 @@
     --font-weight-h1: normal;
     --font-weight-navlink: bold;
 
+    --line-height-p: 1.2em;
     --line-height-h1: 1em;
 
     --text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
@@ -114,6 +115,11 @@ div#fundo-criancas {
         height: 100%; width: 100%; top:0; left: 0;
     }
 
+    header .navbar-toggler.collapsed {
+        border-radius: 0 0 10px 0;
+        transition: 1.5s;
+    }
+
     header #navbarNav {
         background-color: var(--cor-secundaria);
         padding: 10px;
@@ -198,6 +204,7 @@ p {
     font-family: var(--font-p);
     font-size: var(--font-size-p);
     font-weight: var(--font-weight-p);
+    line-height: var(--line-height-p);
 }
 
 h1 {
@@ -207,9 +214,13 @@ h1 {
     line-height: var(--line-height-h1);
 }
 
+.buttons { 
+    margin-top: 10%;
+}
+
 .buttons button {
     width: 100%;
-    height: 50pt;
+    height: 40pt;
     font-size: 1.5em;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
