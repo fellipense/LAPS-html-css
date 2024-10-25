@@ -9,10 +9,12 @@
 
     --font-family-p: Inter;
     --font-family-h1: Lusitana;
+    --font-family-h2: Inter;
     --font-family-navlink: Inter;
     
     --font-size-lg-p: 16.5pt;
     --font-size-lg-h1: 36pt;
+    --font-size-lg-h2: 16.5pt;
     --font-size-navlink: 15pt;
 
     --font-size-sm-p: 7.5pt;
@@ -20,10 +22,12 @@
 
     --font-weight-p: normal;
     --font-weight-h1: normal;
+    --font-weight-h2: normal;
     --font-weight-navlink: bold;
 
     --line-height-p: 1.2em;
     --line-height-h1: 1em;
+    --line-height-h2: 1.8em;
 
     --text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
     --box-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
@@ -180,6 +184,10 @@ div#fundo-criancas {
     main section#landing {
         height: 85vh;
     }
+
+    .title h2 {
+        font-size: var(--font-size-lg-h2);
+    }
 }
 
 header {
@@ -225,6 +233,10 @@ main section#landing h1 strong {
     font-size: 1.1em;
 }
 
+main section#sobre-mim {
+    padding: 8vh 0;
+}
+
 hr {
     color: transparent;
     padding-bottom: 1px;
@@ -243,6 +255,18 @@ h1 {
     font-family: var(--font-family-h1);
     font-weight: var(--font-weight-h1);
     line-height: var(--line-height-h1);
+}
+
+h2 {
+    font-family: var(--font-family-h2);
+    font-weight: var(--font-weight-h2);
+    line-height: var(--line-height-h2);
+}
+
+h2 span {
+    font-family: Lusitana;
+    font-size: 37.5pt;
+    font-weight: bold;
 }
 
 .buttons { 
@@ -273,4 +297,27 @@ h1 {
     color: white;
     border: 2px solid var(--cor-fundo);
     background-color: var(--cor-button-2);
+}
+
+.title {
+    height: 82px;
+}
+
+.title img {
+    height: 100%;
+    vertical-align: top;
+    margin-right: 18px;
+}
+
+.title h2 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.title.dark {
+    color: white;
+}
+
+.title.light {
+    color: black
 }
