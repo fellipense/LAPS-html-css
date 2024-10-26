@@ -2,7 +2,7 @@
     --cor-primaria: #102a83;
     --cor-secundaria: #0d2165;
     --cor-terciaria: #019fde;
-    --cor-fundo: #f5fbfe;
+    --cor-fundo: #f9fcfc;
 
     --cor-button-1: #c4d4ff81;
     --cor-button-2: transparent;
@@ -75,7 +75,8 @@
 }
 
 body {
-    color: var(--cor-fundo);
+    background-color: var(--cor-fundo);
+    color: white;
 }
 
 div#fundo-criancas {
@@ -260,8 +261,6 @@ main section#sobre-mim .valores {
 
 main section#sobre-mim .valor {
     /* background-color: red; */
-    display: flex;
-    justify-content: space-between;
     height: 130px;
     padding: 0;
 }
@@ -269,8 +268,11 @@ main section#sobre-mim .valor {
 main section#sobre-mim .valor-descricao {
     display: inline-block;
     padding: 2%;
-    width: 60%;
+    width: 50%;
     height: 100%;
+}
+
+main section#sobre-mim .valor-descricao p {
     font-size: 12pt;
 }
 
@@ -280,6 +282,7 @@ main section#sobre-mim .valor-imagem {
     width: 158px;
     height: 100%;
     border-radius: 10px;
+    margin-right: 20px;
     background-color: lightgray;
 }
 
