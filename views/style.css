@@ -10,11 +10,13 @@
     --font-family-p: Inter;
     --font-family-h1: Lusitana;
     --font-family-h2: Inter;
+    --font-family-h3: Inter;
     --font-family-navlink: Inter;
     
     --font-size-lg-p: 16.5pt;
     --font-size-lg-h1: 36pt;
     --font-size-lg-h2: 16.5pt;
+    --font-size-lg-h3: 15pt;
     --font-size-navlink: 15pt;
 
     --font-size-sm-p: 7.5pt;
@@ -23,6 +25,7 @@
     --font-weight-p: normal;
     --font-weight-h1: normal;
     --font-weight-h2: normal;
+    --font-weight-h3: bold;
     --font-weight-navlink: bold;
 
     --line-height-p: 1.2em;
@@ -94,6 +97,14 @@ div#fundo-criancas {
     h1 {
         font-size: var(--font-size-sm-h1);
     }
+
+    .title h2 {
+        font-size: var(--font-size-sm-h2);
+    }
+
+    .valor h3 {
+        font-size: var(--font-size-sm-h3);
+    }
 }
 
 @media (min-width: 576px) {
@@ -103,6 +114,14 @@ div#fundo-criancas {
 
     h1 {
         font-size: var(--font-size-lg-h1)
+    }
+
+    .title h2 {
+        font-size: var(--font-size-lg-h2);
+    }
+
+    .valor h3 {
+        font-size: var(--font-size-lg-h3);
     }
 }
 
@@ -184,10 +203,6 @@ div#fundo-criancas {
     main section#landing {
         height: 85vh;
     }
-
-    .title h2 {
-        font-size: var(--font-size-lg-h2);
-    }
 }
 
 header {
@@ -224,7 +239,7 @@ header nav a.nav-link.active {
 }
 
 main section#landing {
-    height: 85vh;
+    height: 76vh;
     padding-top: 15vh;
     text-shadow: var(--text-shadow);
 }
@@ -234,7 +249,38 @@ main section#landing h1 strong {
 }
 
 main section#sobre-mim {
-    padding: 8vh 0;
+    padding: 10vh 0;
+    color: black;
+    height: 100vh;
+}
+
+main section#sobre-mim .valores {
+    margin: 0;
+}
+
+main section#sobre-mim .valor {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    padding: 0;
+}
+
+main section#sobre-mim .valor-descricao {
+    display: inline-block;
+    padding: 2%;
+    width: 60%;
+    height: 100%;
+    font-size: 12pt;
+}
+
+main section#sobre-mim .valor-imagem {
+    display: inline-block;
+    vertical-align: top;
+    width: 158px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: lightgray;
 }
 
 hr {
@@ -263,13 +309,19 @@ h2 {
     line-height: var(--line-height-h2);
 }
 
+h3 {
+    font-family: var(--font-family-h3);
+    font-weight: var(--font-weight-h3);
+    line-height: var(--line-height-h3);
+}
+
 h2 span {
     font-family: Lusitana;
     font-size: 37.5pt;
     font-weight: bold;
 }
 
-.buttons { 
+.buttons {
     margin-top: 10%;
 }
 

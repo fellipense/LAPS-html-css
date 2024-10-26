@@ -1010,6 +1010,10 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
+.gy-6 {
+  --bs-gutter-y: 6rem;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
