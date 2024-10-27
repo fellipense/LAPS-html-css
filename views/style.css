@@ -128,7 +128,7 @@ div#fundo-criancas {
 
 @media (max-width: 991px) {
     body {
-        padding-top: 126px;
+        padding-top: 110px;
     }
 
     header {
@@ -180,6 +180,10 @@ div#fundo-criancas {
     header hr {
         display: none;
     }
+
+    main section#landing {
+        min-height: 85vh;
+    }
 }
 
 @media (min-width: 992px) {
@@ -202,7 +206,7 @@ div#fundo-criancas {
     }
 
     main section#landing {
-        height: 85vh;
+        min-height: calc(85vh - 55px);
     }
 }
 
@@ -239,44 +243,46 @@ header nav a.nav-link.active {
     color: var(--cor-fundo);
 }
 
+#sobre-mim, #nossos-servicos {
+    padding: 8vh 0;
+    min-height: 100vh;
+}
+
 main section#landing {
-    height: 76vh;
     padding-top: 15vh;
     text-shadow: var(--text-shadow);
 }
 
-main section#landing h1 strong {
+section#landing h1 strong {
     font-size: 1.1em;
 }
 
-main section#sobre-mim {
-    padding: 10vh 0;
+section#sobre-mim {
     color: black;
-    height: 100vh;
 }
 
-main section#sobre-mim .valores {
+section#sobre-mim .valores {
     margin: 0;
 }
 
-main section#sobre-mim .valor {
+section#sobre-mim .valor {
     /* background-color: red; */
     height: 130px;
     padding: 0;
 }
 
-main section#sobre-mim .valor-descricao {
+section#sobre-mim .valor-descricao {
     display: inline-block;
     padding: 2%;
     width: 50%;
     height: 100%;
 }
 
-main section#sobre-mim .valor-descricao p {
+section#sobre-mim .valor-descricao p {
     font-size: 12pt;
 }
 
-main section#sobre-mim .valor-imagem {
+section#sobre-mim .valor-imagem {
     display: inline-block;
     vertical-align: top;
     width: 158px;
@@ -284,6 +290,18 @@ main section#sobre-mim .valor-imagem {
     border-radius: 10px;
     margin-right: 20px;
     background-color: lightgray;
+}
+
+main section#nossos-servicos {
+    background: #1f388a;
+    background: -webkit-linear-gradient(112deg, #1f388a 0%, #5fdecf 100%);
+    background: linear-gradient(112deg, #1f388a 0%, #5fdecf 100%);
+}
+
+section#nossos-servicos #servicos {
+    background-color: blue;
+    height: 60vh;
+    width: 100%;
 }
 
 hr {
@@ -356,6 +374,7 @@ h2 span {
 
 .title {
     height: 82px;
+    margin-bottom: 82px;
 }
 
 .title img {
