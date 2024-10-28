@@ -263,10 +263,11 @@ section#sobre-mim {
 
 section#sobre-mim .valores {
     margin: 0;
+    align-content: start;
+    margin-top: -6rem;
 }
 
 section#sobre-mim .valor {
-    /* background-color: red; */
     height: 130px;
     padding: 0;
 }
@@ -299,9 +300,13 @@ main section#nossos-servicos {
 }
 
 section#nossos-servicos #servicos {
-    background-color: blue;
     height: 60vh;
     width: 100%;
+}
+
+section#nossos-servicos #servicos .carousel-inner {
+    height: 85%;
+    border-radius: 10px;
 }
 
 hr {

@@ -6172,11 +6172,11 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   padding: 0;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-right: 15px;
+  margin-left: 15px;
   text-indent: -999px;
   cursor: pointer;
   background-color: #fff;
