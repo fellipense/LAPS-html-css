@@ -327,7 +327,13 @@ section#nossos-servicos #servicos .carousel-inner {
 }
 
 section#nossos-servicos #servicos .descricao-carrossel{
+    color: transparent;
     position: absolute;
+}
+
+.active .descricao-carrossel {
+    color: white !important;
+    transition: 200ms ease-in-out;
 }
 
 hr {
