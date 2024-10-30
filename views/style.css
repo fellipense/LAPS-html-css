@@ -184,6 +184,17 @@ div#fundo-criancas {
     main section#landing {
         min-height: 85vh;
     }
+
+    section#nossos-servicos .descricao-carrossel {
+        left: 0%;
+        top: 110%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .blank {
+        height: 20vh;
+    }
 }
 
 @media (min-width: 992px) {
@@ -207,6 +218,12 @@ div#fundo-criancas {
 
     main section#landing {
         min-height: calc(85vh - 55px);
+    }
+
+    section#nossos-servicos .descricao-carrossel {
+        left: 110%;
+        top: 10%;
+        width: 75%;
     }
 }
 
@@ -307,6 +324,10 @@ section#nossos-servicos #servicos {
 section#nossos-servicos #servicos .carousel-inner {
     height: 85%;
     border-radius: 10px;
+}
+
+section#nossos-servicos #servicos .descricao-carrossel{
+    position: absolute;
 }
 
 hr {
