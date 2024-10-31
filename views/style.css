@@ -76,7 +76,6 @@
 
 body {
     background-color: var(--cor-fundo);
-    color: white;
 }
 
 div#fundo-criancas {
@@ -260,8 +259,11 @@ header nav a.nav-link.active {
     color: var(--cor-fundo);
 }
 
-#sobre-mim, #nossos-servicos {
+section {
     padding: 8vh 0;
+}
+
+#sobre-mim, #nossos-servicos {
     min-height: 100vh;
 }
 
@@ -331,9 +333,32 @@ section#nossos-servicos #servicos .descricao-carrossel{
     position: absolute;
 }
 
-.active .descricao-carrossel {
+section#nossos-servicos #servicos .active .descricao-carrossel {
     color: white !important;
     transition: 200ms ease-in-out;
+}
+
+section#veja-tambem {
+    position: relative;
+    padding: 2vh 0;
+}
+
+section#veja-tambem h2 {
+    font-family: Lusitana;
+    font-size: 22.5pt;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+section#veja-tambem span {
+    font-size: 12pt;
+}
+
+section#veja-tambem .imagens img {
+    display: inline-block;
+    border-radius: 6px;
+    width: 48%;
+    margin-right: 1%;
 }
 
 hr {
@@ -420,10 +445,10 @@ h2 span {
     vertical-align: top;
 }
 
-.title.dark {
+.dark {
     color: white;
 }
 
-.title.light {
+.light {
     color: black
 }
