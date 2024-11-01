@@ -1,0 +1,88 @@
+@media (max-width: 575px) {
+    p {
+        font-size: var(--font-size-sm-p);
+    }
+
+    h1 {
+        font-size: var(--font-size-sm-h1);
+    }
+
+    .title h2 {
+        font-size: var(--font-size-sm-h2);
+    }
+
+    .valor h3 {
+        font-size: var(--font-size-sm-h3);
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        padding-top: 110px;
+    }
+
+    header {
+        padding-top: 0px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: var(--cor-primaria);
+        border-radius: 0 0 10px 10px;
+    }
+
+    header .navbar-brand img {
+        height: 46px;
+        margin-left: 10%;
+    }
+
+    header #togglerWrapper {
+        /* Dimensionamento em 1:1 */
+        position: relative;
+        height: 0;
+        width: 110px;
+        padding-bottom: 100%;
+    }
+
+    header .navbar-toggler {
+        position: absolute;
+        background-color: var(--cor-secundaria);
+        border: none;
+
+        /* Dimensionamento em 1:1 */
+        height: 100%; width: 100%; top:0; left: 0;
+    }
+
+    header .navbar-toggler.collapsed {
+        border-radius: 0 0 10px 0;
+        transition: 1.5s;
+    }
+
+    header #navbarNav {
+        background-color: var(--cor-secundaria);
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    header #navbarNav * {
+        padding: 4px 0;
+    }
+
+    header hr {
+        display: none;
+    }
+
+    main section#landing {
+        min-height: 85vh;
+    }
+
+    section#nossos-servicos .descricao-carrossel {
+        left: 0%;
+        top: 110%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .blank {
+        height: 20vh;
+    }
+}

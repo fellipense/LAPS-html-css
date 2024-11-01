@@ -1,0 +1,47 @@
+@media (min-width: 576px) {
+    p {
+        font-size: var(--font-size-lg-p);
+    }
+
+    h1 {
+        font-size: var(--font-size-lg-h1)
+    }
+
+    .title h2 {
+        font-size: var(--font-size-lg-h2);
+    }
+
+    .valor h3 {
+        font-size: var(--font-size-lg-h3);
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        padding-top: 40px;
+        position: relative;
+    }
+
+    header .navbar-brand img {
+        height: 88px
+    }
+
+    header hr {
+        color: transparent;
+        background-color: var(--cor-fundo);
+        padding-bottom: 1px;
+        opacity: 1;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    main section#landing {
+        min-height: calc(85vh - 55px);
+    }
+
+    section#nossos-servicos .descricao-carrossel {
+        left: 110%;
+        top: 10%;
+        width: 75%;
+    }
+}
