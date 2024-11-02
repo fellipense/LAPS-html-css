@@ -42,10 +42,6 @@ header nav a.nav-link.active {
     color: var(--cor-fundo);
 }
 
-section {
-    padding: 8vh 0;
-}
-
 #sobre-mim, #nossos-servicos {
     min-height: 100vh;
 }
@@ -144,6 +140,32 @@ section#veja-tambem .imagens img {
     margin-right: 1%;
 }
 
+footer {
+    z-index: -1;
+    height: 25vh;
+    padding: 45px 0;
+    position: relative;
+    background-color: var(--cor-footer);
+}
+
+footer .fundo {
+    width: 100%; height: 100%;
+    background-image: url("images/logo-la-branco.png");
+    background-repeat: no-repeat;
+    background-position: -25px -60px;
+    background-size: 22%;
+    opacity: 0.3;
+    filter: brightness(0.4);
+}
+
+footer #footer-logo {
+    height: 88px;
+}
+
+section {
+    padding: 8vh 0;
+}
+
 hr {
     color: transparent;
     padding-bottom: 1px;
@@ -226,6 +248,15 @@ h2 span {
 .title h2 {
     display: inline-block;
     vertical-align: top;
+}
+
+.fundo {
+    z-index: -1;
+    position: absolute;
+    top: 0; left: 0;
+ 
+    width: 100%;
+    height: 100%;
 }
 
 .dark {
