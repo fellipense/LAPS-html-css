@@ -162,6 +162,16 @@ footer #footer-logo {
     height: 88px;
 }
 
+footer #redesSociais {
+    width: 60%;
+    position: absolute;
+    right: 0;
+}
+
+footer #redesSociais .rede-social img {
+    width: 100%;
+}
+
 section {
     padding: 8vh 0;
 }
