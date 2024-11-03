@@ -27,7 +27,6 @@
         top: 0;
         width: 100%;
         background-color: var(--cor-primaria);
-        border-radius: 0 0 10px 10px;
     }
 
     header .navbar-brand img {
@@ -53,7 +52,6 @@
     }
 
     header .navbar-toggler.collapsed {
-        border-radius: 0 0 10px 0;
         transition: 1.5s;
     }
 
