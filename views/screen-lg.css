@@ -36,7 +36,7 @@
     }
 
     main section#landing {
-        min-height: calc(85vh - 55px);
+        min-height: calc(85vh - 35px);
     }
 
     section#nossos-servicos .descricao-carrossel {
