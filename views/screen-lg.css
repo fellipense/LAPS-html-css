@@ -39,7 +39,7 @@
         min-height: calc(85vh - 35px);
     }
 
-    section#nossos-servicos .descricao-carrossel {
+    section#nossosServicos .descricao-carrossel {
         left: 110%;
         top: 10%;
         width: 75%;

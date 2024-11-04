@@ -42,8 +42,8 @@ header nav a.nav-link.active {
     color: var(--cor-fundo);
 }
 
-#sobre-mim, #nossos-servicos {
-    min-height: 100vh;
+#nossosValores, #nossosServicos {
+    min-height: 101vh;
 }
 
 main section#landing {
@@ -55,31 +55,31 @@ section#landing h1 strong {
     font-size: 1.1em;
 }
 
-section#sobre-mim {
+section#nossosValores {
     color: black;
 }
 
-section#sobre-mim .valores {
+section#nossosValores .valores {
     margin: 0;
 }
 
-section#sobre-mim .valor {
+section#nossosValores .valor {
     height: 130px;
     padding: 0;
 }
 
-section#sobre-mim .valor-descricao {
+section#nossosValores .valor-descricao {
     display: inline-block;
     padding: 2%;
     width: 50%;
     height: 100%;
 }
 
-section#sobre-mim .valor-descricao p {
+section#nossosValores .valor-descricao p {
     font-size: 12pt;
 }
 
-section#sobre-mim .valor-imagem {
+section#nossosValores .valor-imagem {
     display: inline-block;
     vertical-align: top;
     width: 158px;
@@ -89,49 +89,49 @@ section#sobre-mim .valor-imagem {
     background-color: lightgray;
 }
 
-main section#nossos-servicos {
+main section#nossosServicos {
     background: #1f388a;
     background: -webkit-linear-gradient(112deg, #1f388a 0%, #5fdecf 100%);
     background: linear-gradient(112deg, #1f388a 0%, #5fdecf 100%);
 }
 
-section#nossos-servicos #servicos {
+section#nossosServicos #servicos {
     height: 60vh;
     width: 100%;
 }
 
-section#nossos-servicos #servicos .carousel-inner {
+section#nossosServicos #servicos .carousel-inner {
     height: 85%;
     border-radius: 10px;
 }
 
-section#nossos-servicos #servicos .descricao-carrossel{
+section#nossosServicos #servicos .descricao-carrossel{
     color: transparent;
     position: absolute;
 }
 
-section#nossos-servicos #servicos .active .descricao-carrossel {
+section#nossosServicos #servicos .active .descricao-carrossel {
     color: white !important;
     transition: 200ms ease-in-out;
 }
 
-section#veja-tambem {
+section#vejaTambem {
     position: relative;
     padding: 2vh 0;
 }
 
-section#veja-tambem h2 {
+section#vejaTambem h2 {
     font-family: Lusitana;
     font-size: 22.5pt;
     font-weight: bold;
     line-height: 1.5em;
 }
 
-section#veja-tambem span {
+section#vejaTambem span {
     font-size: 12pt;
 }
 
-section#veja-tambem .imagens img {
+section#vejaTambem .imagens img {
     display: inline-block;
     border-radius: 6px;
     width: 48%;
