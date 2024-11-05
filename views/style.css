@@ -57,10 +57,12 @@ section#landing h1 strong {
 
 section#nossosValores {
     color: var(--cor-texto);
+    
 }
 
 section#nossosValores .valores {
-    margin: 0;
+    /* Margin top negativo para contrapor o gutter dos elementos abaixos */
+    margin: -6rem 0 0 0;
 }
 
 section#nossosValores .valor {
