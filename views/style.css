@@ -56,7 +56,7 @@ section#landing h1 strong {
 }
 
 section#nossosValores {
-    color: black;
+    color: var(--cor-texto);
 }
 
 section#nossosValores .valores {
@@ -139,11 +139,11 @@ section#vejaTambem .imagens img {
 }
 
 footer {
-    z-index: -1;
-    height: 25vh;
-    padding: 45px 0;
+    z-index: 0;
+    min-height: 25vh;
+    padding: 45px 0 10px 0;
     position: relative;
-    background-color: var(--cor-footer);
+    background-color: var(--cor-preto);
 }
 
 footer .fundo {
@@ -170,6 +170,23 @@ footer #redesSociais .rede-social img {
     width: 80%;
 }
 
+footer #copyright {
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: Inter;
+    font-weight: lighter;
+    font-size: 10.5pt;
+}
+
+footer hr {
+    background-color: var(--cor-primaria);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 6px;
+}
+
 section {
     padding: 8vh 0;
 }
@@ -179,7 +196,7 @@ hr {
     padding-bottom: 1px;
     opacity: 1;
     margin: auto;
-    margin-top: 10px;
+    width: 100%;
 }
 
 p {
@@ -231,7 +248,7 @@ h2 span {
  }
 
 .buttons .button-1 button {
-    color: black;
+    color: var(--cor-texto);
     border: none;
     background-color: var(--cor-button-1);
 }
@@ -272,5 +289,5 @@ h2 span {
 }
 
 .light {
-    color: black
+    color: var(--cor-texto);
 }

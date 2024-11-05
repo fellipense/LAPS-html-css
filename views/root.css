@@ -3,10 +3,13 @@
     --cor-secundaria: #0d2165;
     --cor-terciaria: #019fde;
     --cor-fundo: #f9fcfc;
-    --cor-footer: #292d3d;
+
+    --cor-preto: #060e12;
 
     --cor-button-1: #c4d4ff81;
     --cor-button-2: transparent;
+
+    --cor-texto: var(--cor-preto);
 
     --font-family-p: Inter;
     --font-family-h1: Lusitana;
@@ -38,6 +41,7 @@
 }
 
 /* LUSITANA FONT */
+
 @font-face {
     font-family: "Lusitana";
     src: url("fonts/Lusitana/Lusitana-Regular.ttf") format("truetype");
@@ -46,13 +50,20 @@
 }
 
 @font-face {
-    font-family: "Outfit";
+    font-family: "Lusitana";
     src: url("fonts/Lusitana/Lusitana-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 /* INTER FONT */
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter/Inter_18pt-ExtraLight.ttf") format("truetype");
+    font-weight: lighter; 
+    font-style: normal;
+}
 
 @font-face {
     font-family: "Inter";
