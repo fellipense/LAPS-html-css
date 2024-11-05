@@ -100,6 +100,16 @@ section#nossosServicos #servicos {
     width: 100%;
 }
 
+section#nossosServicos #servicos .linha-divisoria {
+    z-index: 5;
+    position: absolute;
+    height: 85%;
+    width: 10px;
+    left: 110%;
+    width: 5px;
+    background-color: white;
+}
+
 section#nossosServicos #servicos .carousel-inner {
     height: 85%;
     border-radius: 10px;

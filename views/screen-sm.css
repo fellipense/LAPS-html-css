@@ -73,6 +73,10 @@
         min-height: 85vh;
     }
 
+    section#nossosServicos #servicos .linha-divisoria{
+        display: none;
+    }
+
     section#nossosServicos .descricao-carrossel {
         left: 0%;
         top: 110%;
