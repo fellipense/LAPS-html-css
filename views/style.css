@@ -10,6 +10,7 @@ div#fundo-criancas {
 }
 
 header {
+    width: 100vw;
     text-shadow: var(--text-shadow);
     z-index: 5;
 }
