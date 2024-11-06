@@ -130,23 +130,23 @@ section#nossosServicos #servicos .active .descricao-carrossel {
 
 section#vejaTambem {
     position: relative;
-    padding: 3vh 0;
+    padding: 5vh 0;
 }
 
 section#vejaTambem h2 {
-    font-family: Lusitana;
-    font-size: 22.5pt;
+    font-family: Inter;
     font-weight: bold;
-    line-height: 1.5em;
 }
 
-section#vejaTambem span {
-    font-size: 12pt;
+section#vejaTambem hr {
+    padding-bottom: 3px;
+    background-color: var(--cor-preto);
+    width: 160px;
+    margin: 15px auto 40px auto;
 }
 
 section#vejaTambem .imagens {
     display: flex;
-    justify-content: space-around;
 }
 
 section#vejaTambem .imagens img {

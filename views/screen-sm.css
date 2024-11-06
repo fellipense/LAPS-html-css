@@ -14,6 +14,10 @@
     .valor h3 {
         font-size: var(--font-size-sm-h3);
     }
+
+    section#vejaTambem .imagens img {
+        height: 88px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -81,6 +85,23 @@
         top: 110%;
         width: 100%;
         text-align: center;
+    }
+
+    section#vejaTambem {
+        text-align: center;
+        line-height: 0.4em;
+    }
+
+    section#vejaTambem h2 {
+        font-size: 13.5pt;
+    }
+
+    section#vejaTambem span {
+        font-size: 7.5pt;
+    }
+
+    section#vejaTambem .imagens {
+        justify-content: center;
     }
 
     .blank {
