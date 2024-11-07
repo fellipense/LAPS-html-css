@@ -270,7 +270,6 @@ h2 span {
 
 .buttons .button-2 button {
     color: white;
-    border: 2px solid var(--cor-fundo);
     background-color: var(--cor-button-2);
 }
 
