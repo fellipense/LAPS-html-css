@@ -7,22 +7,14 @@
         font-size: var(--font-size-lg-h1)
     }
 
-    .title h2 {
-        font-size: var(--font-size-lg-h2);
-    }
-
-    .title h2 span {
-        font-size: 37.5pt;
-    }
-
     .valor h3 {
         font-size: var(--font-size-lg-h3);
     }
 
-    section#landing {
-        padding: 20vh 16vw 0 16vw;
+    .buttons {
+        font-size: 18pt;
     }
-    
+
     .buttons .button-2 button{
         border: 2px solid var(--cor-fundo);
     }
@@ -46,6 +38,18 @@
     section#vejaTambem .imagens img {
         height: 100px;
     }
+
+    .title {
+        height: 82px;
+    }
+
+    .title h2 {
+        font-size: var(--font-size-lg-h2);
+    }
+
+    .title h2 span {
+        font-size: 37.5pt;
+    }
 }
 
 @media (min-width: 992px) {
@@ -68,8 +72,9 @@
         margin-top: 5px;
     }
 
-    main section#landing {
+    section#landing {
         min-height: calc(85vh - 35px);
+        padding: 20vh 16vw 0 16vw;
     }
 
     section#nossosServicos .descricao-carrossel {
@@ -82,7 +87,11 @@
         display: none;
     }
 
-    .title {
-        height: 82px;
+    .buttons {
+        width: 560px;
+    }
+
+    .buttons button {
+        width: 240px;
     }
 }

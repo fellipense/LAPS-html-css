@@ -2,7 +2,7 @@ div#fundo-criancas {
     z-index: -1;
     position: absolute;
     top: 0; left: 0;
-    width: 100vw; height: 100vh;
+    width: 125vw; height: 125vh;
     background-color: var(--cor-primaria);
     background-image: url("images/fundo-criancas.png");
     background-position: center top;
@@ -46,11 +46,12 @@ header nav a.nav-link.active {
 
 section {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 section#landing {
     text-shadow: var(--text-shadow);
+    padding-bottom: 160px;
 }
 
 section#landing h1 strong {
@@ -205,10 +206,6 @@ footer hr {
     padding-bottom: 6px;
 }
 
-section {
-    padding: 8vh 0;
-}
-
 hr {
     color: transparent;
     padding-bottom: 1px;
@@ -218,7 +215,7 @@ hr {
 }
 
 p {
-    font-family: var(--font-p);
+    font-family: var(--font-family-p);
     font-weight: var(--font-weight-p);
     line-height: var(--line-height-p);
 }
@@ -248,10 +245,10 @@ h2 span {
 
 .buttons {
     margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .buttons button {
-    width: 100%;
     height: 70px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);

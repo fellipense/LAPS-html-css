@@ -14,6 +14,23 @@
     section#vejaTambem .imagens img {
         height: 88px;
     }
+
+    .buttons {
+        font-size: 9pt;
+    }
+
+    .title {
+        height: 50px;
+    }
+    
+    .title h2 {
+        font-size: var(--font-size-sm-h2);
+        line-height: 2.2em;
+    }
+
+    .title h2 span {
+        font-size: 18pt;
+    }
 }
 
 @media (max-width: 991px) {
@@ -71,21 +88,33 @@
     }
 
     section#landing {
-        padding-top: 45vh;
+        padding-top: 40vh;
+    }
+
+    section#landing h1, section#landing p {
+        line-height: 1.3em;
+    }
+
+    section#landing br {
+        display: none;
     }
 
     section#landing .buttons {
         position: absolute;
         bottom: 10px;
         left: 0;
-        padding: 0 25px;
+        padding: 20px 20px;
         margin: 0;
         width: 100%;
-        font-size: 9pt;
     }
 
     section#landing .buttons > *{
         padding: 5px;
+    }
+
+    .buttons button {
+        width: 100%;
+        height: 60px;
     }
 
     .buttons .button-2 button{
@@ -119,20 +148,6 @@
     section#vejaTambem .imagens {
         justify-content: center;
     }
-
-    .title {
-        height: 50px;
-    }
-    
-    .title h2 {
-        font-size: var(--font-size-sm-h2);
-        line-height: 2.2em;
-    }
-
-    .title h2 span {
-        font-size: 18pt;
-    }
-
 
     .blank {
         height: 25vh;
