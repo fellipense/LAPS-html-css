@@ -7,16 +7,20 @@
         font-size: var(--font-size-lg-h1)
     }
 
-    .valor h3 {
-        font-size: var(--font-size-lg-h3);
-    }
-
     .buttons {
         font-size: 18pt;
     }
 
     .buttons .button-2 button{
         border: 2px solid var(--cor-fundo);
+    }
+
+    section#nossosValores .valor h3 {
+        font-size: var(--font-size-lg-h3);
+    }
+
+    section#nossosValores .valor-imagem img {
+        width: 158px;
     }
 
     section#vejaTambem {
@@ -82,9 +86,17 @@
         padding: 20vh 16vw 0 16vw;
     }
 
+    section#nossosValores .valores {
+        margin-top: -6rem;
+    }
+
     section#nossosValores .valor {
         height: 130px;
-        padding-top: 6rem;
+        margin-top: 6rem;
+    }
+
+    section#nossosValores .valor-descricao p {
+        font-size: 12pt;
     }
 
     section#nossosServicos .descricao-carrossel {

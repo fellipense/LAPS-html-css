@@ -13,6 +13,7 @@
 
     section#nossosValores .valor {
         height: 80px;
+        margin-top: 4rem;
     }
 
     section#nossosValores .valor-imagem {
@@ -121,9 +122,22 @@
         padding: 5px;
     }
 
+    section#nossosValores .valores {
+        margin-top: -2rem;
+    }
+
     section#nossosValores .valor {
-        height: 80px;
-        margin-top: 4rem;
+        height: 100px;
+        margin-top: 2rem;
+    }
+
+    section#nossosValores .valor-descricao {
+        padding: 0;
+        width: 55%;
+    }
+
+    section#nossosValores .valor-descricao p {
+        font-size: 12pt;
     }
 
     .buttons button {
