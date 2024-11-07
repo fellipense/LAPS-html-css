@@ -72,6 +72,10 @@
         margin-top: 5px;
     }
 
+    section {
+        padding: 6%;
+    }
+
     section#landing {
         min-height: calc(85vh - 35px);
         padding: 20vh 16vw 0 16vw;

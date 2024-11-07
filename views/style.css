@@ -92,7 +92,7 @@ section#nossosValores .valor-imagem {
     height: 100%;
     border-radius: 10px;
     margin-right: 20px;
-    background-color: lightgray;
+    background-color: var(--cor-terciaria);
 }
 
 section#nossosServicos {
