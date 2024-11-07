@@ -1,31 +1,11 @@
 @media (max-width: 575px) {
+
     p {
         font-size: var(--font-size-sm-p);
     }
 
     h1 {
         font-size: var(--font-size-sm-h1);
-    }
-
-    .valor h3 {
-        font-size: var(--font-size-sm-h3);
-    }
-
-    section#landing {
-        min-height: calc(100vh - 190px) !important;
-    }
-
-    section#nossosValores .valor {
-        height: 80px;
-        margin-top: 4rem;
-    }
-
-    section#nossosValores .valor-imagem {
-        width: 120px;
-    }
-
-    section#vejaTambem .imagens img {
-        height: 88px;
     }
 
     .buttons {
@@ -44,9 +24,11 @@
     .title h2 span {
         font-size: 18pt;
     }
+
 }
 
 @media (max-width: 991px) {
+
     body {
         padding-top: 90px;
     }
@@ -100,50 +82,6 @@
         min-height: 88vh;
     }
 
-    section#landing {
-        padding-top: 15vh;
-        min-height: calc(100vh - 220px);
-    }
-
-    section#landing h1, section#landing p {
-        line-height: 1.3em;
-    }
-
-    section#landing br {
-        display: none;
-    }
-
-    section#landing .buttons {
-        position: absolute;
-        bottom: 10px;
-        left: 0;
-        padding: 20px 20px;
-        margin: 0;
-        width: 100%;
-    }
-
-    section#landing .buttons > *{
-        padding: 5px;
-    }
-
-    section#nossosValores .valores {
-        margin-top: -2rem;
-    }
-
-    section#nossosValores .valor {
-        height: 100px;
-        margin-top: 2rem;
-    }
-
-    section#nossosValores .valor-descricao {
-        padding: 0;
-        width: 55%;
-    }
-
-    section#nossosValores .valor-descricao p {
-        font-size: 12pt;
-    }
-
     .buttons button {
         width: 100%;
         height: 60px;
@@ -151,34 +89,6 @@
 
     .buttons .button-2 button{
         border: 1px solid var(--cor-fundo);
-    }
-
-    section#nossosServicos #servicos .linha-divisoria{
-        display: none;
-    }
-
-    section#nossosServicos .descricao-carrossel {
-        left: 0%;
-        top: 110%;
-        width: 100%;
-        text-align: center;
-    }
-
-    section#vejaTambem {
-        text-align: center;
-        line-height: 0.4em;
-    }
-
-    section#vejaTambem h2 {
-        font-size: 13.5pt;
-    }
-
-    section#vejaTambem span {
-        font-size: 7.5pt;
-    }
-
-    section#vejaTambem .imagens {
-        justify-content: center;
     }
 
     .blank {

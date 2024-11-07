@@ -15,34 +15,6 @@
         border: 2px solid var(--cor-fundo);
     }
 
-    section#nossosValores .valor h3 {
-        font-size: var(--font-size-lg-h3);
-    }
-
-    section#nossosValores .valor-imagem img {
-        width: 158px;
-    }
-
-    section#vejaTambem {
-        line-height: 0.2em;
-    }
-
-    section#vejaTambem h2 {
-        font-size: 22.5pt;
-    }
-
-    section#vejaTambem span {
-        font-size: 12pt
-    }
-
-    section#vejaTambem .imagens {
-        justify-content: space-around;
-    }
-
-    section#vejaTambem .imagens img {
-        height: 100px;
-    }
-
     .title {
         height: 82px;
     }
@@ -81,33 +53,6 @@
         min-height: 100vh;
     }
 
-    section#landing {
-        min-height: calc(100vh - 140px);
-        padding: 20vh 16vw 0 16vw;
-    }
-
-    section#nossosValores .valores {
-        margin-top: -6rem;
-    }
-
-    section#nossosValores .valor {
-        height: 130px;
-        margin-top: 6rem;
-    }
-
-    section#nossosValores .valor-descricao p {
-        font-size: 12pt;
-    }
-
-    section#nossosServicos .descricao-carrossel {
-        left: 120%;
-        top: 10%;
-        width: 75%;
-    }
-
-    section#vejaTambem hr {
-        display: none;
-    }
 
     .buttons {
         width: 560px;
