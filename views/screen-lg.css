@@ -19,6 +19,14 @@
         font-size: var(--font-size-lg-h3);
     }
 
+    section#landing {
+        padding-top: 15vh;
+    }
+    
+    .buttons .button-2 button{
+        border: 2px solid var(--cor-fundo);
+    }
+
     section#vejaTambem {
         line-height: 0.2em;
     }
