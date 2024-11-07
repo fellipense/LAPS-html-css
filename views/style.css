@@ -46,7 +46,6 @@ header nav a.nav-link.active {
 
 section {
     position: relative;
-    min-height: 100vh;
 }
 
 section#landing {
@@ -70,19 +69,14 @@ section#nossosValores .valores {
 }
 
 section#nossosValores .valor {
-    height: 130px;
     padding: 0;
 }
 
 section#nossosValores .valor-descricao {
     display: inline-block;
     padding: 2%;
-    width: 50%;
+    width: 49%;
     height: 100%;
-}
-
-section#nossosValores .valor-descricao p {
-    font-size: 12pt;
 }
 
 section#nossosValores .valor-imagem {

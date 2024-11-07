@@ -74,11 +74,17 @@
 
     section {
         padding: 6%;
+        min-height: 100vh;
     }
 
     section#landing {
         min-height: calc(85vh - 35px);
         padding: 20vh 16vw 0 16vw;
+    }
+
+    section#nossosValores .valor {
+        height: 130px;
+        padding-top: 6rem;
     }
 
     section#nossosServicos .descricao-carrossel {

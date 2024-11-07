@@ -11,6 +11,14 @@
         font-size: var(--font-size-sm-h3);
     }
 
+    section#nossosValores .valor {
+        height: 80px;
+    }
+
+    section#nossosValores .valor-imagem {
+        width: 120px;
+    }
+
     section#vejaTambem .imagens img {
         height: 88px;
     }
@@ -46,8 +54,8 @@
     }
 
     header .navbar-brand img {
-        height: 46px;
         margin-left: 10%;
+        height: 46px
     }
 
     header #togglerWrapper {
@@ -84,11 +92,12 @@
     section {
         padding: 25px;
         border-radius: 20px 20px 0 0;
-        transform: translate(0, -210px);
+        min-height: 88vh;
     }
 
     section#landing {
-        padding-top: 40vh;
+        padding-top: 15vh;
+        min-height: 73vh;
     }
 
     section#landing h1, section#landing p {
@@ -110,6 +119,11 @@
 
     section#landing .buttons > *{
         padding: 5px;
+    }
+
+    section#nossosValores .valor {
+        height: 80px;
+        margin-top: 4rem;
     }
 
     .buttons button {
