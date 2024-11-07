@@ -50,7 +50,7 @@ section {
 
 section#landing {
     text-shadow: var(--text-shadow);
-    padding-bottom: 160px;
+    padding-bottom: 110px;
 }
 
 section#landing h1 strong {

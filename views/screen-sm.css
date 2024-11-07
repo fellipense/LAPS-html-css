@@ -11,6 +11,10 @@
         font-size: var(--font-size-sm-h3);
     }
 
+    section#landing {
+        min-height: calc(100vh - 190px) !important;
+    }
+
     section#nossosValores .valor {
         height: 80px;
         margin-top: 4rem;
@@ -44,7 +48,7 @@
 
 @media (max-width: 991px) {
     body {
-        padding-top: 110px;
+        padding-top: 90px;
     }
 
     header {
@@ -98,7 +102,7 @@
 
     section#landing {
         padding-top: 15vh;
-        min-height: 73vh;
+        min-height: calc(100vh - 220px);
     }
 
     section#landing h1, section#landing p {
