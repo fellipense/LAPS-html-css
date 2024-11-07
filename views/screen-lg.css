@@ -11,6 +11,10 @@
         font-size: var(--font-size-lg-h2);
     }
 
+    .title h2 span {
+        font-size: 37.5pt;
+    }
+
     .valor h3 {
         font-size: var(--font-size-lg-h3);
     }
@@ -67,5 +71,9 @@
 
     section#vejaTambem hr {
         display: none;
+    }
+
+    .title {
+        height: 82px;
     }
 }

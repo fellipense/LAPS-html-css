@@ -58,6 +58,7 @@ section#landing h1 strong {
 
 section#nossosValores {
     color: var(--cor-texto);
+    background-color: var(--cor-fundo);
     
 }
 
@@ -130,7 +131,6 @@ section#nossosServicos #servicos .active .descricao-carrossel {
 
 section#vejaTambem {
     position: relative;
-    padding: 5vh 0;
 }
 
 section#vejaTambem h2 {
@@ -153,7 +153,6 @@ section#vejaTambem .imagens img {
     display: inline-block;
     border-radius: 6px;
     margin-right: 1%;
-    height: 100px;
 }
 
 footer {
@@ -243,7 +242,6 @@ h3 {
 
 h2 span {
     font-family: Lusitana;
-    font-size: 37.5pt;
     font-weight: bold;
 }
 
@@ -278,7 +276,6 @@ h2 span {
 }
 
 .title {
-    height: 82px;
     margin-bottom: 82px;
 }
 
@@ -290,7 +287,8 @@ h2 span {
 
 .title h2 {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
+    margin: 0;
 }
 
 .fundo {
