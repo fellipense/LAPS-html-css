@@ -2,7 +2,7 @@ div#fundo-criancas {
     z-index: -1;
     position: absolute;
     top: 0; left: 0;
-    width: 125vw; height: 125vh;
+    width: 100vw; height: 125vh;
     background-color: var(--cor-primaria);
     background-image: url("images/fundo-criancas.png");
     background-position: center top;
