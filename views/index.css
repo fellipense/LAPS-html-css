@@ -128,7 +128,7 @@
     section#vejaTambem .imagens img {
         height: 100px;
     }
-    
+
 }
 
 @media (min-width: 992px) {
@@ -185,7 +185,6 @@ section#landing h1 strong {
 }
 
 section#nossosValores {
-    color: var(--cor-texto);
     background-color: var(--cor-fundo);
 }
 

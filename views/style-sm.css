@@ -1,7 +1,7 @@
 @media (max-width: 575px) {
 
     p {
-        font-size: var(--font-size-sm-p);
+        font-size: var(--font-size-sm-p) !important;
     }
 
     h1 {
@@ -79,7 +79,7 @@
     section {
         padding: 25px;
         border-radius: 20px 20px 0 0;
-        min-height: 88vh;
+        min-height: calc(100vh - 90px);
     }
 
     .buttons button {
