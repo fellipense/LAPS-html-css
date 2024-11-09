@@ -166,6 +166,11 @@
         width: 75%;
     }
 
+    section#vejaTambem {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     section#vejaTambem hr {
         display: none;
     }
