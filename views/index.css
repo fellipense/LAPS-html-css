@@ -17,12 +17,12 @@
         font-size: 15pt;
     }
 
-    section#vejaTambem .imagens img {
-        height: 88px;
-    }
-
     section#nossosValores .valor h3 {
         font-size: var(--font-size-sm-h3);
+    }
+
+    section#vejaTambem .imagens img {
+        height: 88px;
     }
 
 }
@@ -93,6 +93,10 @@
         line-height: 0.4em;
     }
 
+    section#vejaTambem .fundo {
+        border-radius: 20px;
+    }
+
     section#vejaTambem h2 {
         font-size: 13.5pt;
     }
@@ -127,10 +131,6 @@
 
     section#vejaTambem span {
         font-size: 12pt
-    }
-
-    section#vejaTambem .imagens {
-        justify-content: space-around;
     }
 
     section#vejaTambem .imagens img {
@@ -168,6 +168,10 @@
 
     section#vejaTambem hr {
         display: none;
+    }
+
+    section#vejaTambem .imagens {
+        justify-content: space-around;
     }
 
 }
@@ -267,11 +271,16 @@ section#nossosServicos #servicos .active .descricao-carrossel {
     transition: 200ms ease-in-out;
 }
 
+section#vejaTambem {
+    z-index: 1;
+    min-height: 0;
+}
+
 section#vejaTambem .fundo {
     z-index: -1;
     position: absolute;
     top: 0; left: 0;
-    width: 100vw; height: 125vh;
+    width: 100vw;
     background: var(--cor-fundo);
 }
 

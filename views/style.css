@@ -42,10 +42,16 @@ footer {
     min-height: 25vh;
     padding: 45px 0 10px 0;
     position: relative;
-    background-color: var(--cor-preto);
 }
 
 footer .fundo {
+    background-color: var(--cor-preto);
+    bottom: 0;
+    top: auto;
+    height: 150%;
+}
+
+footer .fundo-logo {
     width: 100%; height: 100%;
     background-image: url("images/logo-la-branco.png");
     background-repeat: no-repeat;
