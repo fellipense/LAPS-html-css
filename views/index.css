@@ -197,8 +197,12 @@ section#landing h1 strong {
     font-size: 1.1em;
 }
 
-section#nossosValores {
-    background-color: var(--cor-fundo);
+section#nossosValores .fundo {
+    z-index: -1;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw; height: 125vh;
+    background: var(--cor-fundo);
 }
 
 section#nossosValores .valor {
@@ -221,7 +225,11 @@ section#nossosValores .valor-imagem {
     background-color: var(--cor-terciaria);
 }
 
-section#nossosServicos {
+section#nossosServicos .fundo {
+    z-index: -1;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw; height: 125vh;
     background: #1f388a;
     background: -webkit-linear-gradient(112deg, #1f388a 0%, #5fdecf 100%);
     background: linear-gradient(112deg, #1f388a 0%, #5fdecf 100%);
@@ -243,7 +251,9 @@ section#nossosServicos #servicos .linha-divisoria {
 }
 
 section#nossosServicos #servicos .carousel-inner {
-    height: 85%;
+    height: 80%;
+    max-width: 75vw;
+    margin: auto;
     border-radius: 10px;
 }
 
@@ -257,8 +267,12 @@ section#nossosServicos #servicos .active .descricao-carrossel {
     transition: 200ms ease-in-out;
 }
 
-section#vejaTambem {
-    position: relative;
+section#vejaTambem .fundo {
+    z-index: -1;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw; height: 125vh;
+    background: var(--cor-fundo);
 }
 
 section#vejaTambem h2 {
