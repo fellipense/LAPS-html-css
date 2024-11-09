@@ -4,11 +4,6 @@
         min-height: calc(100vh - 190px) !important;
     }
 
-    section#nossosValores {
-        display: flex;
-        align-content: space-around;
-    }
-
     section#nossosValores .valor {
         height: 80px;
         margin-top: 4rem;
@@ -195,6 +190,11 @@ section#landing {
 
 section#landing h1 strong {
     font-size: 1.1em;
+}
+
+section#nossosValores {
+    display: grid;
+    align-content: space-around;
 }
 
 section#nossosValores .fundo {
