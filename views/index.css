@@ -13,6 +13,10 @@
         width: 120px;
     }
 
+    section#nossosServicos #servicos h3 {
+        font-size: 15pt;
+    }
+
     section#vejaTambem .imagens img {
         height: 88px;
     }
@@ -67,6 +71,10 @@
 
     section#nossosValores .valor-descricao p {
         font-size: 12pt;
+    }
+
+    section#nossosServicos #servicos {
+        height: 40vh !important;
     }
 
     section#nossosServicos #servicos .linha-divisoria{
