@@ -53,6 +53,9 @@
         min-height: 100vh;
     }
 
+    footer #redesSociais {
+        justify-self: end;
+    }
 
     .buttons {
         width: 560px;
@@ -61,4 +64,5 @@
     .buttons button {
         width: 240px;
     }
+
 }
