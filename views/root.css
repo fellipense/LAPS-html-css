@@ -90,4 +90,5 @@
 
 body {
     background-color: var(--cor-fundo);
+    min-width:350px;
 }

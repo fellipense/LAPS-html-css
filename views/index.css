@@ -143,7 +143,7 @@
 
     section#landing {
         min-height: calc(100vh - 140px);
-        padding: 20vh 16vw 0 16vw;
+        padding: 20vh 16% 0 16%;
     }
 
     section#nossosValores .valores {
@@ -185,7 +185,7 @@ div#fundo-criancas {
     z-index: -1;
     position: absolute;
     top: 0; left: 0;
-    width: 100vw; height: 125vh;
+    width: 100%; height: 125vh;
     background-color: var(--cor-primaria);
     background-image: url("images/fundo-criancas.png");
     background-position: center top;
@@ -201,17 +201,16 @@ section#landing h1 strong {
     font-size: 1.1em;
 }
 
-section#nossosValores {
-    display: grid;
-    align-content: space-around;
-}
-
 section#nossosValores .fundo {
     z-index: -1;
     position: absolute;
     top: 0; left: 0;
-    width: 100vw; height: 125vh;
+    width: 100%; height: 125vh;
     background: var(--cor-fundo);
+}
+
+section#nossosValores .valores {
+    min-height: calc(100vh - 296px);
 }
 
 section#nossosValores .valor {
@@ -238,7 +237,7 @@ section#nossosServicos .fundo {
     z-index: -1;
     position: absolute;
     top: 0; left: 0;
-    width: 100vw; height: 125vh;
+    width: 100%; height: 125vh;
     background: #1f388a;
     background: -webkit-linear-gradient(112deg, #1f388a 0%, #5fdecf 100%);
     background: linear-gradient(112deg, #1f388a 0%, #5fdecf 100%);
@@ -261,7 +260,7 @@ section#nossosServicos #servicos .linha-divisoria {
 
 section#nossosServicos #servicos .carousel-inner {
     height: 80%;
-    max-width: 75vw;
+    max-width: 75%;
     margin: auto;
     border-radius: 10px;
 }
@@ -285,7 +284,7 @@ section#vejaTambem .fundo {
     z-index: -1;
     position: absolute;
     top: 0; left: 0;
-    width: 100vw;
+    width: 100%;
     background: var(--cor-fundo);
 }
 
