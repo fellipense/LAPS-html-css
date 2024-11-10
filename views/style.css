@@ -49,28 +49,30 @@ footer .fundo {
     bottom: 0;
     top: auto;
     height: 150%;
+    overflow: hidden;
 }
 
-footer .fundo-logo {
-    width: 100%; height: 100%;
-    background-image: url("images/logo-la-branco.png");
-    background-repeat: no-repeat;
-    background-position: -25px -60px;
-    background-size: 22%;
-    opacity: 0.3;
-    filter: brightness(0.4);
+footer .fundo img {
+    position: absolute;
+    left: -28px;
+    bottom: -85px;
+    height: 300px;
+    opacity: 0.05;
 }
 
 footer #footer-logo {
-    height: 88px;
+    height: 70px;
+    padding-right: 25px;
 }
 
 footer #redesSociais {
+    margin: 30px 0 25px 0;
     width: 60%;
 }
 
 footer #redesSociais .rede-social img {
-    width: 80%;
+    height: 32px;
+    justify-self: center;
 }
 
 footer #copyright {

@@ -252,7 +252,7 @@ section#nossosServicos #servicos {
 section#nossosServicos #servicos .linha-divisoria {
     z-index: 5;
     position: absolute;
-    height: 85%;
+    height: 80%;
     width: 10px;
     left: 110%;
     width: 5px;
@@ -310,4 +310,3 @@ section#vejaTambem .imagens img {
     border-radius: 6px;
     margin-right: 1%;
 }
-

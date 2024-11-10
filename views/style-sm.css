@@ -25,6 +25,10 @@
         font-size: 18pt;
     }
 
+    .blank {
+        height: 20vh !important;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -89,8 +93,17 @@
         justify-self: center;
     }
 
+    footer .footer-logo {
+        height: 70px;
+        padding-right: 25px;
+    }
+
     footer #redesSociais {
         justify-self: center;
+    }
+    
+    footer #redesSociais .rede-social img {
+        height: 32px;
     }
 
     .buttons button {
@@ -103,6 +116,6 @@
     }
 
     .blank {
-        height: 25vh;
+        height: 32vh;
     }
 }
