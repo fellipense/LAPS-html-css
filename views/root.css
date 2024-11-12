@@ -91,5 +91,4 @@
 body {
     background-color: var(--cor-fundo);
     min-width:350px;
-    font-size: var(--font-size-lg-p);
 }
