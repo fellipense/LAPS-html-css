@@ -1,4 +1,9 @@
 @media (min-width: 576px) {
+    
+    body {
+        font-size: var(--font-size-lg-p);
+    }
+
     p {
         font-size: var(--font-size-lg-p);
     }
