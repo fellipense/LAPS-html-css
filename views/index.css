@@ -145,6 +145,10 @@
 
 @media (min-width: 992px) {
 
+    section {
+        padding: 6%;
+    }
+
     section#landing {
         min-height: calc(100vh - 140px);
         padding: 20vh 16% 0 16%;

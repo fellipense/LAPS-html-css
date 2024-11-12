@@ -1,4 +1,8 @@
 @media (max-width: 575px) {
+    
+    section#nossosContatos h2 {
+        font-size: var(--font-size-sm-h2);
+    }
 
 }
 
@@ -42,7 +46,7 @@
     section#nossosContatos h2 {
         font-size: var(--font-size-lg-h2);
     }
-    
+
 }
 
 @media (min-width: 992px) {
@@ -56,6 +60,7 @@
     section#landing h1 {
         font-size: 48pt;
     }
+
 }
 
 #fundo-bolhas {
@@ -100,4 +105,19 @@ section#nossosContatos .fundo {
 section#nossosContatos h2 {
     font-family: Inter;
     font-weight: bold;
+}
+
+section#nossosContatos ul {
+    padding: 0;
+    list-style: none;
+}
+
+section#nossosContatos .chave {
+    display: inline-block;
+    font-weight: bold;
+    width: 90pt;
+}
+
+section#nossosContatos .valor {
+    font-size: 0.9em;
 }
