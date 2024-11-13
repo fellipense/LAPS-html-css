@@ -77,7 +77,14 @@
 @font-face {
     font-family: "Inter";
     src: url("fonts/Inter/Inter_18pt-Regular.ttf") format("truetype");
-    font-weight: normal; 
+    font-weight: 400; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter/Inter_18pt-Medium.ttf") format("truetype");
+    font-weight: medium; 
     font-style: normal;
 }
 
