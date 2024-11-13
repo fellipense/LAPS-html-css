@@ -1,7 +1,23 @@
 @media (max-width: 575px) {
-    
-    section#nossosContatos h2 {
-        font-size: var(--font-size-sm-h2);
+
+    section#landing h1 {
+        font-size: 30pt;        
+    }
+
+    section#nossosContatos {
+        line-height: 0.4em;
+    }
+
+    section#nossosContatos h2, .chave {
+        font-size: 12pt;
+    }
+
+    section#nossosContatos .valor {
+        font-size: 8pt;
+    }
+
+    section#nossosContatos ul li p{
+        margin-bottom: 1em; 
     }
 
 }
@@ -21,25 +37,24 @@
         min-height: calc(66vh - 220px);
     }
 
-    section#landing h1 {
-        font-size: 30pt;        
-    }
-
     section#landing p {
         line-height: 1.6em;
         margin-top: 15px;
     }
 
     section#nossosContatos {
-        line-height: 0.4em;
+        min-height: 0;
     }
 
     section#nossosContatos .fundo {
         border-radius: 20px;
     }
 
-    section#nossosContatos .atendimentos {
-        font-size: 9pt;
+    section#nossosContatos hr {
+        width: 100vw !important;
+        position: absolute;
+        left: 0;
+        top: 60%;
     }
 
 }
@@ -52,6 +67,10 @@
 
     section#nossosContatos .atendimentos button {
         font-size: 15pt;
+    }
+
+    section#nossosContatos ul li p{
+        margin-bottom: 0.2em; 
     }
 
 }
@@ -112,7 +131,7 @@ section#nossosContatos .fundo {
 }
 
 section#nossosContatos .contato {
-    margin-bottom: 2em;
+    margin-bottom: 6em;
 }
 
 section#nossosContatos h2 {
@@ -126,10 +145,6 @@ section#nossosContatos ul {
     list-style: none;
 }
 
-section#nossosContatos ul li p{
-   margin-bottom: 0.3em; 
-}
-
 section#nossosContatos .chave {
     display: inline-block;
     font-family: Inter;
@@ -138,7 +153,6 @@ section#nossosContatos .chave {
 }
 
 section#nossosContatos .valor {
-    font-size: 0.9em;
     font-weight: 100;
 }
 
@@ -146,9 +160,9 @@ section#nossosContatos hr {
     margin: auto;
     background-color: var(--cor-preto);
     opacity: 0.2;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
 }
 
 section#nossosContatos .atendimentos .atendimento {
