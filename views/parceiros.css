@@ -96,8 +96,13 @@
         text-align: center;
     }
 
+    section#nossosParceiros .parceiros {
+        transform: translateY(-50%);
+    }
+
     section#nossosParceiros .parceiro {
-        width: 275px;
+        margin-bottom: -3em;
+        width: 325px;
     }
 
     section#nossosParceiros .parceiro-imagem {
@@ -155,11 +160,10 @@ section#nossosParceiros .fundo {
 }
 
 section#nossosParceiros .parceiros {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 section#nossosParceiros .parceiro {
-    margin-bottom: 4em;
     padding: 0 25px;
 }
 
