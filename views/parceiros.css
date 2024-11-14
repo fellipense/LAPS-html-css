@@ -42,22 +42,22 @@
         margin-top: 15px;
     }
 
-    section#nossosContatos {
+    section#nossosParceiros {
         min-height: 0;
     }
 
-    section#nossosContatos .fundo {
+    section#nossosParceiros .fundo {
         border-radius: 20px;
     }
 
-    section#nossosContatos hr {
+    section#nossosParceiros hr {
         width: 100vw !important;
         position: absolute;
         left: 0;
         top: 60%;
     }
 
-    section#nossosContatos .atendimentos button {
+    section#nossosParceiros .tornarParceiro button {
         width: 145px;
         height: 55px;
     }
@@ -66,8 +66,20 @@
 
 @media (min-width: 576px) {
 
+    section#landing h1 {
+        font-size: 37.5pt;
+    }
+
+    section#landing p {
+        font-size: 16.5pt
+    }
+
     section#nossosParceiros h2 {
-        font-size: 13.5pt;
+        font-size: 15pt;
+    }
+
+    section#nossosParceiros p {
+        font-size: 12pt;
     }
 
     section#nossosParceiros .tornarParceiro button {
@@ -80,15 +92,11 @@
 
     section#landing {
         min-height: calc(100vh - 140px);
-        padding: 25vh 16% 0 16%;
+        padding: 28vh 16% 0 16%;
         text-align: center;
     }
 
-    section#landing h1 {
-        font-size: 37.5pt;
-    }
-
-    section#nossoParceiros .tornarParceiro button {
+    section#nossosParceiros .tornarParceiro button {
         width: 240px;
         height: 70px;
     }
@@ -123,46 +131,30 @@ section#landing p {
     margin: auto;
 }
 
-section#nossosContatos {
+section#nossosParceiros {
     z-index: 1;
     display: grid;
     align-content: space-between;
 }
 
-section#nossosContatos .fundo {
+section#nossosParceiros .fundo {
     position: absolute;
     top: 0; left: 0;
     width: 100%;
     background: var(--cor-fundo);
 }
 
-section#nossosContatos .contato {
+section#nossosParceiros .contato {
     margin-bottom: 6em;
 }
 
-section#nossosContatos h2 {
+section#nossosParceiros h2 {
     font-family: Inter;
     font-weight: bold;
     margin-bottom: 1.5em;
 }
 
-section#nossosContatos ul {
-    padding: 0;
-    list-style: none;
-}
-
-section#nossosContatos .chave {
-    display: inline-block;
-    font-family: Inter;
-    font-weight: 400;
-    width: 90pt;
-}
-
-section#nossosContatos .valor {
-    font-weight: 100;
-}
-
-section#nossosContatos hr {
+section#nossosParceiros hr {
     margin: auto;
     background-color: var(--cor-preto);
     opacity: 0.2;
@@ -171,23 +163,7 @@ section#nossosContatos hr {
     margin-bottom: 6em;
 }
 
-section#nossosContatos .atendimentos .atendimento {
-    margin-bottom: 2em;
-}
-
-section#nossosContatos .atendimentos h2 {
-    margin-bottom: 0.05em;
-}
-
-section#nossosContatos .atendimentos span {
-    font-weight: 100;
-}
-
-section#nossosContatos .atendimentos a {
-    align-self: center;
-}
-
-section#nossosContatos .atendimentos button {
+section#nossosParceiros .tornarParceiro button {
     border: 2px solid var(--cor-preto);
     background-color: var(--cor-button-2);
     border-radius: 10px;
