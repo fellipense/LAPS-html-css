@@ -96,6 +96,16 @@
         text-align: center;
     }
 
+    section#nossosParceiros .parceiro {
+        width: 275px;
+    }
+
+    section#nossosParceiros .parceiro-imagem {
+        width: 275px;
+        height: 140px;
+        box-shadow: var(--box-shadow);
+    }
+
     section#nossosParceiros .tornarParceiro button {
         width: 240px;
         height: 70px;
@@ -144,8 +154,23 @@ section#nossosParceiros .fundo {
     background: var(--cor-fundo);
 }
 
-section#nossosParceiros .contato {
-    margin-bottom: 6em;
+section#nossosParceiros .parceiros {
+    justify-content: space-around;
+}
+
+section#nossosParceiros .parceiro {
+    margin-bottom: 4em;
+    padding: 0 25px;
+}
+
+section#nossosParceiros .parceiro-imagem {
+    overflow: hidden;
+    border-radius: 10px;
+    margin: auto auto 3em auto;
+}
+
+section#nossosParceiros .parceiro-imagem img {
+    width: 100%;
 }
 
 section#nossosParceiros h2 {
