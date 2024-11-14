@@ -78,6 +78,10 @@
         margin-bottom: 0.2em; 
     }
 
+    section#nossosContatos .valor {
+        font-size: 12pt;
+    }
+
 }
 
 @media (min-width: 992px) {
