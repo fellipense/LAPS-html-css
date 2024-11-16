@@ -46,6 +46,15 @@
         border-radius: 20px;
     }
 
+    section#nossosParceiros .pergunta p {
+        text-align: center;
+        font-size: 1.4em !important;
+    }
+
+    section#nossosParceiros .botao a {
+        justify-self: center;
+    }
+
     section#nossosParceiros .tornarParceiro button {
         width: 145px;
         height: 55px;
