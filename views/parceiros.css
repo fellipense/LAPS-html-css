@@ -8,16 +8,12 @@
         line-height: 0.4em;
     }
 
-    section#nossosContatos h2, .chave {
+    section#nossosParceiros h2 {
         font-size: 12pt;
     }
 
-    section#nossosContatos .valor {
-        font-size: 8pt;
-    }
-
-    section#nossosContatos ul li p{
-        margin-bottom: 1em; 
+    section#nossoParceiros p {
+        font-size: 7.5pt;
     }
 
 }
@@ -29,7 +25,7 @@
     }
 
     section {
-        padding: 55px;
+        padding: 35px;
     }
 
     section#landing {
@@ -97,18 +93,21 @@
     }
 
     section#nossosParceiros .parceiros {
-        transform: translateY(-50%);
+        transform: translateY(-30%);
     }
 
     section#nossosParceiros .parceiro {
         margin-bottom: -3em;
-        width: 325px;
     }
 
     section#nossosParceiros .parceiro-imagem {
         width: 275px;
         height: 140px;
-        box-shadow: var(--box-shadow);
+        margin: auto auto 3em auto;
+    }
+
+    section#nossosParceiros h2 {
+        margin-bottom: 1.5em;
     }
 
     section#nossosParceiros .tornarParceiro button {
@@ -144,6 +143,7 @@ section#landing h1 {
 section#landing p {
     max-width: 694pt;
     margin: auto;
+    line-height: 1em;
 }
 
 section#nossosParceiros {
@@ -164,23 +164,30 @@ section#nossosParceiros .parceiros {
 }
 
 section#nossosParceiros .parceiro {
-    padding: 0 25px;
+    margin-bottom: 3em;
 }
 
 section#nossosParceiros .parceiro-imagem {
+    position: relative;
     overflow: hidden;
     border-radius: 10px;
-    margin: auto auto 3em auto;
+    box-shadow: var(--box-shadow);
+    padding: 0;
+    min-height: 150px;
 }
 
 section#nossosParceiros .parceiro-imagem img {
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 section#nossosParceiros h2 {
     font-family: Inter;
     font-weight: bold;
-    margin-bottom: 1.5em;
+    line-height: 1em;
 }
 
 section#nossosParceiros hr {
