@@ -56,7 +56,6 @@
     }
 
     section#nossosParceiros .tornarParceiro button {
-        width: 145px;
         height: 55px;
     }
 
@@ -211,5 +210,6 @@ section#nossosParceiros .tornarParceiro button {
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     font-family: Inter;
-    font-weight: medium;
+    font-weight: 400;
+    padding: 0 20px;
 }
