@@ -112,8 +112,22 @@
         margin-bottom: 1.5em;
     }
 
+    section#nossosParceiros .pergunta {
+        display: grid;
+    }
+
+    section#nossosParceiros .tornarParceiro {
+        justify-content: space-around;
+    }
+
+    section#nossosParceiros .tornarParceiro p {
+        font-size: 20pt;        
+        margin: 0;
+        align-self: center;
+        text-align:end
+    }
+
     section#nossosParceiros .tornarParceiro button {
-        width: 240px;
         height: 70px;
     }
 
