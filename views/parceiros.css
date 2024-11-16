@@ -95,6 +95,7 @@
 
     section#nossosParceiros .parceiros {
         transform: translateY(-30%);
+        margin-bottom: -6em;
     }
 
     section#nossosParceiros .parceiro {
