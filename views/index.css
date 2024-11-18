@@ -236,9 +236,10 @@ section#nossosValores .valor-imagem {
     display: inline-block;
     vertical-align: top;
     height: 100%;
+    width: 160px;
     border-radius: 10px;
     margin-right: 20px;
-    background-color: var(--cor-terciaria);
+    background: var(--cor-terciaria);
 }
 
 section#nossosServicos .fundo {

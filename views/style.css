@@ -136,8 +136,13 @@ h2 span {
     transition: 0.15s ease-out;
 }
 
-.buttons button:hover {
+.dark button:hover {
     filter: brightness(0.6);
+    transition: 0.15s ease-out;
+}
+
+.light button:hover {
+    filter: invert(0.6);
     transition: 0.15s ease-out;
  }
 
