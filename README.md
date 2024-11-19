@@ -5,5 +5,3 @@ Site feito para o LAPS (Lugar de Acolhimento, Preparação e Superação), empre
 - HTML5
 - CSS3
 - Bootstrap
-- Node.js
-- Express.js
