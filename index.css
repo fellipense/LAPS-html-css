@@ -287,6 +287,16 @@ section#nossosServicos #servicos .carousel-inner {
     border-radius: 10px;
 }
 
+section#nossosServicos #servicos .carousel-item {
+    height: 100%;
+}
+
+section#nossosServicos #servicos .carousel-item img {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 125%;
+}
+
 section#nossosServicos #servicos .descricao-carrossel{
     color: transparent;
     position: absolute;
