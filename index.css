@@ -232,10 +232,6 @@ section#nossosValores .valores {
     min-height: calc(100vh - 296px);
 }
 
-section#nossosValores .valor {
-    padding: 0;
-}
-
 section#nossosValores .valor-descricao {
     display: inline-block;
     padding: 2%;
