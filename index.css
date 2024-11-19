@@ -203,8 +203,8 @@
 #whatsapp {
     z-index: 10;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 50px;
+    right: 50px;
 }
 
 #whatsapp img{
