@@ -336,7 +336,7 @@ section#vejaTambem .imagens {
     display: flex;
 }
 
-section#vejaTambem .imagens img {
+section#vejaTambem .imagens a {
     display: inline-block;
     border-radius: 6px;
     margin-right: 1%;
