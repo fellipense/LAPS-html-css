@@ -189,7 +189,7 @@
 
 }
 
-div#fundo-criancas {
+#fundo-criancas {
     z-index: -1;
     position: absolute;
     top: 0; left: 0;
@@ -198,6 +198,17 @@ div#fundo-criancas {
     background-image: url("images/fundo-criancas.png");
     background-position: center top;
     background-size: cover;
+}
+
+#whatsapp {
+    z-index: 10;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#whatsapp img{
+    filter: drop-shadow(5px 5px 15px black);
 }
 
 section#landing {
