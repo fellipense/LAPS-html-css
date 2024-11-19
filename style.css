@@ -33,6 +33,11 @@ header nav a.nav-link.active {
     color: var(--cor-fundo);
 }
 
+main {
+    margin: auto;
+    max-width: 200ch;
+}
+
 section {
     position: relative;
 }
@@ -71,6 +76,9 @@ footer #redesSociais .rede-social img {
 }
 
 footer #copyright {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
     text-align: center;
     margin: 0;
     color: white;
