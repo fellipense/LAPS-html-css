@@ -9,10 +9,6 @@
         margin-top: 4rem;
     }
 
-    section#nossosValores .valor-imagem {
-        width: 120px;
-    }
-
     section#nossosServicos #servicos h3 {
         font-size: 15pt;
     }
@@ -119,6 +115,10 @@
 
     section#nossosValores .valor h3 {
         font-size: var(--font-size-lg-h3);
+    }
+
+    section#nossosValores .valor-imagem {
+        padding-top: 20px;
     }
 
     section#nossosValores .valor-imagem img {
@@ -236,10 +236,12 @@ section#nossosValores .valor-imagem {
     display: inline-block;
     vertical-align: top;
     height: 100%;
-    width: 160px;
     border-radius: 10px;
     margin-right: 20px;
-    background: var(--cor-terciaria);
+}
+
+section#nossosValores .valor-imagem img {
+    width: 80%;
 }
 
 section#nossosServicos .fundo {
