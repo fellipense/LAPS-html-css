@@ -59,6 +59,10 @@
         min-height: 100vh;
     }
 
+    section .conteudo {
+        padding: 0 6%; 
+    }
+
     footer .footer-logo {
         height: 88px;
     }
