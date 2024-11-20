@@ -42,19 +42,6 @@
         display: none;
     }
 
-    section#landing .buttons {
-        position: absolute;
-        bottom: 10px;
-        left: 0;
-        padding: 20px 20px;
-        margin: 0;
-        width: 100%;
-    }
-
-    section#landing .buttons > *{
-        padding: 5px;
-    }
-
     section#nossosValores .valores {
         margin-top: -2rem;
     }
@@ -151,7 +138,7 @@
 
     section#landing {
         min-height: calc(100vh - 140px);
-        padding: 20vh 16% 0 16%;
+        padding-top: 20vh;
     }
 
     section#nossosValores .valores {
@@ -218,6 +205,43 @@ section#landing {
 
 section#landing h1 strong {
     font-size: 1.1em;
+}
+
+section#landing .ancora-servicos {
+    width: fit-content;
+    margin-top: 50px;
+    height: 30px;
+}
+
+section#landing .ancora-servicos:hover a {
+    padding-left: 14px;
+    text-shadow: 0 0 15px #0000009f;
+    transition-duration: 100ms;
+}
+
+section#landing .ancora-servicos .linha {
+    display: inline-block;
+    height: 100%;
+    width: 4px;
+    margin-right: 8px;
+    background-color: white;
+}
+
+section#landing .ancora-servicos a {
+    display: inline-grid;
+    vertical-align: top;
+    text-decoration: none;
+    height: 100%;
+    transition-duration: 200ms;
+}
+
+section#landing .ancora-servicos p {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    font-size: 18pt !important;
 }
 
 section#nossosValores .fundo {

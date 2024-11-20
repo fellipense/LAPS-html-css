@@ -36,7 +36,7 @@
 @media (min-width: 992px) {
 
     header {
-        padding: 30px 10% 0 10%;
+        padding: 30px 8% 0 8%;
         position: relative;
     }
 
@@ -45,7 +45,7 @@
     }
 
     header hr {
-        width: 96%;
+        width: 90%;
         color: transparent;
         background-color: var(--cor-fundo);
         padding-bottom: 1px;
@@ -74,14 +74,6 @@
 
     footer #redesSociais .rede-social img {
         height: 40px;
-    }
-
-    .buttons {
-        width: 560px;
-    }
-
-    .buttons button {
-        width: 240px;
     }
 
 }

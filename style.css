@@ -136,13 +136,6 @@ h2 span {
     margin-bottom: 25px;
 }
 
-.buttons button {
-    height: 70px;
-    border-radius: 10px;
-    box-shadow: var(--box-shadow);
-    transition: 0.15s ease-out;
-}
-
 .dark button:hover {
     filter: brightness(0.6);
     transition: 0.15s ease-out;
@@ -151,17 +144,6 @@ h2 span {
 .light button:hover {
     filter: invert(0.6);
     transition: 0.15s ease-out;
- }
-
-.buttons .button-1 button {
-    color: var(--cor-texto);
-    border: none;
-    background-color: var(--cor-button-1);
-}
-
-.buttons .button-2 button {
-    color: white;
-    background-color: var(--cor-button-2);
 }
 
 .title {
