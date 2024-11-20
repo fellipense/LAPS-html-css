@@ -12,14 +12,6 @@
         font-size: var(--font-size-lg-h1)
     }
 
-    .buttons {
-        font-size: 18pt;
-    }
-
-    .buttons .button-2 button{
-        border: 2px solid var(--cor-fundo);
-    }
-
     .title {
         height: 82px;
     }
@@ -36,7 +28,7 @@
 @media (min-width: 992px) {
 
     header {
-        padding: 30px 8% 0 8%;
+        padding: 30px 5% 0 5%;
         position: relative;
     }
 
