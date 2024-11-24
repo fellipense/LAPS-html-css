@@ -4070,8 +4070,8 @@ textarea.form-control-lg {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 2.0em;
-  height: 2.0em;
+  width: 30px;
+  height: 30px;
   vertical-align: middle;
   background-image: var(--bs-navbar-toggler-icon-bg);
   background-repeat: no-repeat;

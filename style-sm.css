@@ -48,16 +48,15 @@
         background-color: var(--cor-primaria);
     }
 
-    header .navbar-brand img {
-        margin-left: 10%;
-        height: 46px
+    header .navbar-brand {
+        padding-left: 25px;
     }
 
     header #togglerWrapper {
         /* Dimensionamento em 1:1 */
         position: relative;
         height: 0;
-        width: 90px;
+        width: 80px;
         padding-bottom: 100%;
     }
 
@@ -71,13 +70,17 @@
         height: 100%; width: 100%; top:0; left: 0;
     }
 
-    header #navbarNav {
-        background-color: var(--cor-secundaria);
-        padding: 10px;
+    header .navbar-toggler.collapsed {
+        background-color: var(--cor-primaria);
     }
 
-    header #navbarNav * {
-        padding: 4px 0;
+    header .navbar-nav {
+        background-color: var(--cor-secundaria);
+        padding: 10px 25px;
+    }
+
+    header .nav-item {
+        padding: 10px 0;
     }
 
     header hr {

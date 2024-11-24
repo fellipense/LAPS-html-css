@@ -1,37 +1,36 @@
 header {
     width: 100%;
-    padding: 15px 50px;
     background-color: var(--cor-primaria);
     z-index: 5;
 }
 
-header #navbarNav {
-    width: 100%;
-    position: absolute;
-    display: grid;
-    justify-content: center;
+header .navbar-brand img {
+    height: 30px
 }
 
-header .navbar-nav > * {
-    margin: 0 25px;
+header #navbarNav {
+    width: 100%;
 }
 
 header nav a.nav-link {
-    color: #90bbd1;
+    color: var(--cor-fundo);
     text-decoration: none;
     font-family: var(--font-family-navlink);
     font-size: var(--font-size-navlink);
     font-weight: var(--font-weight-navlink);
+    border-radius: 20px;
     transition: 0.15s ease-out;
 }
 
 header nav a.nav-link:hover {
-    filter: brightness(0.8);
+    filter: brightness(0.6);
     transition: 0.15s ease-out;
 }
 
 header nav a.nav-link.active {
-    color: var(--cor-fundo);
+    color: black;
+    background-color: white;
+    transition: 0.15s ease-out;
 }
 
 main {

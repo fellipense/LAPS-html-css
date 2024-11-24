@@ -27,11 +27,18 @@
 
 @media (min-width: 992px) {
 
-    header {
+    header #navbarNav {
+        position: absolute;
+        display: grid;
+        justify-content: center;
+    }
+    
+    header .navbar-brand {
+        padding: 15px 0 20px 60px;
     }
 
-    header .navbar-brand img {
-        height: 30px
+    header .nav-link {
+        padding: 5px 20px !important;
     }
 
     section {
