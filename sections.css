@@ -9,7 +9,16 @@ section .conteudo {
 }
 
 #landing {
-    background: var(--cor-secundaria);
+    background-color: var(--cor-secundaria);
+    background:
+      conic-gradient(from 0deg at calc(500%/6) calc(100%/3),#0059d5 0 120deg,#0000 0),
+      conic-gradient(from -120deg at calc(100%/6) calc(100%/3),#0061e8 0 120deg,#0000 0),
+      conic-gradient(from 120deg at calc(100%/3) calc(500%/6),#0069ff 0 120deg,#0000 0),
+      conic-gradient(from 120deg at calc(200%/3) calc(500%/6),#0069ff 0 120deg,#0000 0),
+      conic-gradient(from -180deg at calc(100%/3) 50%,#0061e8  60deg,#0069ff 0 120deg,#0000 0),
+      conic-gradient(from 60deg at calc(200%/3) 50%,#0069ff  60deg,#0059d5 0 120deg,#0000 0),
+      conic-gradient(from -60deg at 50% calc(100%/3),#0069ff 120deg,#0061e8 0 240deg,#0059d5 0);
+    background-size: 211px 122px;
 }
 
 #landing .conteudo {
