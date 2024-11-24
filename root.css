@@ -3,7 +3,7 @@
     --min-width: 320px;
 
     --cor-primaria: #102a83;
-    --cor-secundaria: #0d2165;
+    --cor-secundaria: #0069ff;
     --cor-terciaria: #019fde;
     --cor-fundo: #f9fcfc;
 
@@ -18,7 +18,7 @@
     --cor-texto: var(--cor-preto);
 
     --font-family-p: Inter;
-    --font-family-h1: Lusitana;
+    --font-family-h1: Inter;
     --font-family-h2: Inter;
     --font-family-h3: Inter;
     --font-family-navlink: Inter;

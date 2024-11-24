@@ -1,0 +1,13 @@
+#landing {
+    background: var(--cor-secundaria);
+    display: flex;
+    align-content: center;
+}
+
+#landing .conteudo {
+    justify-content: space-around;
+}
+
+#landing #logoPrincipal {
+    width: 100%;
+}
