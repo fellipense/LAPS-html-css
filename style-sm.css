@@ -44,10 +44,6 @@
         background-color: var(--cor-primaria);
     }
 
-    header .navbar-brand {
-        padding-left: 25px;
-    }
-
     header #togglerWrapper {
         /* Dimensionamento em 1:1 */
         position: relative;

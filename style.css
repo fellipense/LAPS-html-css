@@ -1,9 +1,15 @@
+* {
+    text-shadow: none;
+    box-shadow: none;
+}
+
 header {
     z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: var(--cor-primaria);
+    padding: 0 25px;
 }
 
 header .navbar {
@@ -42,15 +48,6 @@ header nav a.nav-link.active {
 
 main {
     z-index: 0;
-}
-
-section {
-    position: relative;
-}
-
-section .conteudo {
-    max-width: var(--max-width);
-    margin: auto;
 }
 
 footer {
@@ -189,4 +186,15 @@ h2 span {
 
 .light {
     color: var(--cor-texto);
+}
+
+#whatsapp {
+    z-index: 10;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#whatsapp img{
+    filter: drop-shadow(5px 5px 15px black);
 }

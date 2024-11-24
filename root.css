@@ -1,5 +1,5 @@
 :root {
-    --max-width: 1500px;
+    --max-width: 1200px;
     --min-width: 320px;
 
     --cor-primaria: #102a83;
@@ -24,7 +24,7 @@
     --font-family-navlink: Inter;
     
     --font-size-lg-p: 16.5pt;
-    --font-size-lg-h1: 36pt;
+    --font-size-lg-h1: 22pt;
     --font-size-lg-h2: 16.5pt;
     --font-size-lg-h3: 15pt;
     --font-size-navlink: 12pt;
@@ -35,13 +35,13 @@
     --font-size-sm-h3: 12pt;
 
     --font-weight-p: normal;
-    --font-weight-h1: normal;
+    --font-weight-h1: 100;
     --font-weight-h2: normal;
     --font-weight-h3: bold;
     --font-weight-navlink: 100;
 
     --line-height-p: 1.2em;
-    --line-height-h1: 1em;
+    --line-height-h1: 1.28em;
     --line-height-h2: 1.8em;
 
     --text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
@@ -104,4 +104,5 @@
 body {
     background-color: var(--cor-fundo);
     min-width: var(--min-width);
+    padding-top: 67.5px;
 }

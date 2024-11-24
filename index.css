@@ -1,14 +1,5 @@
 @media (max-width: 575px) {
 
-    section#landing {
-        min-height: calc(100vh - 190px) !important;
-    }
-
-    section#nossosValores .valor {
-        height: 80px;
-        margin-top: 4rem;
-    }
-
     section#nossosServicos #servicos h3 {
         font-size: 15pt;
     }
@@ -132,29 +123,6 @@
 
 @media (min-width: 992px) {
 
-    section {
-        padding: 6%;
-    }
-
-    section#landing {
-        min-height: calc(100vh - 140px);
-        padding-top: 20vh;
-    }
-
-    section#nossosValores .valores {
-        /* Margin top negativo para contrapor o gutter dos elementos abaixos */
-        margin-top: -6rem;
-    }
-
-    section#nossosValores .valor {
-        height: 130px;
-        margin-top: 6rem;
-    }
-
-    section#nossosValores .valor-descricao p {
-        font-size: 12pt;
-    }
-
     section#nossosServicos .descricao-carrossel {
         left: 120%;
         top: 10%;
@@ -174,105 +142,6 @@
         justify-content: space-around;
     }
 
-}
-
-#fundo-criancas {
-    z-index: -1;
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 125vh;
-    background-color: var(--cor-primaria);
-    background-image: url("images/fundo-criancas.png");
-    background-position: center top;
-    background-size: cover;
-}
-
-#whatsapp {
-    z-index: 10;
-    position: fixed;
-    bottom: 50px;
-    right: 50px;
-}
-
-#whatsapp img{
-    filter: drop-shadow(5px 5px 15px black);
-}
-
-section#landing {
-    text-shadow: var(--text-shadow);
-    padding-bottom: 110px;
-}
-
-section#landing h1 strong {
-    font-size: 1.1em;
-}
-
-section#landing .ancora-servicos {
-    width: fit-content;
-    margin-top: 50px;
-    height: 30px;
-}
-
-section#landing .ancora-servicos:hover a {
-    padding-left: 14px;
-    text-shadow: 0 0 15px #0000009f;
-    transition-duration: 100ms;
-}
-
-section#landing .ancora-servicos .linha {
-    display: inline-block;
-    height: 100%;
-    width: 4px;
-    margin-right: 8px;
-    background-color: white;
-}
-
-section#landing .ancora-servicos a {
-    display: inline-grid;
-    vertical-align: top;
-    text-decoration: none;
-    height: 100%;
-    transition-duration: 200ms;
-}
-
-section#landing .ancora-servicos p {
-    display: inline-block;
-    margin: 0;
-    color: white;
-    font-weight: bold;
-    align-self: center;
-    font-size: 18pt !important;
-}
-
-section#nossosValores .fundo {
-    z-index: -1;
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 125vh;
-    background: var(--cor-fundo);
-}
-
-section#nossosValores .valores {
-    min-height: calc(100vh - 296px);
-}
-
-section#nossosValores .valor-descricao {
-    display: inline-block;
-    padding: 2%;
-    width: 48%;
-    height: 100%;
-}
-
-section#nossosValores .valor-imagem {
-    display: inline-block;
-    vertical-align: top;
-    height: 100%;
-    border-radius: 10px;
-    margin-right: 20px;
-}
-
-section#nossosValores .valor-imagem img {
-    width: 80%;
 }
 
 section#nossosServicos .fundo {
