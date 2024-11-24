@@ -1,16 +1,19 @@
 header {
-    padding: 10px 50px;
+    width: 100%;
+    padding: 15px 50px;
     background-color: var(--cor-primaria);
     z-index: 5;
 }
 
-header .navbar-brand {
-    width: 50%;
+header #navbarNav {
+    width: 100%;
+    position: absolute;
+    display: grid;
+    justify-content: center;
 }
 
-header .navbar-nav {
-    width: 100%;
-    justify-content: space-between;
+header .navbar-nav > * {
+    margin: 0 25px;
 }
 
 header nav a.nav-link {

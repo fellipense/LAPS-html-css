@@ -21,7 +21,7 @@
     --font-size-lg-h1: 36pt;
     --font-size-lg-h2: 16.5pt;
     --font-size-lg-h3: 15pt;
-    --font-size-navlink: 15pt;
+    --font-size-navlink: 12pt;
 
     --font-size-sm-p: 7.5pt;
     --font-size-sm-h1: 27pt;
@@ -32,7 +32,7 @@
     --font-weight-h1: normal;
     --font-weight-h2: normal;
     --font-weight-h3: bold;
-    --font-weight-navlink: bold;
+    --font-weight-navlink: 100;
 
     --line-height-p: 1.2em;
     --line-height-h1: 1em;
