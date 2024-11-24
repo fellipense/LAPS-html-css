@@ -28,22 +28,10 @@
 @media (min-width: 992px) {
 
     header {
-        padding: 30px 5% 0 5%;
-        position: relative;
     }
 
     header .navbar-brand img {
-        height: 88px
-    }
-
-    header hr {
-        width: 90%;
-        color: transparent;
-        background-color: var(--cor-fundo);
-        padding-bottom: 1px;
-        opacity: 1;
-        margin: auto;
-        margin-top: 5px;
+        height: 30px
     }
 
     section {
