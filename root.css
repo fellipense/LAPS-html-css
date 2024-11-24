@@ -1,8 +1,14 @@
 :root {
+    --max-width: 1500px;
+    --min-width: 320px;
+
     --cor-primaria: #102a83;
     --cor-secundaria: #0d2165;
     --cor-terciaria: #019fde;
     --cor-fundo: #f9fcfc;
+
+    --cor-branca: white;
+    --cor-black: black;
 
     --cor-preto: #060e12;
 
@@ -97,5 +103,5 @@
 
 body {
     background-color: var(--cor-fundo);
-    min-width:320px;
+    min-width: var(--min-width);
 }

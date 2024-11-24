@@ -1,9 +1,14 @@
 header {
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: var(--cor-primaria);
-    z-index: 5;
+}
+
+header .navbar {
+    max-width: var(--max-width);
+    margin: auto;
 }
 
 header .navbar-brand img {
@@ -15,7 +20,7 @@ header #navbarNav {
 }
 
 header nav a.nav-link {
-    color: var(--cor-fundo);
+    color: var(--cor-branca);
     text-decoration: none;
     font-family: var(--font-family-navlink);
     font-size: var(--font-size-navlink);
@@ -36,15 +41,20 @@ header nav a.nav-link.active {
 }
 
 main {
-    margin: auto;
+    z-index: 0;
 }
 
 section {
     position: relative;
 }
 
+section .conteudo {
+    max-width: var(--max-width);
+    margin: auto;
+}
+
 footer {
-    z-index: 0;
+    z-index: -1;
     min-height: 25vh;
     padding: 45px 0 10px 0;
     position: relative;
