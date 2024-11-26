@@ -2,6 +2,14 @@ section {
     position: relative;
 }
 
+section .top {
+    position: absolute;
+    transform: translateY(-100%);
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
 section .conteudo {
     max-width: var(--max-width);
     margin: auto;

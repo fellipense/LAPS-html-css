@@ -5,7 +5,7 @@
     --cor-primaria: #102a83;
     --cor-secundaria: #0069ff;
     --cor-terciaria: #019fde;
-    --cor-fundo: #f9fcfc;
+    --cor-fundo: var(--cor-branca);
 
     --cor-branca: white;
     --cor-black: black;
