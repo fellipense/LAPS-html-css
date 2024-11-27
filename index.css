@@ -170,8 +170,6 @@ section#nossosServicos #servicos .linha-divisoria {
 }
 
 section#nossosServicos #servicos .carousel-inner {
-    height: 80%;
-    max-width: 100%;
     margin: auto;
     border-radius: 10px;
 }
