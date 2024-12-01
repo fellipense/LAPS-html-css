@@ -82,3 +82,12 @@ section .conteudo {
     color: black !important;
     transition: 200ms ease-in-out;
 }
+
+#servicos button#atendimentos {
+    color: var(--cor-cinza);
+    width: 430px;
+    height: 90px;
+    background: transparent;
+    border: solid 2px blue;
+    border-radius: 20px;
+}
