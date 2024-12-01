@@ -31,8 +31,8 @@ section .conteudo {
 
 #landing .conteudo {
     justify-content: center;
-    padding-top: 15ch;
-    padding-bottom: 15ch;
+    padding-top: 10ch;
+    padding-bottom: 10ch;
 }
 
 #landing #logoPrincipal {
@@ -45,6 +45,7 @@ section .conteudo {
 }
 
 #landing button#saibaMais {
+    margin-top: 100px;
     font-family: Inter;
     font-size: 15pt;
     font-weight: 100;
