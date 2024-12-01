@@ -59,12 +59,7 @@
         display: none;
     }
 
-    section#nossosServicos .descricao-carrossel {
-        left: 0%;
-        top: 110%;
-        width: 100%;
-        text-align: center;
-    }
+    
 
     section#vejaTambem {
         text-align: center;
@@ -124,9 +119,6 @@
 @media (min-width: 992px) {
 
     section#nossosServicos .descricao-carrossel {
-        left: 120%;
-        top: 10%;
-        width: 75%;
     }
 
     section#vejaTambem {
@@ -181,16 +173,6 @@ section#nossosServicos #servicos .carousel-item img {
     min-width: 100%;
     min-height: 100%;
     max-width: 125%;
-}
-
-section#nossosServicos #servicos .descricao-carrossel{
-    color: transparent;
-    position: absolute;
-}
-
-section#nossosServicos #servicos .active .descricao-carrossel {
-    color: white !important;
-    transition: 200ms ease-in-out;
 }
 
 section#vejaTambem {

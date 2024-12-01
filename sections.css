@@ -69,3 +69,16 @@ section .conteudo {
     color: var(--cor-cinza);
     font-size: 13.5pt;
 }
+
+#servicos .descricao-carrossel{
+    color: transparent;
+    position: absolute;
+    left: 120%;
+    top: 10%;
+    width: 75%;
+}
+
+#servicos .active .descricao-carrossel {
+    color: black !important;
+    transition: 200ms ease-in-out;
+}
