@@ -113,20 +113,25 @@ hr {
 }
 
 p {
+    color: var(--cor-cinza);
     font-family: var(--font-family-p);
     font-weight: var(--font-weight-p);
     line-height: var(--line-height-p);
 }
 
+h2, h3, h4, h5, h6 {
+    color: var(--cor-preto);
+}
+
 h1 {
-    text-align: center;
-    margin-bottom: 80px;
     font-family: var(--font-family-h1);
     font-weight: var(--font-weight-h1);
     line-height: var(--line-height-h1);
 }
 
 h2 {
+    text-align: center;
+    margin-bottom: 80px;
     font-family: var(--font-family-h2);
     font-weight: var(--font-weight-h2);
     line-height: var(--line-height-h2);

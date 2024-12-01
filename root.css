@@ -14,17 +14,15 @@
     --cor-button-1: #c4d4ff81;
     --cor-button-2: transparent;
 
-    --cor-texto: var(--cor-preto);
-
     --font-family-p: Inter;
     --font-family-h1: Inter;
     --font-family-h2: Inter;
     --font-family-h3: Inter;
     --font-family-navlink: Inter;
     
-    --font-size-lg-p: 16.5pt;
-    --font-size-lg-h1: 27pt;
-    --font-size-lg-h2: 16.5pt;
+    --font-size-lg-p: 13.5pt;
+    --font-size-lg-h1: 24pt;
+    --font-size-lg-h2: 24pt;
     --font-size-lg-h3: 15pt;
     --font-size-navlink: 12pt;
 
@@ -33,15 +31,15 @@
     --font-size-sm-h2: 7.5pt;
     --font-size-sm-h3: 12pt;
 
-    --font-weight-p: normal;
+    --font-weight-p: 100;
     --font-weight-h1: 100;
-    --font-weight-h2: normal;
+    --font-weight-h2: 100;
     --font-weight-h3: bold;
     --font-weight-navlink: 100;
 
-    --line-height-p: 1.2em;
-    --line-height-h1: 1.28em;
-    --line-height-h2: 1.8em;
+    --line-height-p: 1.4em;
+    --line-height-h1: 1.2em;
+    --line-height-h2: 1em;
 
     --text-shadow: 0 4px 4px rgba(0, 0, 0, 0.22);
     --box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);

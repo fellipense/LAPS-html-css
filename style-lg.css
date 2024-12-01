@@ -1,8 +1,4 @@
 @media (min-width: 576px) {
-    
-    body {
-        font-size: var(--font-size-lg-p);
-    }
 
     p {
         font-size: var(--font-size-lg-p);
@@ -12,16 +8,12 @@
         font-size: var(--font-size-lg-h1)
     }
 
-    .title {
-        height: 82px;
-    }
-
-    .title h2 {
+    h2 {
         font-size: var(--font-size-lg-h2);
     }
 
-    .title h2 span {
-        font-size: 37.5pt;
+    h3 {
+        font-size: var(--font-size-lg-h3);
     }
 }
 

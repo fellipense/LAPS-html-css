@@ -65,17 +65,17 @@ section .conteudo {
     justify-content: center;
 }
 
-#servicos li {
-    color: var(--cor-cinza);
-    font-size: 13.5pt;
+#servicos .carousel-inner {
+    height: 300px;
+    border-radius: 20px;
 }
 
 #servicos .descricao-carrossel{
     color: transparent;
     position: absolute;
-    left: 120%;
-    top: 10%;
-    width: 75%;
+    left: 110%;
+    top: 15%;
+    width: 70%;
 }
 
 #servicos .active .descricao-carrossel {
