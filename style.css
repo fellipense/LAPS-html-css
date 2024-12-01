@@ -105,10 +105,11 @@ footer hr {
 
 hr {
     color: transparent;
-    padding-bottom: 1px;
-    opacity: 1;
-    margin: auto;
-    width: 100%;
+    background: var(--cor-cinza);
+    padding-bottom: 2px;
+    opacity: 0.5;
+    margin: 80px auto;
+    width: 70%;
 }
 
 p {
@@ -118,6 +119,8 @@ p {
 }
 
 h1 {
+    text-align: center;
+    margin-bottom: 80px;
     font-family: var(--font-family-h1);
     font-weight: var(--font-weight-h1);
     line-height: var(--line-height-h1);

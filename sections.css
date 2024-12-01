@@ -1,3 +1,6 @@
+
+/* TODAS AS SESSÕES */
+
 section {
     position: relative;
 }
@@ -15,6 +18,8 @@ section .conteudo {
     margin: auto;
     padding: 5ch 0;
 }
+
+/* SESSÃO PRINCIPAL */
 
 #landing {
     background-color: var(--cor-secundaria);
@@ -52,4 +57,15 @@ section .conteudo {
     border: none;
     border-radius: 20px;
     width: 210px; height: 55px;
+}
+
+/* SESSÃO 'SERVIÇOS' */
+
+#servicos ul.row {
+    justify-content: center;
+}
+
+#servicos li {
+    color: var(--cor-cinza);
+    font-size: 13.5pt;
 }
