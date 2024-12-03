@@ -159,7 +159,7 @@ h2 span {
 }
 
 .light button:hover {
-    filter: invert(0.6);
+    filter: opacity(0.6);
     transition: 0.15s ease-out;
 }
 

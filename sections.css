@@ -84,10 +84,10 @@ section .conteudo {
 }
 
 #servicos button#atendimentos {
-    color: var(--cor-cinza);
+    color: var(--cor-branca);
     width: 430px;
     height: 90px;
-    background: transparent;
-    border: solid 2px blue;
+    background: var(--cor-secundaria);
+    border: none;
     border-radius: 20px;
 }
