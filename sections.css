@@ -83,11 +83,12 @@ section .conteudo {
     transition: 200ms ease-in-out;
 }
 
-#servicos button#atendimentos {
-    color: var(--cor-branca);
-    width: 430px;
-    height: 90px;
-    background: var(--cor-secundaria);
-    border: none;
-    border-radius: 20px;
+#servicos h3#nossosMetodos {
+    text-align: center;
+    font-weight: 100;
+}
+
+#servicos h3#nossosMetodos a {
+    text-decoration: none;
+    font-weight: normal;
 }
