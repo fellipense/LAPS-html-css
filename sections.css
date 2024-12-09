@@ -22,6 +22,7 @@ section .conteudo {
 /* SESSÃO PRINCIPAL */
 
 #landing {
+    padding-bottom: 100px;
     background-color: var(--cor-secundaria);
     background:
       conic-gradient(from 0deg at calc(500%/6) calc(100%/3),#0059d5 0 120deg,#0000 0),
@@ -60,6 +61,10 @@ section .conteudo {
 }
 
 /* SESSÃO 'SERVIÇOS' */
+
+#servicos .conteudo {
+    transform: translateY(-180px);
+}
 
 #servicos ul.row {
     justify-content: center;
