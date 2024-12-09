@@ -65,24 +65,6 @@ section .conteudo {
     justify-content: center;
 }
 
-#servicos .carousel-inner {
-    height: 275px;
-    border-radius: 20px;
-}
-
-#servicos .descricao-carrossel{
-    color: transparent;
-    position: absolute;
-    left: 110%;
-    top: 10%;
-    width: 70%;
-}
-
-#servicos .active .descricao-carrossel {
-    color: black !important;
-    transition: 200ms ease-in-out;
-}
-
 #servicos h3#nossosMetodos {
     text-align: center;
     font-weight: 100;
