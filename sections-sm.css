@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+
+    #landing #logoPrincipal {
+        margin: auto;
+        height: 90px;
+        padding-right: 20px;
+    }
+
+    #landing .titulo {
+        display: grid;
+        justify-content: center;
+    }
+
+    #landing h1 {
+        text-align: left;
+        width: 240px;
+        padding-left: 60px;
+    }
+}

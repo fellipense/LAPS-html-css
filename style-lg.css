@@ -1,4 +1,4 @@
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 
     p {
         font-size: var(--font-size-lg-p);
@@ -15,9 +15,6 @@
     h3 {
         font-size: var(--font-size-lg-h3);
     }
-}
-
-@media (min-width: 768px) {
 
     header #navbarNav {
         position: absolute;
