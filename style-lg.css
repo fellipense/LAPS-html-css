@@ -17,7 +17,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 
     header #navbarNav {
         position: absolute;
