@@ -6133,11 +6133,11 @@ textarea.form-control-lg {
 /* Posicionamentos e cores dos controles do carrossel foram alterados manualmente! */
 
 .carousel-control-prev {
-  left: -100px;
+  left: -15%;
 }
 
 .carousel-control-next {
-  right: -100px;
+  right: -15%;
 }
 
 .carousel-control-prev-icon,
