@@ -54,4 +54,11 @@
         max-width: 75vw;
     }
 
+    .flutuante .imagem-carrossel div {
+        height: 275px;
+    }
+
+    .flutuante .descricao-carrossel {
+        padding: 20px;
+    }
 }

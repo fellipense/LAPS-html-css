@@ -155,9 +155,6 @@ h2 span {
     margin-bottom: 80px;
     background: #ECF1F7;
     padding: 0;
-    width: 935px;
-    height: 275px;
-    max-width: 75vw;
     margin: auto;
     margin-bottom: 80px;
 }
@@ -169,11 +166,6 @@ h2 span {
 .flutuante .imagem-carrossel div {
     overflow: hidden;
     border-radius: 20px;
-    height: 275px;
-}
-
-.flutuante .descricao-carrossel {
-    padding: 20px;
 }
 
 .dark {

@@ -1,7 +1,8 @@
 @media (max-width: 767px) {
 
     #landing {
-        padding-bottom: 125px;
+        padding-bottom: 150px;
+        padding-top: 80px;
     }
 
     #landing #logoPrincipal {
