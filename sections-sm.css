@@ -1,5 +1,9 @@
 @media (max-width: 767px) {
 
+    #landing {
+        padding-bottom: 125px;
+    }
+
     #landing #logoPrincipal {
         margin: auto;
         height: 90px;
@@ -15,5 +19,11 @@
         text-align: left;
         width: 240px;
         padding-left: 60px;
+    }
+
+    #landing button#saibaMais {
+        font-size: 7.5pt;
+        border-radius: 10px;
+        width: 95px; height: 30px;
     }
 }

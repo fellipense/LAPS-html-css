@@ -48,4 +48,10 @@
         height: 40px;
     }
 
+    .flutuante {
+        width: 935px;
+        height: 275px;
+        max-width: 75vw;
+    }
+
 }

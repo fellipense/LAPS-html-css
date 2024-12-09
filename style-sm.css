@@ -112,4 +112,10 @@
     .blank {
         height: 32vh;
     }
+    
+    .flutuante {
+        min-width: 250px;
+        height: 340px;
+        width: 75vw;
+    }
 }
