@@ -56,8 +56,14 @@ section .conteudo {
     transform: translateY(-180px);
 }
 
-#servicos ul.row {
+#servicos #procure-nos {
+    display: grid;
     justify-content: center;
+    padding: 0;
+}
+
+#servicos #procure-nos .li {
+    padding: 10px;
 }
 
 #servicos h3#nossosMetodos {
