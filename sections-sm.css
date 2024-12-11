@@ -1,14 +1,14 @@
 @media (max-width: 767px) {
 
     #landing {
-        padding-bottom: 150px;
-        padding-top: 80px;
+        padding-bottom: 300px;
+        padding-top: 35px;
     }
 
     #landing #logoPrincipal {
         margin: auto;
         height: 90px;
-        padding-right: 20px;
+        padding-right: 50px;
     }
 
     #landing .titulo {
@@ -16,15 +16,23 @@
         justify-content: center;
     }
 
+    #landing br {
+        display: none;
+    }
+
     #landing h1 {
         text-align: left;
         width: 240px;
-        padding-left: 60px;
+        padding-left: 40px;
     }
 
     #landing button#saibaMais {
         font-size: 7.5pt;
         border-radius: 10px;
         width: 95px; height: 30px;
+    }
+
+    #servicos .conteudo {
+        transform: translateY(-320px);
     }
 }
