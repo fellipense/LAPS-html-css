@@ -35,4 +35,9 @@
     #servicos .conteudo {
         transform: translateY(-320px);
     }
+
+    #servicos #procure-nos .li {
+        width: 100px;
+        height: 120px;
+    }
 }
