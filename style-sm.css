@@ -115,6 +115,21 @@
         width: 75vw;
     }
 
+    .flutuante .carousel-control-next, .carousel-control-prev {
+        background: var(--cor-branca);
+        opacity: 1;
+        border-radius: 50%;
+        --size: 30px;
+        width: var(--size); height: var(--size);
+        top: calc(50% - 20px);
+    }
+
+    .flutuante .carousel-control-next-icon, .carousel-control-prev-icon {
+        --size: 15px;
+        filter: brightness(0);
+        width: var(--size); height: var(--size);
+    }
+
     .flutuante .imagem-carrossel div {
         height: 150px;
     }
