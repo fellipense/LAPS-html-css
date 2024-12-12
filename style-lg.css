@@ -10,6 +10,7 @@
 
     h2 {
         font-size: var(--font-size-lg-h2);
+        margin-bottom: 80px;
     }
 
     h3 {
@@ -52,6 +53,7 @@
         width: 935px;
         height: 275px;
         max-width: 75vw;
+        margin-bottom: 80px;
     }
 
     .flutuante .imagem-carrossel div {

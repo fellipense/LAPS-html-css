@@ -5,6 +5,7 @@
     --cor-primaria: #102a83;
     --cor-secundaria: #0069ff;
     --cor-terciaria: #019fde;
+    --cor-quaternaria: #eaf4ff;
     --cor-fundo: var(--cor-branca);
 
     --cor-branca: white;
@@ -28,12 +29,12 @@
 
     --font-size-sm-p: 7.5pt;
     --font-size-sm-h1: 9pt;
-    --font-size-sm-h2: 7.5pt;
+    --font-size-sm-h2: 9.8pt;
     --font-size-sm-h3: 12pt;
 
     --font-weight-p: 100;
     --font-weight-h1: 100;
-    --font-weight-h2: 100;
+    --font-weight-h2: 400;
     --font-weight-h3: bold;
     --font-weight-navlink: 100;
 

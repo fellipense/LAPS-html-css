@@ -12,6 +12,11 @@
         font-size: var(--font-size-sm-h1);
     }
 
+    h2 {
+        font-size: var(--font-size-sm-h2);
+        margin-bottom: 40px;
+    }
+
     h3 {
         font-size: var(--font-size-sm-h3);
     }
@@ -113,6 +118,7 @@
         min-width: 250px;
         height: 340px;
         width: 75vw;
+        margin-bottom: 40px;
     }
 
     .flutuante .carousel-control-next, .carousel-control-prev {

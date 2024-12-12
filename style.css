@@ -131,7 +131,6 @@ h1 {
 
 h2 {
     text-align: center;
-    margin-bottom: 80px;
     font-family: var(--font-family-h2);
     font-weight: var(--font-weight-h2);
     line-height: var(--line-height-h2);
@@ -156,7 +155,6 @@ h2 span {
     background: #ECF1F7;
     padding: 0;
     margin: auto;
-    margin-bottom: 80px;
 }
 
 .flutuante .carousel img{
