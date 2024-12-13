@@ -113,14 +113,9 @@ hr {
 }
 
 p {
-    color: var(--cor-cinza);
     font-family: var(--font-family-p);
     font-weight: var(--font-weight-p);
     line-height: var(--line-height-p);
-}
-
-h2, h3, h4, h5, h6 {
-    color: var(--cor-preto);
 }
 
 h1 {
@@ -167,11 +162,15 @@ h2 span {
 }
 
 .dark {
-    color: white;
+    color: var(--cor-branca);
+}
+
+.light p {
+    color: var(--cor-cinza);
 }
 
 .light {
-    color: var(--cor-texto);
+    color: var(--cor-preto);
 }
 
 .dark button:hover {
