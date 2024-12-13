@@ -80,7 +80,7 @@ section .conteudo {
 }
 
 #servicos #nossosMetodos {
-    background: var(--cor-quaternaria);
+    background: #eaf4ff;
     text-align: center;
     font-size: 15pt;
     width: 550px;
@@ -93,4 +93,10 @@ section .conteudo {
 
 #servicos #nossosMetodos a {
     text-decoration: none;
+}
+
+/* SESSÃO 'VALORES' */
+
+#valores {
+    background: var(--cor-quaternaria);
 }
