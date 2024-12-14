@@ -204,9 +204,23 @@ h2 span {
 }
 
 .avaliacoes {
-    background-color: white;
+    overflow-x: scroll;
+    height: 500px;
 }
 
-.avaliacoes .mk-masonry-item {
-    position: relative;
+.avaliacoes .sk-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.avaliacoes .sk-masonry-item {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    margin: 10px;
+}
+
+.avaliacoes .sk-read-more {
+    display: none;
 }
