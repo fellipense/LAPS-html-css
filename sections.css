@@ -100,3 +100,27 @@ section .conteudo {
 #valores {
     background: var(--cor-quaternaria);
 }
+
+#valores .valor {
+    margin-bottom: 80px;
+}
+
+#valores .valor > * {
+    display: inline-block;
+}
+
+#valores .valor-imagem {
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
+    vertical-align: top;
+    margin-right: 40px;
+}
+
+#valores .valor-imagem img {
+    width: 100%;
+}
+
+#valores .valor-descricao {
+    width: 300px;
+}
