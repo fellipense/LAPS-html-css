@@ -202,3 +202,11 @@ h2 span {
 #whatsapp img{
     filter: drop-shadow(5px 5px 15px black);
 }
+
+.avaliacoes {
+    background-color: white;
+}
+
+.avaliacoes .mk-masonry-item {
+    position: relative;
+}
