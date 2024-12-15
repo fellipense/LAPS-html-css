@@ -52,6 +52,11 @@ section .conteudo {
 
 /* SESSÃO 'SERVIÇOS' */
 
+#servicos {
+    margin-bottom: -180px;
+    z-index: 1;
+}
+
 #servicos #procure-nos {
     display: flex;
     justify-content: center;
@@ -99,6 +104,7 @@ section .conteudo {
 
 #valores {
     background: var(--cor-quaternaria);
+    padding-top: 100px;
 }
 
 #valores .valor {
