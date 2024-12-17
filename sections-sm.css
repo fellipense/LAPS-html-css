@@ -1,5 +1,7 @@
 @media (max-width: 767px) {
 
+    /* SESSÃO PRINCIPAL */
+
     #landing {
         padding-bottom: 300px;
         padding-top: 35px;
@@ -32,14 +34,35 @@
         width: 95px; height: 30px;
     }
 
+    /* SESSÃO 'SERVIÇOS' */
+
+    #servicos { 
+        z-index: 0;
+    }
+
     #servicos .conteudo {
         --offset: -320px;
         transform: translateY(var(--offset));
         margin-bottom: var(--offset);
+        padding-bottom: 0;
     }
 
     #servicos #procure-nos .li {
         width: 100px;
         height: 120px;
+    }
+
+    #servicos #nossosMetodos {
+        font-size: 9.8pt;
+        line-height: 5ch;
+        padding: 3ch 0 15ch 0;
+    }
+
+    /* SESSÃO 'VALORES' */
+
+    #valores {
+        --offset: -60px;
+        transform: translateY(var(--offset));
+        margin-bottom: var(--offset);
     }
 }

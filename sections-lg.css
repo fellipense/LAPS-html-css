@@ -22,6 +22,10 @@
 
     /* SESSÃO 'SERVIÇOS' */
 
+    #servicos {
+        z-index: 1;
+    }
+    
     #servicos .conteudo {
         --offset: -180px;
         transform: translateY(var(--offset));

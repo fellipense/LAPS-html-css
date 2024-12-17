@@ -52,10 +52,6 @@ section .conteudo {
 
 /* SESSÃO 'SERVIÇOS' */
 
-#servicos {
-    z-index: 1;
-}
-
 #servicos #procure-nos {
     display: flex;
     justify-content: center;
