@@ -24,8 +24,8 @@
 
     #servicos .conteudo {
         --offset: -180px;
-        transform: translateY(--offset);
-        margin-bottom: --offset;
+        transform: translateY(var(--offset));
+        margin-bottom: var(--offset);
     }
 
     #servicos #nossosMetodos {

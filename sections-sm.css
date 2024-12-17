@@ -33,7 +33,9 @@
     }
 
     #servicos .conteudo {
-        transform: translateY(-320px);
+        --offset: -320px;
+        transform: translateY(var(--offset));
+        margin-bottom: var(--offset);
     }
 
     #servicos #procure-nos .li {
