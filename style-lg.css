@@ -63,4 +63,17 @@
     .flutuante .descricao-carrossel {
         padding: 20px;
     }
+
+    .dark .flutuante .carousel-control-next, 
+    .dark .flutuante .carousel-control-prev {
+        opacity: 1;
+        filter: brightness(1);
+    }
+
+    .light .flutuante .carousel-control-next, 
+    .light .flutuante .carousel-control-prev {
+        opacity: 1;
+        filter: brightness(0);
+    }
+}
 }

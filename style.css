@@ -224,3 +224,7 @@ h2 span {
 .avaliacoes .sk-read-more {
     display: none;
 }
+
+.flutuante {
+    color: var(--cor-preto) !important;
+}

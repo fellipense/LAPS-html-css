@@ -1,5 +1,7 @@
 @media (min-width: 768px) {
 
+    /* SESSÃO PRINCIPAL */
+
     #landing {
         padding-bottom: 100px;
     }
@@ -18,6 +20,8 @@
         padding: 20vh 0;
     }
 
+    /* SESSÃO 'SERVIÇOS' */
+
     #servicos .conteudo {
         transform: translateY(-180px);
     }
@@ -25,5 +29,15 @@
     #servicos #procure-nos .li {
         width: 200px;
         height: 200px;
+    }
+
+    /* SESSÃO 'CONFIRA' */
+
+    #confira h2 {
+        transform: translateY(-27.5px);
+        font-size: 15pt;
+        width: 230px;
+        height: 55px;
+        padding: 16px;
     }
 }

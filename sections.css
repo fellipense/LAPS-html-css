@@ -130,3 +130,17 @@ section .conteudo {
 #valores .valor-descricao {
     width: 300px;
 }
+
+/* SESSÃO 'CONFIRA' */
+
+#confira {
+    background: var(--cor-terciaria);
+}
+
+#confira h2 {
+    background: #e1e7ed;
+    color: var(--cor-cinza);
+    font-weight: bold;
+    margin: auto;
+    border-radius: 16px;
+}
