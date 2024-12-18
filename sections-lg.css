@@ -25,7 +25,7 @@
     #servicos {
         z-index: 1;
     }
-    
+
     #servicos .conteudo {
         --offset: -180px;
         transform: translateY(var(--offset));
@@ -44,6 +44,28 @@
     #servicos #procure-nos .li {
         width: 200px;
         height: 200px;
+    }
+
+    /* SESSÃO 'VALORES' */
+
+    #valores .valor-imagem {
+        width: 100px;
+        vertical-align: top;
+        margin-right: 40px;
+    }
+
+    #valores .valor-imagem img {
+        height: 100px;
+        justify-self: center;
+    }
+
+    #valores .valor-descricao {
+        max-width: 300px;
+        width: 28vw;
+    }
+
+    #valores .sk-masonry-item {
+        background: var(--cor-branca);
     }
 
     /* SESSÃO 'CONFIRA' */

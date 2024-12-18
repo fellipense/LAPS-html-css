@@ -65,4 +65,40 @@
         transform: translateY(var(--offset));
         margin-bottom: var(--offset);
     }
+
+    #valores .conteudo {
+        padding: 40px;
+    }
+
+    #valores .valor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #valores .valor-imagem {
+        vertical-align: top;
+        margin-bottom: 10px;
+    }
+
+    #valores .valor-imagem img {
+        height: 50px;
+    }
+
+    #valores .valor-descricao {
+        width: 100px;
+    }
+
+    #valores .avaliacoes {
+        margin: -40px;
+        max-height: 50vh;
+        background: var(--cor-branca);
+        border-radius: 16px;
+        padding: 10px;
+    }
+
+    #valores .sk-masonry-item {
+        background: rgb(226, 226, 226);
+    }
 }

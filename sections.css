@@ -104,20 +104,15 @@ section .conteudo {
     display: inline-block;
 }
 
-#valores .valor-imagem {
-    --size: 100px;
-    width: var(--size);
-    height: var(--size);
-    vertical-align: top;
-    margin-right: 40px;
-}
-
 #valores .valor-imagem img {
     width: 100%;
 }
 
-#valores .valor-descricao {
-    width: 300px;
+#valores .sk-masonry-item {
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    margin: 10px;
 }
 
 /* SESSÃO 'CONFIRA' */

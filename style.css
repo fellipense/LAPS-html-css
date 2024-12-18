@@ -213,14 +213,6 @@ h2 span {
     flex-direction: column;
 }
 
-.avaliacoes .sk-masonry-item {
-    background: white;
-    border-radius: 20px;
-    padding: 20px;
-    color: black;
-    margin: 10px;
-}
-
 .avaliacoes .sk-read-more {
     display: none;
 }
