@@ -77,4 +77,10 @@
         height: 55px;
         padding: 16px;
     }
+
+    /* SESSÃO 'NEUROFRIENDS' */
+
+    #neuroFriends h2 {
+        font-size: 30pt;
+    }
 }

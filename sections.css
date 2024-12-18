@@ -128,3 +128,21 @@ section .conteudo {
     margin: auto;
     border-radius: 16px;
 }
+
+/* SESSÃO 'NEUROFRIENDS' */
+
+#neuroFriends .conteudo {
+    padding: 5ch 0;
+}
+
+#neuroFriends h2 {
+    color: var(--cor-cinza);
+    font-weight: bold;
+    margin: 0;
+    line-height: 2rem;
+}
+
+#neuroFriends h2 span {
+    font-size: 13.5pt;
+    font-weight: 400;
+}
