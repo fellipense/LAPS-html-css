@@ -131,6 +131,10 @@ section .conteudo {
 
 /* SESSÃO 'NEUROFRIENDS' */
 
+#neuroFriends .top {
+    transform: translateY(calc(-100% + 1px)) scaleX(-1);
+}
+
 #neuroFriends .conteudo {
     padding: 5ch 0;
 }
@@ -153,8 +157,11 @@ section .conteudo {
     height: 400px;
 }
 
-#neuroFriends #trilho {
+#neuroFriends #trilha > * {
     position: absolute;
+}
+
+#neuroFriends #trilho {
     width: 100%;
     bottom: 0;
 }
@@ -164,4 +171,10 @@ section .conteudo {
     width: var(--size);
     height: var(--size);
     background: red;
+}
+
+#neuroFriends .balao {
+    width: 210px;
+    height: 185px;
+    background: grey;
 }
