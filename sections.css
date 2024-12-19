@@ -146,3 +146,22 @@ section .conteudo {
     font-size: 13.5pt;
     font-weight: 400;
 }
+
+#neuroFriends #trilha {
+    position: relative;
+    background: #eeeeee;
+    height: 400px;
+}
+
+#neuroFriends #trilho {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#neuroFriends .medalha {
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
+    background: red;
+}
