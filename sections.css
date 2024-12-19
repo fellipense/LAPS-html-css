@@ -162,8 +162,9 @@ section .conteudo {
 }
 
 #neuroFriends #trilho {
-    width: 100%;
+    width: 140%;
     bottom: 0;
+    left: -20%;
 }
 
 #neuroFriends .medalha {
