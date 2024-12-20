@@ -153,18 +153,19 @@ section .conteudo {
 
 #neuroFriends #trilha {
     position: relative;
-    background: #eeeeee;
-    height: 400px;
+    height: 550px;
 }
 
 #neuroFriends #trilha > * {
     position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 
 #neuroFriends #trilho {
-    width: 140%;
+    width: 160%;
     bottom: 0;
-    left: -20%;
+    left: -30%;
 }
 
 #neuroFriends .medalha {
@@ -178,4 +179,23 @@ section .conteudo {
     width: 210px;
     height: 185px;
     background: grey;
+}
+
+#neuroFriends #bronze {
+    align-items: end;
+    bottom: 130px;
+    left: 0;
+}
+
+#neuroFriends #prata {
+    align-items: center;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#neuroFriends #ouro {
+    align-items: start;
+    bottom: 130px;
+    right: 0;
 }
