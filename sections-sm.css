@@ -113,4 +113,30 @@
         height: 30px;
         padding: 8px;
     }
+
+    /* SESSÃO 'NEUROFRIENDS' */
+
+    #neuroFriends .conteudo {
+        --px: 20px;
+        padding-left: var(--px);
+        padding-right: var(--px);
+    }
+
+    #neuroFriends .titulo {
+        padding: 0;
+    }
+    
+    #neuroFriends h1 {
+        font-size: 14.6pt;
+        line-height: 1rem;
+        padding-top: 10px
+    }
+
+    #neuroFriends h1 span {
+        font-size: 7pt;
+    }
+
+    #neuroFriends hr {
+        width: 100%;
+    }
 }
