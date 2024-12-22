@@ -216,3 +216,36 @@ section .conteudo {
     height: 280px;
     width: 100%;
 }
+
+/* RODAPÉ */
+
+footer {
+    background: var(--cor-preto);
+    position: relative;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 6px;
+}
+
+footer li::marker {
+    content: '';
+}
+
+footer .logo img {
+    margin-bottom: 50px;
+}
+
+footer .titulo {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+footer p, footer li, footer .navegar a, footer .contato a {
+    color: #6f7b98;
+    text-decoration: none;
+}
