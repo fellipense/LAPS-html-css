@@ -177,7 +177,13 @@ h2 span {
     background: #d9d9d9;
     width: 150px;
     height: 100px;
-    padding: 50px;
     margin: 0 20px;
     border-radius: 12px;
+    overflow: hidden;
+}
+
+.empresa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
