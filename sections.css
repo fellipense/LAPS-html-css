@@ -222,6 +222,13 @@ section .conteudo {
 footer {
     background: var(--cor-preto);
     position: relative;
+    overflow: hidden;
+}
+
+footer .estampa {
+    position: absolute;
+    opacity: 0.1;
+    height: 400px;
 }
 
 footer ul {
@@ -236,11 +243,17 @@ footer li::marker {
     content: '';
 }
 
+footer li img {
+    width: 2ch;
+    margin-right: 1ch;
+}
+
 footer .logo img {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 footer .titulo {
+    margin-top: 20px;
     font-weight: bold;
     color: #ffffff;
 }
@@ -248,4 +261,10 @@ footer .titulo {
 footer p, footer li, footer .navegar a, footer .contato a {
     color: #6f7b98;
     text-decoration: none;
+}
+
+#copyright {
+    background: #051C28;
+    color: var(--cor-branca);
+    padding: 5px 50px;
 }

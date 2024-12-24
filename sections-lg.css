@@ -95,10 +95,20 @@
     /* RODAPÉ */
 
     footer .conteudo {
-        padding: 50px;
+        padding: 40px 50px 20px 50px;
+    }
+
+    footer .estampa {
+        left: -80px;
+        bottom: -100px;
     }
 
     footer .titulo {
         font-size: 18pt;
+    }
+
+    footer .logo img {
+        width: 300px;
+        max-width: 100%;
     }
 }
