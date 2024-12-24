@@ -217,6 +217,27 @@ section .conteudo {
     width: 100%;
 }
 
+/* PARCEIROS */
+
+#parceiros {
+    background: var(--cor-azul-escuro);
+}
+
+#parceiros .empresas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#parceiros .empresa {
+    background: gray;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    margin: 0 20px;
+    border-radius: 12px;
+}
+
 /* RODAPÉ */
 
 footer {
@@ -264,7 +285,7 @@ footer p, footer li, footer .navegar a, footer .contato a {
 }
 
 #copyright {
-    background: #051C28;
+    background: var(--cor-azul-escuro);
     color: var(--cor-branca);
     padding: 5px 50px;
 }
