@@ -170,6 +170,7 @@ span {
 .empresas {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -177,7 +178,7 @@ span {
     background: #d9d9d9;
     width: 150px;
     height: 100px;
-    margin: 0 20px;
+    margin: 10px;
     border-radius: 12px;
     overflow: hidden;
 }

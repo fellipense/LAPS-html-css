@@ -105,16 +105,20 @@
     /* SESSÃO 'CONFIRA' */
     
     #confira {
-        padding: 60px 0 0 0;
+        padding: 60px 0 50px 0;
     }
 
-    #confira h2 {
+    #confira h2:first-child {
         width: 150px;
         height: 30px;
         padding: 8px;
     }
 
     /* SESSÃO 'NEUROFRIENDS' */
+
+    #neuroFriends .top {
+        display: none;
+    }
 
     #neuroFriends .conteudo {
         --px: 20px;
