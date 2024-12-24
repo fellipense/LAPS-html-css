@@ -180,18 +180,41 @@ section .conteudo {
     left: -30%;
 }
 
-#neuroFriends .medalha {
-    --size: 100px;
-    width: var(--size);
-    height: var(--size);
-    background: red;
+#neuroFriends .nivel {
+    z-index: 2;
+    transform: translateY(50%);
+    text-align: center;
+    padding: 5px 15px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#neuroFriends .descricao * {
+    position: relative;
+}
+
+#neuroFriends .nivel, .balao, .medalha {
+    border-radius: 12px;
 }
 
 #neuroFriends .balao {
+    z-index: 1;
     width: 210px;
-    height: 250px;
-    padding: 10px 25px;
-    background: grey;
+    height: 210px;
+    padding: 10px 20px;
+    background: #d9d9d9;
+}
+
+#neuroFriends .modulos {
+    margin: 16px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#neuroFriends ul, .duracao {
+    color: #4d5b7c;
 }
 
 #neuroFriends .duracao {
@@ -203,14 +226,36 @@ section .conteudo {
     font-size: 10.5pt;
 }
 
+#neuroFriends li {
+    margin: 10px 0;
+}
+
 #neuroFriends .balao li::marker{
     content: '- ';
+}
+
+#neuroFriends .rabinho {
+    z-index: 0;
+    height: 55px;
+    margin-bottom: 15px;
+    transform: translateY(-15px);
+}
+
+#neuroFriends .medalha {
+    --size: 100px;
+    width: var(--size);
+    height: var(--size);
 }
 
 #neuroFriends #bronze {
     align-items: end;
     bottom: 130px;
     left: 0;
+}
+
+#neuroFriends #bronze .medalha, #bronze .nivel {
+    background: #eb924e;
+    box-shadow: 0 9px #e1664d;
 }
 
 #neuroFriends #prata {
@@ -220,10 +265,24 @@ section .conteudo {
     transform: translateX(-50%);
 }
 
+#neuroFriends #prata .rabinho * {
+    margin: 0 -2px;
+}
+
+#neuroFriends #prata .medalha, #prata .nivel {
+    background: #dfdfdf;
+    box-shadow: 0 9px #b2c1ce;
+}
+
 #neuroFriends #ouro {
     align-items: start;
     bottom: 130px;
     right: 0;
+}
+
+#neuroFriends #ouro .medalha, #ouro .nivel {
+    background: #e0d94f;
+    box-shadow: 0 9px #e1a94f;
 }
 
 #neuroFriends h2 {
