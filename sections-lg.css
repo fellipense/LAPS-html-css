@@ -70,7 +70,7 @@
 
     /* SESSÃO 'CONFIRA' */
 
-    #confira h2 {
+    #confira h2:first-child {
         transform: translateY(-27.5px);
         font-size: 15pt;
         width: 230px;

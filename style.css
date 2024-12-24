@@ -166,3 +166,18 @@ h2 span {
 .flutuante {
     color: var(--cor-preto) !important;
 }
+
+.empresas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.empresa {
+    background: #d9d9d9;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    margin: 0 20px;
+    border-radius: 12px;
+}
