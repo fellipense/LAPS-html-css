@@ -131,7 +131,7 @@ section .conteudo {
 }
 
 #confira h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 100;
 }
 
@@ -165,7 +165,7 @@ section .conteudo {
 #neuroFriends #trilha {
     position: relative;
     height: 550px;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 
 #neuroFriends #trilha > * {
@@ -298,6 +298,23 @@ section .conteudo {
     background: grey;
     height: 280px;
     width: 100%;
+}
+
+#neuroFriends #facaParte {
+    width: 430px;
+    height: 80px;
+    margin: 80px auto 0 auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#neuroFriends #facaParte button {
+    background: #d9d9d9;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 24pt;
 }
 
 /* PARCEIROS */
