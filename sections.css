@@ -189,8 +189,22 @@ section .conteudo {
 
 #neuroFriends .balao {
     width: 210px;
-    height: 185px;
+    height: 250px;
+    padding: 10px 25px;
     background: grey;
+}
+
+#neuroFriends .duracao {
+    text-align: end;
+}
+
+#neuroFriends ul {
+    padding-left: 1ch;
+    font-size: 10.5pt;
+}
+
+#neuroFriends .balao li::marker{
+    content: '- ';
 }
 
 #neuroFriends #bronze {
@@ -215,6 +229,10 @@ section .conteudo {
 #neuroFriends h2 {
     text-align: start;
     margin-bottom: 40px;
+}
+
+#neuroFriends p {
+    line-height: 1.2rem;
 }
 
 #neuroFriends iframe {
