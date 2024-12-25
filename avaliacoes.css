@@ -1,0 +1,21 @@
+.avaliacoes {
+    overflow-x: scroll;
+    height: 720px;
+}
+
+.sk-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.sk-read-more {
+    display: none;
+}
+
+.sk-masonry-item {
+
+}
+
+.sk-post__rating-icon {
+    fill: #fbbc04;
+}

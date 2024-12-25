@@ -149,20 +149,6 @@ span {
     filter: drop-shadow(5px 5px 15px black);
 }
 
-.avaliacoes {
-    overflow-x: scroll;
-    height: 720px;
-}
-
-.avaliacoes .sk-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
-.avaliacoes .sk-read-more {
-    display: none;
-}
-
 .flutuante {
     color: var(--cor-preto) !important;
 }
