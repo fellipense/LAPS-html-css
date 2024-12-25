@@ -92,6 +92,50 @@
         font-size: var(--font-size-lg-p);
     }
 
+    #neuroFriends .nivel {
+        padding: 5px 15px;
+        width: 100px;
+        height: 40px;
+        font-size: 15pt;
+        transform: translateY(50%);
+    }
+
+    #neuroFriends .balao {
+        width: 210px;
+        height: 210px;
+        padding: 10px 20px;
+    }
+
+    #neuroFriends .modulos {
+        margin: 16px auto;
+    }
+
+    #neuroFriends .balao li {
+        margin: 10px 0;
+    }
+
+    #neuroFriends br {
+        display: none;
+    }
+
+    #neuroFriends .medalha {
+        --size: 100px;
+        width: var(--size);
+        height: var(--size);
+    }
+
+    #neuroFriends #bronze .medalha, #bronze .nivel {
+        box-shadow: 0 9px #e1664d;
+    }
+
+    #neuroFriends #prata .medalha, #prata .nivel {
+        box-shadow: 0 9px #b2c1ce;
+    }
+
+    #neuroFriends #ouro .medalha, #ouro .nivel {
+        box-shadow: 0 9px #e1a94f;
+    }
+
     /* RODAPÉ */
 
     footer .conteudo {

@@ -143,4 +143,74 @@
     #neuroFriends hr {
         width: 100%;
     }
+
+    #neuroFriends .rabinho {
+        display: none;
+    }
+
+    #neuroFriends .nivel {
+        padding: 5px 15px;
+        width: 70px;
+        height: 25px;
+        font-size: 9pt;
+        margin: auto;
+        transform: translateY(20%);
+    }
+
+    #neuroFriends .balao {
+        position: relative;
+        width: 95px;
+        height: 160px;
+        padding: 22px 15px;
+        border-radius: 5px !important;
+    }
+
+    #neuroFriends .modulos {
+        font-size: 9pt;
+        line-height: 0.6rem;
+        margin-bottom: 10px;
+    }
+
+    #neuroFriends .modulos span {
+        font-weight: normal;
+        font-size: 6pt;
+        text-transform: capitalize;
+    }
+
+    #neuroFriends ul {
+        font-size: 6pt;
+    }
+
+    #neuroFriends .balao li {
+        margin: 5px 0;
+    }
+
+    #neuroFriends .duracao {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        bottom: 10px;
+        transform: translateX(-50%);
+        font-size: 5.3pt;
+    }
+
+    #neuroFriends .medalha {
+        --size: 40px;
+        width: var(--size);
+        height: var(--size);
+    }
+
+    #neuroFriends #bronze .medalha, #bronze .nivel {
+        box-shadow: 0 5px #e1664d;
+    }
+
+    #neuroFriends #prata .medalha, #prata .nivel {
+        box-shadow: 0 5px #b2c1ce;
+    }
+
+    #neuroFriends #ouro .medalha, #ouro .nivel {
+        box-shadow: 0 5px #e1a94f;
+    }
+
+
 }

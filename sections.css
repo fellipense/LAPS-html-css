@@ -145,6 +145,7 @@ section .conteudo {
     background: #f9fbfc;
     background: -webkit-linear-gradient(90deg, #0000002e, #f9fbfc 80%);
     overflow-x: hidden;
+    font-family: Inter;
 }
 
 #neuroFriends .conteudo {
@@ -183,13 +184,8 @@ section .conteudo {
 
 #neuroFriends .nivel {
     z-index: 2;
-    transform: translateY(50%);
     text-align: center;
-    padding: 5px 15px;
-    width: 100px;
-    height: 40px;
     font-weight: bold;
-    font-size: 15pt;
 }
 
 #neuroFriends .descricao * {
@@ -202,14 +198,11 @@ section .conteudo {
 
 #neuroFriends .balao {
     z-index: 1;
-    width: 210px;
-    height: 210px;
-    padding: 10px 20px;
     background: #d9d9d9;
 }
 
 #neuroFriends .modulos {
-    margin: 16px auto;
+    margin: auto;
     text-align: center;
     font-weight: bold;
 }
@@ -227,10 +220,6 @@ section .conteudo {
     font-size: 10.5pt;
 }
 
-#neuroFriends li {
-    margin: 10px 0;
-}
-
 #neuroFriends .balao li::marker{
     content: '- ';
 }
@@ -242,12 +231,6 @@ section .conteudo {
     transform: translateY(-15px);
 }
 
-#neuroFriends .medalha {
-    --size: 100px;
-    width: var(--size);
-    height: var(--size);
-}
-
 #neuroFriends #bronze {
     align-items: end;
     bottom: 130px;
@@ -256,7 +239,6 @@ section .conteudo {
 
 #neuroFriends #bronze .medalha, #bronze .nivel {
     background: #eb924e;
-    box-shadow: 0 9px #e1664d;
 }
 
 #neuroFriends #prata {
@@ -272,7 +254,6 @@ section .conteudo {
 
 #neuroFriends #prata .medalha, #prata .nivel {
     background: #dfdfdf;
-    box-shadow: 0 9px #b2c1ce;
 }
 
 #neuroFriends #ouro {
@@ -283,7 +264,6 @@ section .conteudo {
 
 #neuroFriends #ouro .medalha, #ouro .nivel {
     background: #e0d94f;
-    box-shadow: 0 9px #e1a94f;
 }
 
 #neuroFriends h2 {
