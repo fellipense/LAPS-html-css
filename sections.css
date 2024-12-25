@@ -338,6 +338,5 @@ footer p, footer li, footer .navegar a, footer .contato a {
 
 #copyright {
     background: var(--cor-azul-escuro);
-    color: var(--cor-branca);
-    padding: 5px 50px;
+    color: #ffffff88;
 }

@@ -308,4 +308,9 @@
     footer .contato {
         text-align: center
     }
+
+    #copyright {
+        padding: 20px 50px;
+        text-align: center;
+    }
 }

@@ -191,4 +191,8 @@
     footer .logo img {
         width: 300px;
     }
+
+    #copyright {
+        padding: 5px 50px;
+    }
 }
