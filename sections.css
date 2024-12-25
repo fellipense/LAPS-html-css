@@ -144,6 +144,7 @@ section .conteudo {
 #neuroFriends {
     background: #f9fbfc;
     background: -webkit-linear-gradient(90deg, #0000002e, #f9fbfc 80%);
+    overflow-x: hidden;
 }
 
 #neuroFriends .conteudo {
@@ -356,6 +357,7 @@ footer li img {
 
 footer .logo img {
     margin-bottom: 20px;
+    max-width: 100%;
 }
 
 footer .titulo {
