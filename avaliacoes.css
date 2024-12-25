@@ -7,6 +7,16 @@
 .sk-wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    height: 8518px;
+}
+
+.sk-masonry-item {
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    margin: 2px;
+    width: 195px;
 }
 
 .sk-read-more, .sk-post__button {
