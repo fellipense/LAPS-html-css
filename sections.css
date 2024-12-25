@@ -276,6 +276,7 @@ section .conteudo {
 #neuroFriends #videoExplicacao {
     overflow: hidden;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 #neuroFriends #videoExplicacao iframe {
@@ -300,7 +301,6 @@ footer {
 footer .estampa {
     position: absolute;
     opacity: 0.1;
-    height: 400px;
 }
 
 footer ul {

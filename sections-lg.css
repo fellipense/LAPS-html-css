@@ -181,6 +181,7 @@
     footer .estampa {
         left: -80px;
         bottom: -100px;
+        height: 400px;
     }
 
     footer .titulo {

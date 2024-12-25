@@ -267,4 +267,45 @@
     #neuroFriends #facaParte button {
         font-size: 12pt;
     }
+
+    /* RODAPÉ */
+
+    footer .estampa {
+        left: -30px;
+        bottom: -30px;
+        height: 160px;
+    }
+
+    footer p {
+        line-height: 0.8rem !important;
+    }
+
+    footer .conteudo {
+        padding: 30px 50px;
+    }
+
+    footer .logo img {
+        width: 180px;
+        margin-right: 30px;
+    }
+
+    footer .titulo {
+        font-size: 12pt !important;
+    }
+
+    footer .laps {
+        text-align: center;
+    }
+
+    footer .navegar {
+        text-align: start;
+    }
+
+    footer .servicos {
+        text-align: end;
+    }
+
+    footer .contato {
+        text-align: center
+    }
 }
