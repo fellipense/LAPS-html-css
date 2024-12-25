@@ -92,6 +92,11 @@
         font-size: var(--font-size-lg-p);
     }
 
+    #neuroFriends #trilha {
+        height: 550px;
+        margin-bottom: 80px;
+    }
+
     #neuroFriends .nivel {
         padding: 5px 15px;
         width: 100px;
@@ -124,12 +129,31 @@
         height: var(--size);
     }
 
+    #neuroFriends #bronze {
+        align-items: end;
+        bottom: 130px;
+        left: 0;
+    }
+
     #neuroFriends #bronze .medalha, #bronze .nivel {
         box-shadow: 0 9px #e1664d;
     }
 
+    #neuroFriends #prata {
+        align-items: center;
+        bottom: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     #neuroFriends #prata .medalha, #prata .nivel {
         box-shadow: 0 9px #b2c1ce;
+    }
+
+    #neuroFriends #ouro {
+        align-items: start;
+        bottom: 130px;
+        right: 0;
     }
 
     #neuroFriends #ouro .medalha, #ouro .nivel {

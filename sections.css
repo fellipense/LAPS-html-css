@@ -166,8 +166,6 @@ section .conteudo {
 
 #neuroFriends #trilha {
     position: relative;
-    height: 550px;
-    margin-bottom: 80px;
 }
 
 #neuroFriends #trilha > * {
@@ -231,21 +229,8 @@ section .conteudo {
     transform: translateY(-15px);
 }
 
-#neuroFriends #bronze {
-    align-items: end;
-    bottom: 130px;
-    left: 0;
-}
-
 #neuroFriends #bronze .medalha, #bronze .nivel {
     background: #eb924e;
-}
-
-#neuroFriends #prata {
-    align-items: center;
-    bottom: 45px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 #neuroFriends #prata .rabinho * {
@@ -254,12 +239,6 @@ section .conteudo {
 
 #neuroFriends #prata .medalha, #prata .nivel {
     background: #dfdfdf;
-}
-
-#neuroFriends #ouro {
-    align-items: start;
-    bottom: 130px;
-    right: 0;
 }
 
 #neuroFriends #ouro .medalha, #ouro .nivel {
