@@ -1,6 +1,7 @@
 .avaliacoes {
     overflow-x: scroll;
     height: 720px;
+    text-align: center;
 }
 
 .sk-wrapper {
@@ -8,12 +9,78 @@
     flex-direction: column;
 }
 
-.sk-read-more {
+.sk-read-more, .sk-post__button {
     display: none;
 }
 
-.sk-masonry-item {
+.sk-badge .sk-badge__value {
+    font-size: 25pt;
+}
 
+.sk-badge .sk-badge__stars {
+    margin-bottom: 25px;
+}
+
+.sk-badge .sk-badge__title {
+    font-weight: bold;
+}
+
+.sk-badge a {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.sk-badge .sk-badge__count {
+    text-decoration: underline;
+}
+
+.sk-post .sk-post__header {
+    margin-bottom: 30px;
+}
+
+.sk-post .sk-post__header a {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+.sk-post .sk-post__user-image-container {
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    border-radius: 50%;
+
+    --size: 30%;
+    width: var(--size);
+    height: var(--size);
+}
+
+.sk-post .sk-post__user-image-container img {
+    width: 100%;
+}
+
+.sk-post .sk-post__head-details {
+    display: inline-block;
+    padding-left: 15px;
+    text-align: start;
+    width: 66%;
+}
+
+.sk-post .sk-post__head-details h3 {
+    margin-bottom: 0;
+}
+
+.sk-post .sk-post__rating {
+    margin-top: 10px;
+}
+
+.sk-post .sk-post__body {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.sk-post .sk-post__footer {
+    display: flex;
+    justify-content: center;
 }
 
 .sk-post__rating-icon {
