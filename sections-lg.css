@@ -131,7 +131,6 @@
 
     #neuroFriends #bronze {
         align-items: end;
-        bottom: 130px;
         left: 0;
     }
 
@@ -141,7 +140,6 @@
 
     #neuroFriends #prata {
         align-items: center;
-        bottom: 45px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -152,7 +150,6 @@
 
     #neuroFriends #ouro {
         align-items: start;
-        bottom: 130px;
         right: 0;
     }
 

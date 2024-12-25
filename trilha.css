@@ -1,0 +1,251 @@
+#bronze {
+    bottom: var(--bottom-bronze);
+}
+
+#prata {
+    bottom: var(--bottom-prata);
+}
+
+#ouro {
+    bottom: var(--bottom-ouro);
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root{
+        --bottom-bronze: 110px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 140px;
+    }
+}
+
+@media (max-width: 720px) {
+    :root{
+        --bottom-bronze: 110px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 130px;
+    }
+}
+
+@media (max-width: 680px) {
+    :root{
+        --bottom-bronze: 100px;
+        --bottom-prata: 40px;
+        --bottom-ouro: 120px;
+    }
+}
+
+@media (max-width: 640px) {
+    :root{
+        --bottom-bronze: 90px;
+        --bottom-prata: 30px;
+        --bottom-ouro: 110px;
+    }
+}
+
+@media (max-width: 600px) {
+    :root{
+        --bottom-bronze: 80px;
+        --bottom-prata: 30px;
+        --bottom-ouro: 100px;
+    }
+}
+
+@media (max-width: 560px) {
+    :root{
+        --bottom-bronze: 75px;
+        --bottom-prata: 25px;
+        --bottom-ouro: 85px;
+    }
+}
+
+@media (max-width: 515px) {
+    :root{
+        --bottom-bronze: 65px;
+        --bottom-prata: 25px;
+        --bottom-ouro: 75px;
+    }
+}
+
+@media (max-width: 470px) {
+    :root{
+        --bottom-bronze: 55px;
+        --bottom-prata: 15px;
+        --bottom-ouro: 65px;
+    }
+}
+
+@media (max-width: 425px) {
+    :root{
+        --bottom-bronze: 45px;
+        --bottom-prata: 10px;
+        --bottom-ouro: 55px;
+    }
+}
+
+@media (max-width: 380px) {
+    :root{
+        --bottom-bronze: 40px;
+        --bottom-prata: 10px;
+        --bottom-ouro: 40px;
+    }
+}
