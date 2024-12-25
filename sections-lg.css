@@ -160,6 +160,21 @@
         box-shadow: 0 9px #e1a94f;
     }
 
+    #neuroFriends #videoExplicacao {
+        width: 430px;
+        height: 280px;
+    }
+
+    #neuroFriends #facaParte {
+        margin: 80px auto 0 auto;
+        width: 430px;
+        height: 80px;
+    }
+
+    #neuroFriends #facaParte button {
+        font-size: 24pt;
+    }
+
     /* RODAPÉ */
 
     footer .conteudo {

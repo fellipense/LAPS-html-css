@@ -249,5 +249,25 @@
         box-shadow: 0 5px #e1a94f;
     }
 
+    #neuroFriends .sobre p {
+        width: 200px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    #neuroFriends #videoExplicacao {
+        margin: 20px auto;
+        width: 250px;
+        height: 160px;
+    }
 
+    #neuroFriends #facaParte {
+        margin: 20px auto 0 auto;
+        width: 190px;
+        height: 35px;
+    }
+
+    #neuroFriends #facaParte button {
+        font-size: 12pt;
+    }
 }
