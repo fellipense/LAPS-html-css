@@ -132,6 +132,7 @@ section .conteudo {
 
 #neuroFriendsTop {
     transform: translateY(calc(-100% + 1px)) scaleX(-1);
+    width: 100vw;
 }
 
 #neuroFriends {
