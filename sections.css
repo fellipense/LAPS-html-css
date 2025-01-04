@@ -302,6 +302,10 @@ footer .estampa {
     opacity: 0.1;
 }
 
+footer .conteudo {
+    max-width: calc(var(--max-width) + 400px);
+}
+
 footer ul {
     padding: 0;
 }
@@ -338,4 +342,9 @@ footer p, footer li, footer .navegar a, footer .contato a {
 #copyright {
     background: var(--cor-azul-escuro);
     color: #ffffff88;
+}
+
+#copyright .conteudo {
+    max-width: var(--max-width);
+    margin: auto;
 }
