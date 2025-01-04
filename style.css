@@ -18,6 +18,9 @@ header .navbar {
     justify-content: space-between;
 }
 
+header .navbar-brand {
+    z-index: 5; 
+}
 header .navbar-brand img {
     height: 30px
 }
@@ -168,7 +171,7 @@ span {
 }
 
 #whatsapp img{
-    filter: drop-shadow(5px 5px 15px black);
+    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.650));
 }
 
 .flutuante {
@@ -184,9 +187,9 @@ span {
 
 .empresa {
     background: #d9d9d9;
-    width: 150px;
-    height: 100px;
-    margin: 10px;
+    width: 350px;
+    height: 200px;
+    margin: 20px;
     border-radius: 12px;
     overflow: hidden;
 }
