@@ -6,7 +6,7 @@ window.addEventListener("scroll", () => {
 
     sections.forEach((section) => {
         const sectionHeight = section.offsetHeight;
-        const sectionTop = (section.offsetTop - 100) - sectionHeight/3;
+        const sectionTop = section.offsetTop - sectionHeight/2;
         const id = section.getAttribute("id");
         const currentNavLink = document.querySelector(`.navbar a[href*="#${id}"]`);
         
