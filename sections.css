@@ -130,7 +130,7 @@ section .conteudo {
 
 /* SESSÃO 'NEUROFRIENDS' */
 
-#neuroFriends .top {
+#neuroFriendsTop {
     transform: translateY(calc(-100% + 1px)) scaleX(-1);
 }
 
