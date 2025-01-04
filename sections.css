@@ -283,6 +283,12 @@ section .conteudo {
     background: var(--cor-azul-escuro);
 }
 
+#parceiros h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-shadow: 0 2px 25px rgba(255, 255, 255, 0.25);
+}
+
 /* RODAPÉ */
 
 footer {
