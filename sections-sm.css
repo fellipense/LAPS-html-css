@@ -157,7 +157,7 @@
 
     #neuroFriends .nivel {
         padding: 5px 15px;
-        width: 70px;
+        width: 80px;
         height: 25px;
         font-size: 9pt;
         margin: auto;
@@ -167,7 +167,7 @@
     #neuroFriends .balao {
         position: relative;
         width: 95px;
-        height: 160px;
+        height: 180px;
         padding: 22px 15px;
         border-radius: 5px !important;
     }
@@ -185,7 +185,7 @@
     }
 
     #neuroFriends ul {
-        font-size: 6pt;
+        font-size: 7pt;
     }
 
     #neuroFriends .balao li {
