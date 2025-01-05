@@ -77,11 +77,20 @@
 
     header .navbar-nav {
         background-color: var(--cor-secundaria);
+    }
+
+    header .nav-link {
         padding: 10px 25px;
     }
 
-    header .nav-item {
-        padding: 10px 0;
+    header .nav-link.active {
+        font-weight: bold;
+    }
+
+    header #navContato .nav-link.active {
+        font-weight: 100;
+        color: var(--cor-branca);
+        background-color: transparent;
     }
 
     header #btnContato {

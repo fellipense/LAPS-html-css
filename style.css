@@ -28,22 +28,21 @@ header #navbarNav {
     width: 100%;
 }
 
-header nav a.nav-link {
+header .nav-link {
     color: var(--cor-branca);
     text-decoration: none;
     font-family: var(--font-family-navlink);
     font-size: var(--font-size-navlink);
     font-weight: var(--font-weight-navlink);
-    border-radius: 20px;
     transition: 0.15s ease-out;
 }
 
-header nav a.nav-link:hover {
+header .nav-link:hover {
     filter: brightness(0.6);
     transition: 0.15s ease-out;
 }
 
-header nav a.nav-link.active {
+header .nav-link.active {
     color: black;
     background-color: white;
     transition: 0.15s ease-out;

@@ -33,6 +33,7 @@
 
     header .nav-link {
         padding: 5px 12px !important;
+        border-radius: 20px;
     }
 
     header #navContato {
