@@ -48,15 +48,24 @@
         padding-bottom: 0;
     }
 
+    #servicos #procure-nos {
+        flex-direction: column;
+    }
+
     #servicos #procure-nos .li {
-        width: 100px;
         height: 120px;
+        width: 300px;
+        margin: 10px auto;
+    }
+
+    #servicos #procure-nos .li p {
+        margin: 0;
     }
 
     #servicos #nossosMetodos {
-        font-size: 9.8pt;
-        line-height: 5ch;
-        padding: 3ch 0 15ch 0;
+        font-size: 14pt;
+        line-height: 2.5ch;
+        padding: 2ch 0 10ch 0;
     }
 
     /* SESSÃO 'VALORES' */
