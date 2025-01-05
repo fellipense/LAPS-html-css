@@ -278,11 +278,11 @@
     }
 
     footer p {
-        line-height: 0.8rem !important;
+        line-height: 1.5rem !important;
     }
 
     footer .conteudo {
-        padding: 30px 50px;
+        padding: 30px 20px;
     }
 
     footer .logo img {
@@ -291,7 +291,7 @@
     }
 
     footer .titulo {
-        font-size: 12pt !important;
+        font-size: 16pt !important;
     }
 
     footer .laps {
