@@ -177,6 +177,14 @@
         font-size: 24pt;
     }
 
+    /* PARCEIROS */
+
+    #parceiros .empresa {
+        width: 350px;
+        height: 200px;
+        margin: 20px;
+    }
+
     /* RODAPÉ */
 
     footer .conteudo {
