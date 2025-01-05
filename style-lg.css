@@ -17,11 +17,14 @@
         font-size: var(--font-size-lg-h3);
     }
 
+    header {
+        padding: 0 25px;
+    }
+
     header #navbarNav {
         position: absolute;
         display: grid;
         justify-content: center;
-        padding: 0 2ch;
     }
     
     header .navbar-brand {
