@@ -1,5 +1,14 @@
 @media (min-width: 768px) {
 
+    #whatsapp {
+        bottom: 50px;
+        right: 50px;
+    }
+
+    #whatsapp img{
+        filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.650));
+    }
+
     p {
         font-size: var(--font-size-lg-p);
     }

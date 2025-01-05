@@ -143,12 +143,6 @@ span {
 #whatsapp {
     z-index: 10;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
-}
-
-#whatsapp img{
-    filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.650));
 }
 
 .flutuante {
