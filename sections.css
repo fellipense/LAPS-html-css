@@ -95,16 +95,14 @@ section .conteudo {
     padding-top: 100px;
 }
 
-#valores .valor {
-    margin-bottom: 80px;
-}
-
 #valores .valor > * {
     display: inline-block;
 }
 
 #valores .valor-imagem img {
     width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 /* SESSÃO 'CONFIRA' */

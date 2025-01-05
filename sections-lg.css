@@ -49,6 +49,10 @@
 
     /* SESSÃO 'VALORES' */
 
+    #valores .valor {
+        margin-bottom: 80px;
+    }
+
     #valores .valor-imagem {
         width: 100px;
         vertical-align: top;

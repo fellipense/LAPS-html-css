@@ -85,31 +85,22 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-bottom: 50px;
     }
 
     #valores .valor-imagem {
-        vertical-align: top;
-        margin-bottom: 10px;
+        width: 50%;
+        margin-bottom: 25px;
     }
 
     #valores .valor-imagem img {
-        height: 50px;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     #valores .valor-descricao {
-        width: 100px;
-    }
-
-    #valores .avaliacoes {
-        margin: -40px;
-        max-height: 50vh;
-        background: var(--cor-branca);
-        border-radius: 10px;
         padding: 10px;
-    }
-
-    #valores .sk-masonry-item {
-        background: rgb(226, 226, 226);
     }
 
     /* SESSÃO 'CONFIRA' */
