@@ -112,7 +112,7 @@
     
     .flutuante {
         min-width: 250px;
-        height: 340px;
+        /* height: 340px; */
         width: 75vw;
         margin-bottom: 40px;
     }
@@ -133,10 +133,10 @@
     }
 
     .flutuante .imagem-carrossel div {
-        height: 150px;
+        height: 250px;
     }
 
     .flutuante .descricao-carrossel {
-        padding: 20px 50px;
+        padding: 20px 30px 10px 30px;
     }
 }

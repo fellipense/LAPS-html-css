@@ -14,6 +14,7 @@
         font-size: 15pt;
         border-radius: 20px;
         width: 210px; height: 55px;
+        margin-top: 60%;
     }
 
     #landing .conteudo {

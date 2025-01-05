@@ -36,6 +36,17 @@
         border-radius: 20px;
     }
 
+    header .nav-link:hover {
+        filter: brightness(0.6);
+        transition: 0.15s ease-out;
+    }
+
+    header #btnContato button:hover {
+        filter: brightness(0.6);
+        transition-duration: 200ms;
+        text-decoration: underline;
+    }
+
     header #navContato {
         display: none;
     }
@@ -78,5 +89,15 @@
     .light .flutuante .carousel-control-prev {
         opacity: 1;
         filter: brightness(0);
+    }
+
+    .dark button:hover {
+        filter: brightness(0.6);
+        transition: 0.15s ease-out;
+    }
+
+    .light button:hover {
+        filter: opacity(0.6);
+        transition: 0.15s ease-out;
     }
 }

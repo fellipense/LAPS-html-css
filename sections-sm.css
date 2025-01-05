@@ -29,9 +29,10 @@
     }
 
     #landing button#saibaMais {
-        font-size: 7.5pt;
-        border-radius: 10px;
-        width: 95px; height: 30px;
+        font-size: 12pt;
+        border-radius: 20px;
+        width: 180px; height: 50px;
+        margin-top: 20%;
     }
 
     /* SESSÃO 'SERVIÇOS' */
@@ -41,7 +42,7 @@
     }
 
     #servicos .conteudo {
-        --offset: -320px;
+        --offset: -350px;
         transform: translateY(var(--offset));
         margin-bottom: var(--offset);
         padding-bottom: 0;

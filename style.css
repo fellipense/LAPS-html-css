@@ -37,11 +37,6 @@ header .nav-link {
     transition: 0.15s ease-out;
 }
 
-header .nav-link:hover {
-    filter: brightness(0.6);
-    transition: 0.15s ease-out;
-}
-
 header .nav-link.active {
     color: black;
     background-color: white;
@@ -59,12 +54,6 @@ header #btnContato button{
     font-weight: bold;
     padding: 10px 20px;
     transition-duration: 200ms;
-}
-
-header #btnContato button:hover {
-    filter: brightness(0.6);
-    transition-duration: 200ms;
-    text-decoration: underline;
 }
 
 main {
@@ -140,16 +129,6 @@ span {
 
 .light {
     color: var(--cor-preto);
-}
-
-.dark button:hover {
-    filter: brightness(0.6);
-    transition: 0.15s ease-out;
-}
-
-.light button:hover {
-    filter: opacity(0.6);
-    transition: 0.15s ease-out;
 }
 
 .fundo {
