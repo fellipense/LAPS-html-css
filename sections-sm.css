@@ -110,9 +110,10 @@
     }
 
     #confira h2:first-child {
-        width: 150px;
-        height: 30px;
-        padding: 8px;
+        width: 250px;
+        height: 55px;
+        padding: 15px;
+        border-radius: 30px;
     }
 
     /* SESSÃO 'NEUROFRIENDS' */

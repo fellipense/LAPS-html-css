@@ -8,26 +8,17 @@
     }
 
     .sk-wrapper {
-        height: 12150px;
+        height: 12525px;
     }
 
     .sk-masonry-item {
-        margin: 2px;
-        width: 50%;
         padding: 10px;
     }
 
     .sk-post .sk-post__user-image-container {
         margin-bottom: 10px;
-    }
-
-    .sk-post .sk-post__head-details h3 {
-        margin-bottom: 1ch;
-        overflow: hidden;
-    }
-
-    .sk-post .sk-post__rating {
-        margin-top: 1ch;
+        margin: auto;
+        max-width: 100px;
     }
 
 }
@@ -40,52 +31,11 @@
     }
 
     .sk-wrapper {
-        height: 7280px;
+        height: 11770px;
     }
 
     .sk-masonry-item {
-        margin: 2px;
-        width: 50%;
         padding: 20px;
-    }
-
-    .sk-post .sk-post__date {
-        position: absolute;
-        left: 20px;
-        padding-top: 10px;
-    }
-
-    .sk-post .sk-post__rating {
-        position: absolute;
-        left: 26px;
-        top: 112px;
-    }
-
-    .sk-post .sk-post__head-details {
-        display: inline-block;
-        padding-left: 15px;
-        text-align: start;
-        width: 66%;
-    }
-
-    .sk-post .sk-post__user-image-container {
-        display: inline-block;
-        vertical-align: top;
-        overflow: hidden;
-        --size: 48px;
-        width: var(--size);
-        height: var(--size);
-    }
-
-    .sk-post .sk-post__head-details h3 {
-        margin-bottom: 0;
-        height: 5ch;
-        overflow: hidden;
-    }
-
-    .sk-post .sk-post__body {
-        margin-top: 70px;
-        margin-bottom: 20px;
     }
 
 }
@@ -104,9 +54,11 @@
 
 .sk-masonry-item {
     background: var(--cor-branca);
+    width: 48%;
     position: relative;
     border-radius: 10px;
     color: black;
+    margin: 5px 10px 5px 0;
 }
 
 .sk-read-more, .sk-post__button {
@@ -144,12 +96,21 @@
 }
 
 .sk-post .sk-post__user-image-container img {
+    margin-bottom: 1ch;
+}
+
+.sk-post .sk-post__user-image-container img {
     width: 100%;
     border-radius: 50%;
 }
 
 .sk-post .sk-post__head-details h3 {
     font-size: 12pt;
+    margin-bottom: 1ch;
+}
+
+.sk-post .sk-post__rating {
+    margin-top: 1ch;
 }
 
 .sk-post .sk-post__body {
