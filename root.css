@@ -100,6 +100,10 @@
     font-style: normal;
 }
 
+* {
+    overscroll-behavior: none;
+}
+
 body {
     background-color: var(--cor-fundo);
     min-width: var(--min-width);
