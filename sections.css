@@ -139,20 +139,14 @@ section .conteudo {
     font-family: Inter;
 }
 
+#neuroFriends .linha {
+    display: flex;
+    align-items: center;
+}
+
 #neuroFriends .conteudo {
-    padding: 5ch 0;
-}
-
-#neuroFriends h1 {
-    color: var(--cor-cinza);
-    font-weight: bold;
-    margin: 0;
-    line-height: 2rem;
-    text-align: center;
-}
-
-#neuroFriends h1 span {
-    font-weight: 400;
+    padding-top: 0;
+    padding-bottom: 5ch;
 }
 
 #neuroFriends #trilha {
