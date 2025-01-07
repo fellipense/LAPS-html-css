@@ -86,6 +86,7 @@
 
     .flutuante .descricao-carrossel {
         padding: 20px;
+        padding-right: 30px;
     }
 
     .dark .flutuante .carousel-control-next, 
