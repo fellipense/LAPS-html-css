@@ -51,6 +51,10 @@ section .conteudo {
 
 /* SESSÃO 'SERVIÇOS' */
 
+#servicos #LAPSHouse {
+    text-align: center;
+}
+
 #servicos #procure-nos {
     display: flex;
     justify-content: center;
