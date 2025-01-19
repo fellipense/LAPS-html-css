@@ -51,6 +51,23 @@ section .conteudo {
 
 /* SESSÃO 'SERVIÇOS' */
 
+#servicos #cidadeEsquerda, #cidadeDireita {
+    position: relative;
+}
+
+#servicos #cidadeEsquerda img, #cidadeDireita img {
+    position: absolute;
+    height: 100%;
+}
+
+#servicos #cidadeEsquerda img {
+    right: 0;
+}
+
+#servicos #cidadeDireita img {
+    left: 0;
+}
+
 #servicos #LAPSHouse {
     margin-bottom: 80px;
 }

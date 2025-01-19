@@ -37,6 +37,10 @@
 
     /* SESSÃO 'SERVIÇOS' */
 
+    #servicos #LAPSHouse #cidadeEsquerda img, #cidadeDireita img {
+        display: none;
+    }
+
     #servicos { 
         z-index: 0;
     }
