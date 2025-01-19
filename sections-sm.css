@@ -37,8 +37,26 @@
 
     /* SESSÃO 'SERVIÇOS' */
 
-    #servicos #LAPSHouse #cidadeEsquerda img, #cidadeDireita img {
+    #servicos #LAPSHouse {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    #servicos #LAPSHouse #cidadeEsquerda {
         display: none;
+    }
+
+    #servicos #LAPSHouse #cidadeDireita {
+        display: flex;
+        justify-content: center;
+        height: 20vh;
+        overflow: hidden;
+        margin-top: 20px;
+    }
+
+    #servicos #LAPSHouse #cidadeDireita img {
+        position: relative;
     }
 
     #servicos { 
@@ -53,6 +71,7 @@
     }
 
     #servicos #procure-nos {
+        margin-top: 50px;
         flex-direction: column;
     }
 
