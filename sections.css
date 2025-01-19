@@ -213,6 +213,20 @@ section .conteudo {
     border-radius: 12px;
 }
 
+#neuroFriends .medalha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#neuroFriends .medalha img {
+    width: 70%;
+    height: 70%;
+    opacity: 0.2;
+    filter: brightness(0);
+    object-fit: contain;
+}
+
 #neuroFriends .balao {
     z-index: 1;
     background: #d9d9d9;
