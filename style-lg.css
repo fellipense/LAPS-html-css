@@ -64,15 +64,6 @@
         height: 88px;
     }
 
-    footer #redesSociais {
-        margin-top: 15px;
-        justify-self: end;
-    }
-
-    footer #redesSociais .rede-social img {
-        height: 40px;
-    }
-
     .flutuante {
         width: 935px;
         height: 275px;

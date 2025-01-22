@@ -30,27 +30,6 @@
         font-size: var(--font-size-sm-h3);
     }
 
-    .buttons {
-        font-size: 9pt;
-    }
-
-    .title {
-        height: 50px;
-    }
-    
-    .title h2 {
-        font-size: var(--font-size-sm-h2);
-        line-height: 2.2em;
-    }
-
-    .title h2 span {
-        font-size: 18pt;
-    }
-
-    .blank {
-        height: 20vh !important;
-    }
-
     header {
         position: fixed;
         top: 0;
