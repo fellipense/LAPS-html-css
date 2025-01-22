@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
+<!-- ATENÇÃO: Os comentários excessivos possuem fim de instruir futuras manuntenções diante de pouco conhecimento técnico -->
+
+<!-- Configurações de metadados do site são feitos no <head> -->
 <head>
     <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -9,10 +13,17 @@
         })(window,document,'script','dataLayer','GTM-5223G5ZW');</script>
     <!-- End Google Tag Manager -->
      
+    <!-- Configurações básicas (UTF-8 para suporte à caracteres com acento e etc) -->
     <meta charset="UTF-8">
-    <meta name="description" content="Nós do LAPS oferecemos serviços psicopedagógicos, cognitivos e treinamentos de capacitação para profissionais da area da saúde. Temos um ambiente acolhedor, empático e inclusivo, com apoio total a neurodivergências.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- DESCRIÇÃO DO SITE (aparece embaixo do link nos resultados de pesquisa) -->
+    <meta name="description" content="Nós do LAPS oferecemos serviços psicopedagógicos, cognitivos e treinamentos de capacitação para profissionais da area da saúde. Temos um ambiente acolhedor, empático e inclusivo, com apoio total a neurodivergências.">
+
+    <!-- TÍTULO DO SITE (que fica na guia do navegador) -->
     <title>LAPS</title>
+
+    <!-- Importação de estilos -->
     <link rel="stylesheet" href="bootstrap-5.3.3/css/bootstrap.css">
     <link rel="stylesheet" href="root.css">
     <link rel="stylesheet" href="style.css">
@@ -23,9 +34,13 @@
     <link rel="stylesheet" href="sections-lg.css">
     <link rel="stylesheet" href="trilha.css">
     <link rel="stylesheet" href="avaliacoes.css">
+
+    <!-- ÍCONE DO SITE -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
 </head>
+
+<!-- O conteúdo do site fica localizado no <body> -->
 <body>
     <!-- Google Tag Manager (noscript) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5223G5ZW"
@@ -37,11 +52,12 @@
         <img src="images/whatsapp.png" alt="Ícone do Whatsapp">
     </a>
 
-    <!-- CABEÇALHO -->
+    <!-- CABEÇALHO (<header>) -->
     <header> 
     <nav class="navbar navbar-expand-md order-1 p-0">
         <a class="navbar-brand" href="index.html"><img src="images/logo-laps-letras.png" alt="Logo da empresa LAPS"></a>
 
+        <!-- MENU HAMBÚRGUER -->
         <div>
             <div id="togglerWrapper">
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,6 +66,7 @@
             </div>
         </div>
 
+        <!-- MENÚ COLAPSÁVEL -->
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
@@ -73,46 +90,62 @@
         </ul>
         </div>
 
+        <!-- BOTÃO DE CONTATO -->
         <a id="btnContato" href="#contato">
             <button>Contato</button>
         </a>
     </nav>
     </header>
 
-    <!-- MAIN -->
+    <!-- CONTEÚDO PRINCIPAL (<main>) -->
     <main>
 
         <!-- SESSÃO PRINCIPAL -->
         <section id="landing" class="dark">
             <div class="conteudo row">
+                
+                <!-- LOGO DO LAPS -->
                 <div class="col-12 col-md-6 d-flex justify-content-end">
                     <img id="logoPrincipal" src="/images/logo-laps.png" alt="Logo do Laps">
                 </div>
+
+                <!-- DESCRIÇÃO -->
                 <div class="col-12 col-md-5 titulo">
                     <h1>Serviços <br>Psicopedagógicos <br>e Cognitivos</h1>
                 </div>
+
+                <!-- BOTÃO 'SAIBA MAIS' -->
                 <div class="col-12 d-grid justify-content-center">
                     <a href=""><button id="saibaMais">Saiba Mais</button></a>
                 </div>
             </div>
         </section>       
 
-        <!-- NOSSOS SERVIÇOS -->
+        <!-- SESSÃO 'NOSSOS SERVIÇOS' -->
         <section id="servicos" class="light">
             <img class="top" src="images/white-top.svg" alt="">
 
             <div class="conteudo">
+               
+                <!-- CARROSSEL FLUTUANTE DE SERVIÇOS -->
                 <div class="flutuante">
+
+                        <!-- BOTÃO 'ANTERIOR' -->
                         <button class="carousel-control-prev" type="button" data-bs-target="#servicosCarrossel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
+
+                        <!-- BOTÃO 'PRÓXIMO' -->
                         <button class="carousel-control-next" type="button" data-bs-target="#servicosCarrossel" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+
                     <div class="col-12">
                         <div id="servicosCarrossel" class="carousel slide"> 
+                            
+                            <!-- (Desativado) Bolinhas que ficam embaixo para cada item -->
                             <!-- <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#servicosCarrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#servicosCarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -120,16 +153,23 @@
                                 <button type="button" data-bs-target="#servicosCarrossel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             </div> -->
 
+                            <!--ITEMS DO CARROSSEL  -->
                             <div class="carousel-inner">
+
                                 <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-12 col-md-6 imagem-carrossel">
                                             <div>
+                                                <!-- IMAGEM -->
                                                 <img src="images/carousel-treinamentos.png" alt="Grupo de pessoas assistindo ao treinamento presencial">
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 descricao-carrossel">
+
+                                            <!-- TÍTULO -->
                                             <h3>Treinamentos e Workshops:</h3>
+
+                                            <!-- DESCRIÇÃO -->
                                             <p>
                                                 Programas de capacitação para profissionais de diversas áreas, incluindo saúde, 
                                                 educação e atendimento ao cliente, focando em técnicas específicas para interagir 
@@ -143,11 +183,16 @@
                                     <div class="row">
                                         <div class="col-12 col-md-6 imagem-carrossel">
                                             <div>
+                                                <!-- IMAGEM -->
                                                 <img src="images/carousel-consultorias.png" alt="Fotografia da Psicopedagoga Aline Oliveira">
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 descricao-carrossel">
+
+                                            <!-- TÍTULO -->
                                             <h3>Consultorias Personalizadas:</h3>
+
+                                            <!-- DESCRIÇÃO -->
                                             <p>
                                                 Assessoria a instituições para desenvolver práticas inclusivas e criar ambientes 
                                                 adequados para o atendimento de pessoas neurodiversas.
@@ -160,11 +205,16 @@
                                     <div class="row">
                                         <div class="col-12 col-md-6 imagem-carrossel">
                                             <div>
+                                                <!-- IMAGEM -->
                                                 <img src="images/carousel-materiais.png" alt="Fotografia de brinquedos coloridos em ordem crescente">
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 descricao-carrossel">
+
+                                            <!-- TÍTULO -->
                                             <h3>Materiais Educativos:</h3>
+
+                                            <!-- DESCRIÇÃO -->
                                             <p>
                                                 Produção de guias, manuais e recursos digitais que auxiliem na compreensão e no 
                                                 manejo de diferentes neurodivergências.
@@ -177,11 +227,16 @@
                                     <div class="row">
                                         <div class="col-12 col-md-6 imagem-carrossel">
                                             <div>
+                                                <!-- IMAGEM -->
                                                 <img src="images/carousel-acolhimento.png" alt="Fotografia de Aline Oliveira em EXPO São Paulo 2024">
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 descricao-carrossel">
+
+                                            <!-- TÍTULO -->
                                             <h3>Espaços de acolhimento:</h3>
+
+                                            <!-- DESCRIÇÃO -->
                                             <p>
                                                 Criação de ambientes onde pessoas neurodiversas e suas famílias possam se sentir 
                                                 seguras e apoiadas, promovendo grupos de apoio e troca de experiências.
@@ -189,15 +244,21 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <!-- LAPS HOUSE -->
                 <div id="LAPSHouse" class="row">
+
+                    <!-- IMAGEM DE CIDADE NA ESQUERDA -->
                     <div id="cidadeEsquerda" class="col-md-2">
                         <img src="images/cidade.svg" alt="">
                     </div>
+
+                    <!-- DESCRIÇÃO -->
                     <div id="lapsHouseDescricao" class="col-12 col-md-8">
                         <h2>LAPS House</h2>
                         <p>
@@ -215,12 +276,15 @@
                             <strong>Será um prazer estar pertinho de você.</strong>
                         </p>
                     </div>
+
+                    <!-- IMAGEM DE CIDADE NA DIREITA  -->
                     <div id="cidadeDireita" class="col-12 col-md-2">
                         <img src="images/cidade.svg" alt="">
                     </div>
                 </div>
                 
 
+                <!-- PROCURE-NOS -->
                 <h2>Procure-nos caso esteja enfrentando:</h2>
                 <div id="procure-nos">
                     <div class="li">
@@ -233,6 +297,8 @@
                         <p>Diagnóstico de TDAH, dislexia ou discalculia.</p>
                     </div>
                 </div>
+
+                <!-- NOSSOS MÉTODOS -->
                 <div id="nossosMetodos">
                     Nossos Métodos<br>
                     <a href="#contato">Atendimentos Online e Presencial personalizados</a>
@@ -249,32 +315,53 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6">
                         <div class="row">
+
+                            <!-- EMPATIA -->
                             <div class="col-6 col-md-12 valor">
+
+                                <!-- ÍCONE -->
                                 <div class="valor-imagem"><img src="images/empatia.svg" alt=""></div>
+
+                                <!-- CONTEÚDO -->
                                 <div class="valor-descricao">
                                     <h3>Empatia:</h3>
                                     <p>Compreender e valorizar as experiências únicas de cada indivíduo.</p>
                                 </div>
                             </div>
 
+                            <!-- INCLUSÃO -->
                             <div class="col-6 col-md-12 valor">
+
+                                <!-- ÍCONE -->
                                 <div class="valor-imagem"><img src="images/inclusao.svg" alt=""></div>
+
+                                <!-- CONTEÚDO -->
                                 <div class="valor-descricao">
                                     <h3>Inclusão:</h3>
                                     <p>Defender a igualdade de oportunidades e o respeito à diversidade.</p>
                                 </div>
                             </div>
                             
+                            <!-- EXCELÊNCIA -->
                             <div class="col-6 col-md-12 valor">
+
+                                <!-- ÍCONE -->
                                 <div class="valor-imagem"><img src="images/excelencia.svg" alt=""></div>
+
+                                <!-- CONTEÚDO -->
                                 <div class="valor-descricao">
                                     <h3>Excelência:</h3>
                                     <p>Buscar continuamente a melhoria na formação e nos serviços prestados.</p>
                                 </div>
                             </div>
 
+                            <!-- COLABORAÇÃO -->
                             <div class="col-6 col-md-12 valor">
+
+                                <!-- ÍCONE -->
                                 <div class="valor-imagem"><img src="images/colaboracao.svg" alt=""></div>
+
+                                <!-- CONTEÚDO -->
                                 <div class="valor-descricao">
                                     <h3>Colaboração:</h3>
                                     <p>Trabalhar em parceria com comunidades e instituições para um impacto maior.</p>
@@ -282,11 +369,14 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- AVALIAÇÕES DO GOOGLE -->
                     <div class="col-12 col-md-5">
                         <!-- EMBED DE 'https://www.sociablekit.com/' -->
                         <!-- <div id="avaliacoes" class='sk-ww-google-reviews' data-embed-id='25490779'></div> 
                         <script src='https://widgets.sociablekit.com/google-reviews/widget.js' async defer></script> -->
                         
+                        <!-- Não vale a pena ver o que tem aqui dentro, muita coisa -->
                         <div class="sk-ww-google-reviews avaliacoes" data-embed-id="25490779" data-ui="new">
                             <div class="sk-google-reviews js-sk-google-reviews reviews" style="visibility: visible;"><div id="sk-tooltip" class="sk-tooltip"><div class="sk-tooltip-content"></div></div>
                                 <div class="sk-posts-container__loader" style="display: none;">
@@ -2522,20 +2612,31 @@
 
         <!-- CONFIRA TAMBÉM -->
         <section id="confira" class="dark">
+
+            <!-- TÍTULO -->
             <h2>Confira Também!</h2>
 
             <div class="conteudo">
+
+                <!-- CARROSSEL FLUTUANTE DE ENTREVISTAS -->
                 <div class="flutuante">
+
+                        <!-- BOTÃO 'ANTERIOR' -->
                         <button class="carousel-control-prev" type="button" data-bs-target="#entrevistasCarrossel" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
+
+                        <!-- BOTÃO 'PRÓXIMO' -->
                         <button class="carousel-control-next" type="button" data-bs-target="#entrevistasCarrossel" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+
                     <div class="col-12">
                         <div id="entrevistasCarrossel" class="carousel slide"> 
+
+                            <!-- (Desativado) Bolinhas que ficam embaixo para cada item -->
                             <!-- <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#servicosCarrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#servicosCarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -2543,19 +2644,25 @@
                                 <button type="button" data-bs-target="#servicosCarrossel" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             </div> -->
 
+                            <!-- ITEMS DO CARROSSEL -->
                             <div class="carousel-inner">
 
                                 <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-12 col-md-6 imagem-carrossel">
                                             <div>
+                                                <!-- IMAGEM -->
                                                 <img src="images/entrevista-band.png" alt="Fotografia de Aline Oliveira no programa 'Vem Com a Gente'">
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 descricao-carrossel">
                                             <a href="https://www.youtube.com/watch?v=-rnoys0hdKo" target="_blank" rel="noreferrer noopener">
+
+                                                <!-- TÍTULO -->
                                                 <h3>Participação TV Band Rio</h3>
                                             </a>
+
+                                            <!-- CONTEÚDO -->
                                             <p>
                                                 Como é ser mãe hoje em dia? Nessa incrível participação no programa Vem Com a 
                                                 Gente, discutimos sobre os desafios enfrentados na maternidade atualmente e a
@@ -2569,13 +2676,18 @@
                                     <div class="row">
                                         <div class="col-12 col-md-6 imagem-carrossel">
                                             <div>
+                                                <!-- IMAGEM -->
                                                 <img src="images/entrevista-seja.png" alt="Grupo de pessoas assistindo ao treinamento presencial">
                                             </div>
                                         </div>
                                         <div class="col-12 col-md-6 descricao-carrossel">
                                             <a href="https://youtu.be/HJnEfWKGD_o" target="_blank" rel="noreferrer noopener">
+
+                                                <!-- TÍTULO -->
                                                 <h3>Aula ao vivo no SEJA</h3>
                                             </a>
+
+                                            <!-- CONTEÚDO -->
                                             <p>
                                                 Abordando o extenso assunto da Neurodiversidade,
                                                 contando sua história, quem são as pessoas neurodivergentes, 
@@ -2585,6 +2697,7 @@
                                     </div>
                                 </div>
 
+                                <!-- DESATIVADO -->
                                 <!-- <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-12 col-md-6 imagem-carrossel">
@@ -2608,22 +2721,44 @@
                     </div>
                 </div>
 
+                <!-- TRABALHARAM CONOSO -->
                 <h2>Já trabalharam conosco:</h2>
 
+                <!-- EMPRESAS -->
                 <div class="empresas">
+
+                    <!-- LINK -->
                     <a href="https://portal.ciee.org.br/" target="_blank" rel="noreferrer noopener">
+
+                        <!-- LOGO DA EMPRESA -->
                         <div class="empresa"><img src="images/CIEE-RS.png" alt=""></div>
                     </a>
+
+                    <!-- LINK -->
                     <a href="https://portal.ciee.org.br/" target="_blank" rel="noreferrer noopener">
+
+                        <!-- LOGO DA EMPRESA -->
                         <div class="empresa"><img src="images/CIEE-PE.png" alt=""></div>
                     </a>
+
+                    <!-- LINK -->
                     <a href="https://www.frm.org.br/" target="_blank" rel="noreferrer noopener">
+
+                        <!-- LOGO DA EMPRESA -->
                         <div class="empresa"><img src="images/Fundacao_Roberto_Marinho.png" alt=""></div>
                     </a>
+
+                    <!-- LINK -->
                     <a href="https://futura.frm.org.br/" target="_blank" rel="noreferrer noopener">
+
+                        <!-- LOGO DA EMPRESA -->
                         <div class="empresa"><img src="images/Futura.png" alt=""></div>
                     </a>
+
+                    <!-- LINK -->
                     <a href="https://pliix.com.br/" target="_blank" rel="noreferrer noopener">
+
+                        <!-- LOGO DA EMPRESA -->
                         <div class="empresa"><img src="images/PliixCareSJC.png" alt=""></div>
                     </a>
                 </div>
@@ -2645,6 +2780,8 @@
         <section id="neuroFriends" class="light">
 
             <div class="conteudo">
+
+                <!-- FAIXADA -->
                 <div class="row faixada">
                     <div class="col linha"><hr></div>
                     <div class="col-2 titulo">
@@ -2652,17 +2789,27 @@
                         <!-- Manter, mesmo com display none, para fins semânticos -->
                         <h1 class="d-none">NeuroFriends</h1>
 
+                        <!-- LOGO NEUROFRIENDS -->
                         <img src="images/logo-neurofriends.svg" alt="Logo do Neurofriends">
 
                     </div>
                     <div class="col linha"><hr></div>
                 </div>
+
+                <!-- TRILHA -->
                 <div id="trilha">
+
+                    <!-- IMAGEM DO TRILHO -->
                     <img id="trilho" src="images/trilho.svg" alt="trilho de trem">
 
+                    <!-- SESSÃO DO BRONZE -->
                     <div id="bronze">
                         <div class="descricao">
+
+                            <!-- TÍTULO -->
                             <div class="nivel"><span>Bronze</span></div>
+
+                            <!-- BALÃO -->
                             <div class="balao">
                                 <div class="duracao">
                                     <span>30 horas</span>
@@ -2677,19 +2824,28 @@
                                 </ul>
                             </div>
                         </div>
+
+                        <!-- RABINHO DO BALÃO -->
                         <div class="rabinho">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.12132 5.12132C-0.76857 3.23143 0.569927 0 3.24264 0H47C48.6569 0 50 1.34315 50 3V46.7574C50 49.4301 46.7686 50.7686 44.8787 48.8787L1.12132 5.12132Z" fill="#D9D9D9"/>
                             </svg>
                         </div>
+
+                        <!-- MEDALHA -->
                         <div class="medalha">
                             <img src="images/medalha.svg" alt="">
                         </div> 
                     </div>
 
+                    <!-- SESSÃO DA PRATA -->
                     <div id="prata">
                         <div class="descricao">
+                            
+                            <!-- TÍTULO -->
                             <div class="nivel"><span>Prata</span></div>
+                            
+                            <!-- BALÃO -->
                             <div class="balao">
                                 <div class="duracao">
                                     <span>50 horas</span>
@@ -2704,6 +2860,8 @@
                                 </ul>
                             </div>
                         </div>
+
+                        <!-- RABINHO DO BALÃO -->
                         <div class="rabinho">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.12132 5.12132C-0.76857 3.23143 0.569927 0 3.24264 0H47C48.6569 0 50 1.34315 50 3V46.7574C50 49.4301 46.7686 50.7686 44.8787 48.8787L1.12132 5.12132Z" fill="#D9D9D9"/>
@@ -2711,14 +2869,21 @@
                             <path d="M48.8787 5.12132C50.7686 3.23143 49.4301 0 46.7574 0H3C1.34315 0 0 1.34315 0 3V46.7574C0 49.4301 3.23143 50.7686 5.12132 48.8787L48.8787 5.12132Z" fill="#D9D9D9"/>
                             </svg>
                         </div>
+
+                        <!-- MEDALHA -->
                         <div class="medalha">
                             <img src="images/medalha.svg" alt="">
                         </div> 
                     </div>
 
+                    <!-- SESSÃO DO OURO -->
                     <div id="ouro">
                         <div class="descricao">
+
+                            <!-- TÍTULO -->
                             <div class="nivel"><span>Ouro</span></div>
+
+                            <!-- BALÃO -->
                             <div class="balao">
                                 <div class="duracao">
                                     <span>80 horas</span>
@@ -2733,16 +2898,22 @@
                                 </ul>
                             </div>
                         </div>
+
+                        <!-- RABINHO DO BALÃO -->
                         <div class="rabinho">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M48.8787 5.12132C50.7686 3.23143 49.4301 0 46.7574 0H3C1.34315 0 0 1.34315 0 3V46.7574C0 49.4301 3.23143 50.7686 5.12132 48.8787L48.8787 5.12132Z" fill="#D9D9D9"/>
                             </svg>
                         </div>
+
+                        <!-- MEDALHA -->
                         <div class="medalha">
                             <img src="images/medalha.svg" alt="">
                         </div> 
                     </div>
                 </div>
+
+                <!-- SOBRE O NEUROFRIENDS -->
                 <div class="row sobre">
                     <div class="col-md-6">
                         <p>
@@ -2761,12 +2932,15 @@
                         </p>
                     </div>
 
+                    <!-- VÍDEO -->
                     <div class="col-md-6">
                         <div id="videoExplicacao">
                             <iframe src="" frameborder="0"></iframe>
                         </div>
                     </div>
                 </div>
+
+                <!-- BOTÃO 'FAÇA PARTE' -->
                 <div id="facaParte">
                     <a href="">
                         <button>Faça parte!</button>
@@ -2778,13 +2952,25 @@
         <!-- PARCEIROS -->
          <section id="parceiros" class="dark">
             <div class="conteudo">
+
+                <!-- TÍTULO -->
                 <h2>Conheça nossos parceiros:</h2>
+
+                <!-- EMPRESAS -->
                 <div class="empresas">
+
+                    <!-- LINK -->
                     <a href="https://pliix.com.br/" target="_blank" rel="noopener noreferrer">
+
+                        <!-- LOGO DA EMPRESA -->
                         <div class="empresa"><img src="images/PliixCare.png" alt=""></div>
                     </a>
+
+                    <!-- LINK -->
                     <a href="https://br.linkedin.com/company/dirac-energia" target="_blank" rel="noopener noreferrer">
-                    <div class="empresa"><img src="images/Dirac.png" alt=""></div>
+
+                        <!-- LOGO DA EMPRESA -->
+                        <div class="empresa"><img src="images/Dirac.png" alt=""></div>
                     </a>
                 </div>
             </div>
@@ -2792,16 +2978,20 @@
     </main>
 
     <!-- RODAPÉ -->
-
     <footer class="dark">
         <img class="estampa" src="images/mini-logo-laps.svg" alt="Logo do LAPS minimalista">
 
+        <!-- CONTATO -->
         <section id="contato">
         <div class="conteudo">
             <div class="row">
                 <div class="col-12 col-md-4 laps">
                     <a href="index.html" class="logo"><img src="images/logo-laps.png" alt="Logo da empresa LAPS"></a>
+
+                    <!-- TÍTULO -->
                     <p class="titulo">LAPS</p>
+
+                    <!-- DESCRIÇÃO -->
                     <p>
                         A LAPS visa transformar a forma como a sociedade percebe 
                         e interage com pessoas Neurodiversas, oferecendo ferramentas 
@@ -2810,8 +3000,13 @@
                     </p>
                 </div>
 
+                <!-- NAVEGAÇÃO -->
                 <div class="col-5 col-md-2 navegar">
+
+                    <!-- TÍTULO -->
                     <p class="titulo">Navegar</p>
+
+                    <!-- ÂNCORAS -->
                     <ul>
                         <li><a href="#servicos">Serviços</a></li>
                         <li><a href="#valores">Valores</a></li>
@@ -2820,8 +3015,14 @@
                         <li><a href="#parceiros">Parceiros</a></li>
                     </ul>
                 </div>
+
+                <!-- SERVIÇOS -->
                 <div class="col-7 col-md-3 servicos">
+
+                    <!-- TÍTULO -->
                     <p class="titulo">Serviços</p>
+
+                    <!-- ITEMS -->
                     <ul>
                         <li>Alfabetização de adultos</li>
                         <li>Treinamentos para Empresas</li>
@@ -2830,22 +3031,35 @@
                         <li><a href="#servicos">Saiba mais</a></li>
                     </ul>
                 </div>
+
+                <!-- MEIOS DE CONTATO -->
                 <div class="col-12 col-md-3 contato">
+
+                    <!-- TÍTULO -->
                     <p class="titulo">Contato</p>
+
+                    <!-- LINKS -->
                     <ul>
+                        <!-- WHATSAPP -->
                         <li>
                             <a href="https://api.whatsapp.com/send?phone=5521975260406">
                                 <img src="images/whatsapp.svg" alt="ícone do Whatsapp">+55 21 97526-0406
                             </a>
                         </li>
+
+                        <!-- EMAIL -->
                         <li>
                             <img src="images/gmail.svg" alt="ícone de mensagem">laps.<wbr>acolhimento@gmail.com
                         </li>
+
+                        <!-- INSTAGRAM -->
                         <li>
                             <a href="https://www.instagram.com/laps.acolhimento">
                                 <img src="images/instagram.svg" alt="ícone do Instagram">@laps<wbr>.acolhimento
                             </a>
                         </li>
+
+                        <!-- YOUTUBE -->
                         <li>
                             <a href="https://www.youtube.com/@laps.acolhimento">
                                 <img src="images/youtube.svg" alt="ícone do Youtube">@laps.<wbr>acolhimento
@@ -2856,15 +3070,16 @@
             </div>
         </div>
         </section>
-        
     </footer>
     
+    <!-- COPYRIGHT -->
     <div id="copyright">
         <div class="conteudo">
             <span>&copy;LAPS. All rights reserved.</span>
         </div>
     </div>
     
+    <!-- IMPORTAÇÃO DE SCRIPTS (sistema de scroll do navbar e scripts do bootstrap) -->
     <script src="scrollsys.js"></script>
     <script src="bootstrap-5.3.3/js/bootstrap.bundle.js"></script>
 </body>
