@@ -1,6 +1,12 @@
 const sections = document.querySelectorAll("section");
 const navs = document.querySelectorAll(".nav-link");
 
+const avaliacoes = document.querySelectorAll(".avaliacoes *");
+
+avaliacoes.forEach((item) => {
+    item.setAttribute("tabindex", "-1")
+})
+
 window.addEventListener("scroll", () => {
     const currentYscroll = window.scrollY;
 

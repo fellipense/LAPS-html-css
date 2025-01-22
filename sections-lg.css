@@ -10,11 +10,14 @@
         height: 150px;
     }
 
-    #landing button#saibaMais {
+    #landing a#saibaMais {
+        margin-top: 60%;
+    }
+
+    #landing a#saibaMais button {
         font-size: 15pt;
         border-radius: 20px;
         width: 210px; height: 55px;
-        margin-top: 60%;
     }
 
     #landing .conteudo {
