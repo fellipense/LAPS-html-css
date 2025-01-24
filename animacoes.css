@@ -1,0 +1,54 @@
+@keyframes doMeio {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes daEsquerda {
+    from {
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes daDireita {
+    from {
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+.do-meio {
+    animation: doMeio linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+.da-esquerda {
+    animation: daEsquerda linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+.da-direita {
+    animation: daDireita linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
