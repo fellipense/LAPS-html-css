@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     /* SESSÃO PRINCIPAL */
 
@@ -282,8 +282,8 @@
     
     #neuroFriends #videoExplicacao {
         margin: 20px auto;
-        width: 250px;
-        height: 160px;
+        height: 50vw;
+        min-height: 158px;
     }
 
     #neuroFriends #facaParte {
