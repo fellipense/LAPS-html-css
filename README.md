@@ -6,4 +6,4 @@ Todo o código do site é puro **HTML**, **CSS**e **Bootstrap**, a parte em **No
 
 Você pode acessar o site através [deste link](https://www.lapsacolhimento.com).
 
-O design foi feito por [Callmz](), e você pode vê-lo [aqui no figma](www.figma.com/design/fUMEKG3tH7s6Ac1gBlPwaA/AlineOliveira).
+O design foi feito por [Callmz](https://www.linkedin.com/in/fabiopvj/), e você pode vê-lo [aqui no figma](www.figma.com/design/fUMEKG3tH7s6Ac1gBlPwaA/AlineOliveira).
